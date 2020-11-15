@@ -1,0 +1,2515 @@
+<root>
+	<Global>
+		<Var name="ZooCompensated" v="1" t="b"/>
+		<Var name="ZooPatchVersion" v="24" t="i"/>
+		<Var name="ZooQuestChestReady" v="0"/>
+		<Var name="VisitAirTopsq0_state" v="0" t="i"/>
+		<Var name="VisitAirTop_state" v="10" t="i"/>
+		<Var name="Version" v="7.9.0"/>
+		<Var name="ValentinesDayStartTutorial_state" v="10" t="i"/>
+		<Var name="ValentinesDayStartTutorialsq0_state" v="0" t="i"/>
+		<Var name="Valentine2019" v="1" t="b"/>
+		<Var name="Val2017_Dropped" v="1" t="b"/>
+		<Var name="VCheckTime" v="1605402866" t="i"/>
+		<Var name="WaitingForExitLevelUp3sq0_state" v="0" t="i"/>
+		<Var name="WaitingForExitLevelUp3_state" v="18" t="i"/>
+		<Var name="WaitingForExitLevelUp2sq0_state" v="0" t="i"/>
+		<Var name="WaitingForExitLevelUp2_state" v="18" t="i"/>
+		<Var name="WaitCashBonusOnce" v="1"/>
+		<Var name="WaitTutorialEnd" v="0" t="b"/>
+		<Var name="WasTutorialUnlock" v="1" t="b"/>
+		<Var name="WareHouseCashUpgrade" v="0" t="i"/>
+		<Var name="WaterDecor_state" v="10"/>
+		<Var name="WaterDecorsq0_state" v="0"/>
+		<Var name="WaterDecorsq1_state" v="0"/>
+		<Var name="WLevelSet" v="1" t="b"/>
+		<Var name="WHUdup" v="514698188" t="i"/>
+		<Var name="TutorialZooGetCompensation_state" v="10" t="i"/>
+		<Var name="TutorialZooGetCompensationsq0_state" v="0" t="i"/>
+		<Var name="TutorialSingleFieldsShowed" v="1" t="b"/>
+		<Var name="TutorialSingleFieldsPlant" v="wheat"/>
+		<Var name="TutorialSingleFieldsQty" v="1" t="i"/>
+		<Var name="TutorialEditGroundShowed" v="1" t="b"/>
+		<Var name="TutorialEditGroundTipShowed" v="1" t="b"/>
+		<Var name="TutorialEditDaleAfterGroundShowed" v="1" t="b"/>
+		<Var name="TutorialEditRemoveShowed" v="1" t="b"/>
+		<Var name="TutorialEditRoadShowed" v="1" t="b"/>
+		<Var name="TutorialCloudCountmessage_build_milkfactory_tutorial" v="1" t="i"/>
+		<Var name="TutorialCloudCountmessage_full_field_tutorial" v="2" t="i"/>
+		<Var name="TutorialCloudCountmessage_houses_tutorial" v="0" t="i"/>
+		<Var name="TutorialCloudCountmessage_hungry_cows_tutorial" v="1" t="i"/>
+		<Var name="TutorialCloudHousesShowed" v="0" t="b"/>
+		<Var name="TutorialCloudMilkfactoryShowed" v="0" t="b"/>
+		<Var name="TrainLastDay" v="18580" t="i"/>
+		<Var name="TrainsByLevel" v="0"/>
+		<Var name="TrackAFEmulator" v="1" t="b"/>
+		<Var name="TrackSwrveEmulator" v="1" t="b"/>
+		<Var name="TodayFollowedFriends" v="0" t="i"/>
+		<Var name="TermsAcceptTime" v="1605315643" t="i"/>
+		<Var name="TermsOfServiceAccept" v="1" t="b"/>
+		<Var name="TG_size" v="56"/>
+		<Var name="RecordDay" v="1" t="i"/>
+		<Var name="RegataOffVideoTutorialsq0_state" v="0" t="i"/>
+		<Var name="RegataOffVideoTutorial_state" v="10" t="i"/>
+		<Var name="RegataOffFinalVideoTutorialsq0_state" v="0" t="i"/>
+		<Var name="RegataOffFinalVideoTutorial_state" v="10" t="i"/>
+		<Var name="RegataTasksLastDay" v="18580" t="i"/>
+		<Var name="RegataTasksToday" v="0" t="i"/>
+		<Var name="RegataTipTutorialsq0_state" v="0" t="i"/>
+		<Var name="RegataTipTutorial_state" v="10" t="i"/>
+		<Var name="RegataVideoTutorialsq0_state" v="0" t="i"/>
+		<Var name="RegataVideoTutorial_state" v="10" t="i"/>
+		<Var name="RegataPart" v="0" t="b"/>
+		<Var name="RegataRewardsTutorial_state" v="10" t="i"/>
+		<Var name="RegataRewardsTutorialsq0_state" v="0" t="i"/>
+		<Var name="RegataStartShowed" v="0"/>
+		<Var name="RenameCity_state" v="18" t="i"/>
+		<Var name="RenameCitysq0_state" v="0" t="i"/>
+		<Var name="RenameTown_state" v="13"/>
+		<Var name="RenameTownsq0_state" v="1"/>
+		<Var name="ReturnFromFBBanner" v="0" t="b"/>
+		<Var name="ReturnFromFBBanner_days" v="0" t="i"/>
+		<Var name="RandomFriendsChangeTime" v="1605389784" t="i"/>
+		<Var name="RandomQuestExist" v="false"/>
+		<Var name="StartTutorialFinished" v="1" t="b"/>
+		<Var name="StoreOpensCount" v="1" t="i"/>
+		<Var name="SwapProductsTutorialsq0_state" v="0" t="i"/>
+		<Var name="SwapProductsTutorial_state" v="10" t="i"/>
+		<Var name="ShouldShowNativeNotifWin" v="0" t="b"/>
+		<Var name="ShowNeedHousessq0_state" v="0" t="i"/>
+		<Var name="ShowNeedHouses_state" v="15" t="i"/>
+		<Var name="ShowOnline" v="0" t="b"/>
+		<Var name="ShowAirportButton" v="0" t="b"/>
+		<Var name="SkippedJewelryOrdersCount" v="15" t="i"/>
+		<Var name="SecondStartTutorialFinished" v="1" t="b"/>
+		<Var name="SecondStartTutorialShowed" v="1" t="b"/>
+		<Var name="SeedFieldTutorialsq0_state" v="0"/>
+		<Var name="SeedFieldTutorial_state" v="18"/>
+		<Var name="Seed3fieldsTutorialsq0_state" v="0" t="i"/>
+		<Var name="Seed3fieldsTutorial_state" v="10" t="i"/>
+		<Var name="Seed6fieldsTutorialsq0_state" v="0" t="i"/>
+		<Var name="Seed6fieldsTutorial_state" v="18" t="i"/>
+		<Var name="SendHeicopter_state" v="18" t="i"/>
+		<Var name="SendHeicoptersq0_state" v="0" t="i"/>
+		<Var name="SendTheTrainsq0_state" v="0" t="i"/>
+		<Var name="SendTheTrain_state" v="10" t="i"/>
+		<Var name="SentPlanesToday" v="0" t="i"/>
+		<Var name="SentTrainsToday" v="0" t="i"/>
+		<Var name="SellTutorialsq0_state" v="0"/>
+		<Var name="SellTutorial_state" v="18"/>
+		<Var name="SelectBakeryTutorialsq0_state" v="0" t="i"/>
+		<Var name="SelectBakeryTutorial_state" v="18" t="i"/>
+		<Var name="SelectMillTutorial_state" v="10" t="i"/>
+		<Var name="SelectMillTutorialsq0_state" v="0" t="i"/>
+		<Var name="SelectHouseTutorialsq0_state" v="0" t="i"/>
+		<Var name="SelectHouseTutorial_state" v="18" t="i"/>
+		<Var name="SaleOff_PigFirstLevel" v="1" t="i"/>
+		<Var name="SaleSpriteNumber" v=""/>
+		<Var name="SCOrders" v="514698189" t="i"/>
+		<Var name="SCTime" v="1605402832" t="i"/>
+		<Var name="SBCTime" v="1516031917" t="i"/>
+		<Var name="PushEnabled" v="1" t="b"/>
+		<Var name="PreNewFieldTutorialsq0_state" v="0" t="i"/>
+		<Var name="PreNewFieldTutorial_state" v="18" t="i"/>
+		<Var name="PreOrderBreadTutorial_state" v="18" t="i"/>
+		<Var name="PreOrderBreadTutorialsq0_state" v="0" t="i"/>
+		<Var name="Price_TCashBank3" v="₩12,000"/>
+		<Var name="Price_TCashBank2" v="₩5,900"/>
+		<Var name="Price_TCashBank1" v="₩2,500"/>
+		<Var name="Price_TCashBank6" v="₩99,000"/>
+		<Var name="Price_TCashBank5" v="₩49,000"/>
+		<Var name="Price_TCashBank4" v="₩25,000"/>
+		<Var name="Price_TCashPack3" v="₩20,000"/>
+		<Var name="Price_TCashPack2" v="₩8,900"/>
+		<Var name="Price_TCashPack1" v="₩2,500"/>
+		<Var name="Price_TCashPack6" v="₩119,000"/>
+		<Var name="Price_TCashPack5" v="₩69,000"/>
+		<Var name="Price_TCashPack4" v="₩40,000"/>
+		<Var name="PlaneLastDay" v="18580" t="i"/>
+		<Var name="PlaceCropfieldsTutorialsq0_state" v="0"/>
+		<Var name="PlaceCropfieldsTutorial_state" v="10"/>
+		<Var name="PlaceCropfieldTutorial2sq0_state" v="0"/>
+		<Var name="PlaceCropfieldTutorial2_state" v="10"/>
+		<Var name="PlaceBeautyMonumentssq0_state" v="0"/>
+		<Var name="PlaceBeautyMonuments_state" v="10"/>
+		<Var name="PlaceBeautyBasket1_state" v="10"/>
+		<Var name="PlaceBeautyBasket1sq0_state" v="0"/>
+		<Var name="PlaceBeautyBasket1sq1_state" v="0"/>
+		<Var name="PlaceBeautyBasket3_state" v="10"/>
+		<Var name="PlaceBeautyBasket3sq0_state" v="0"/>
+		<Var name="PlaceBeautyBasket2_state" v="10"/>
+		<Var name="PlaceBeautyBasket2sq0_state" v="0"/>
+		<Var name="PlaceBeautyTrees_state" v="10"/>
+		<Var name="PlaceBeautyTreessq0_state" v="0"/>
+		<Var name="PlaceBeauty1sq0_state" v="0"/>
+		<Var name="PlaceBeauty1_state" v="10"/>
+		<Var name="PlaceHouseTutorial_state" v="10"/>
+		<Var name="PlaceHouseTutorialsq0_state" v="0"/>
+		<Var name="PatchVersion" v="85"/>
+		<Var name="PayerType" v="unknown"/>
+		<Var name="QuestCompleteCounter" v="2" t="i"/>
+		<Var name="QuestArrowWasShowed" v="1" t="b"/>
+		<Var name="NumRecordDayText" v="2" t="i"/>
+		<Var name="NominalPurchase" v="0" t="i"/>
+		<Var name="NotifTutorialEndTime" v="-1" t="i"/>
+		<Var name="NotificationAuthStatus" v="1" t="i"/>
+		<Var name="NeedHousesTutShowed" v="1" t="b"/>
+		<Var name="NeedNotifications" v="1"/>
+		<Var name="NeedArrowOnHarbor" v="0" t="b"/>
+		<Var name="NeedArrowOnAir" v="0" t="b"/>
+		<Var name="NeedArrowOnClan" v="0" t="b"/>
+		<Var name="NeedArrowOnDigging" v="0" t="b"/>
+		<Var name="NeedArrowOnZoo" v="0" t="b"/>
+		<Var name="NeedPrintFilteredString" v="0" t="b"/>
+		<Var name="NewAvatars" v=""/>
+		<Var name="NextClanRewardedDonateTime" v="1605452400" t="i"/>
+		<Var name="OpenCowpastureTutorialsq0_state" v="0" t="i"/>
+		<Var name="OpenCowpastureTutorial_state" v="18" t="i"/>
+		<Var name="OpenFullSecondTime_state" v="10" t="i"/>
+		<Var name="OpenFullSecondTimesq0_state" v="0" t="i"/>
+		<Var name="OpenFullFirstTimesq0_state" v="0" t="i"/>
+		<Var name="OpenFullFirstTime_state" v="10" t="i"/>
+		<Var name="Open_diggingsq0_state" v="1" t="i"/>
+		<Var name="Open_digging_state" v="13" t="i"/>
+		<Var name="OpenTrains_state" v="10" t="i"/>
+		<Var name="OpenTrainssq0_state" v="0" t="i"/>
+		<Var name="OreLastDay" v="18580" t="i"/>
+		<Var name="OrderBreadTutorial_state" v="18" t="i"/>
+		<Var name="OrderBreadTutorialsq0_state" v="0" t="i"/>
+		<Var name="OrderMilkTutorialsq0_state" v="0" t="i"/>
+		<Var name="OrderMilkTutorial_state" v="18" t="i"/>
+		<Var name="OrdersLastDay" v="18581" t="i"/>
+		<Var name="OldZooVisited" v="0" t="b"/>
+		<Var name="OS" v="7.1.2"/>
+		<Var name="LockCityHallForAvatarTutor" v="1" t="b"/>
+		<Var name="LocalMapOrderCounter" v="0"/>
+		<Var name="LocationNumber" v="1224"/>
+		<Var name="LabTutor4sq0_state" v="0" t="i"/>
+		<Var name="LabTutor4_state" v="10" t="i"/>
+		<Var name="LabTutor2sq0_state" v="0" t="i"/>
+		<Var name="LabTutor2_state" v="10" t="i"/>
+		<Var name="LabTutor3sq0_state" v="0" t="i"/>
+		<Var name="LabTutor3_state" v="10" t="i"/>
+		<Var name="LabTutor1sq0_state" v="0" t="i"/>
+		<Var name="LabTutor1_state" v="10" t="i"/>
+		<Var name="LandscapesIconIndicator" v="1" t="i"/>
+		<Var name="LastNewsStatus" v="day:18580,level:4,unread_news:0"/>
+		<Var name="LastCashPacks" v=""/>
+		<Var name="LastCoinPacks" v=""/>
+		<Var name="MpgSeen" v="homescapes:2,gardenscapes:3,wildscapes:1,fishdom:4,manormatters:5"/>
+		<Var name="MissedClouds" v="1" t="i"/>
+		<Var name="MapOrderCounter" v="0"/>
+		<Var name="HurryHouseTutorial_state" v="18"/>
+		<Var name="HurryHouseTutorialsq0_state" v="0"/>
+		<Var name="HurryUpTrainsq0_state" v="0" t="i"/>
+		<Var name="HurryUpTrain_state" v="10" t="i"/>
+		<Var name="HousesLvl9_state" v="10"/>
+		<Var name="HousesLvl9sq0_state" v="0"/>
+		<Var name="HousesLvl8_state" v="10"/>
+		<Var name="HousesLvl8sq0_state" v="0"/>
+		<Var name="HousesLvl4_state" v="10"/>
+		<Var name="HousesLvl4sq0_state" v="0"/>
+		<Var name="HousesLvl7_state" v="10"/>
+		<Var name="HousesLvl7sq0_state" v="0"/>
+		<Var name="HousesLvl6_state" v="10"/>
+		<Var name="HousesLvl6sq0_state" v="0"/>
+		<Var name="HousesLvl13sq0_state" v="0"/>
+		<Var name="HousesLvl13_state" v="10"/>
+		<Var name="HousesLvl11sq0_state" v="0"/>
+		<Var name="HousesLvl11_state" v="10"/>
+		<Var name="HousesLvl10sq0_state" v="0"/>
+		<Var name="HousesLvl10_state" v="10"/>
+		<Var name="HousesLvl17sq0_state" v="0"/>
+		<Var name="HousesLvl17_state" v="10"/>
+		<Var name="HousesLvl15sq0_state" v="0"/>
+		<Var name="HousesLvl15_state" v="10"/>
+		<Var name="HousesLvl19sq0_state" v="0"/>
+		<Var name="HousesLvl19_state" v="10"/>
+		<Var name="HousesLvl30progress" v="1"/>
+		<Var name="HousesLvl30sq0_state" v="0"/>
+		<Var name="HousesLvl30_state" v="10"/>
+		<Var name="HousesLvl3_state" v="13"/>
+		<Var name="HousesLvl3sq0_state" v="1"/>
+		<Var name="HousesLvl23sq0_state" v="0"/>
+		<Var name="HousesLvl23_state" v="10"/>
+		<Var name="HousesLvl21sq0_state" v="0"/>
+		<Var name="HousesLvl21_state" v="10"/>
+		<Var name="HousesLvl25sq0_state" v="0"/>
+		<Var name="HousesLvl25_state" v="10"/>
+		<Var name="HelicTutorWas" v="1" t="b"/>
+		<Var name="HelpErnie3_state" v="10" t="i"/>
+		<Var name="HelpErnie3sq0_state" v="0" t="i"/>
+		<Var name="HelpErnie2_state" v="10" t="i"/>
+		<Var name="HelpErnie2sq0_state" v="0" t="i"/>
+		<Var name="HarborFirstLook2_state" v="10" t="i"/>
+		<Var name="HarborFirstLook2sq0_state" v="0" t="i"/>
+		<Var name="HarborFirstLooksq0_state" v="0" t="i"/>
+		<Var name="HarborFirstLook_state" v="10" t="i"/>
+		<Var name="HarborBoatSendsq0_state" v="0" t="i"/>
+		<Var name="HarborBoatSend_state" v="10" t="i"/>
+		<Var name="HSSuspectJB" v="1" t="b"/>
+		<Var name="IslandsDailyChestStep2sq0_state" v="0" t="i"/>
+		<Var name="IslandsDailyChestStep2_state" v="10" t="i"/>
+		<Var name="IslandsDailyChestStep1sq0_state" v="0" t="i"/>
+		<Var name="IslandsDailyChestStep1_state" v="10" t="i"/>
+		<Var name="InstReceiptSent" v="0" t="b"/>
+		<Var name="IntroMovie" v="0" t="b"/>
+		<Var name="FriendshipDayStartTutorial_state" v="10" t="i"/>
+		<Var name="FriendshipDayStartTutorialsq0_state" v="0" t="i"/>
+		<Var name="FriendsCodeHelpShowed" v="1"/>
+		<Var name="FriendsInviteHelpShowed" v="1"/>
+		<Var name="FieldHintNeed" v="0"/>
+		<Var name="FilledOrdersToday" v="1" t="i"/>
+		<Var name="FirstGameLoad" v="0" t="b"/>
+		<Var name="FirstDiggingClayTutorial_state" v="10" t="i"/>
+		<Var name="FirstDiggingClayTutorialsq0_state" v="0" t="i"/>
+		<Var name="FactoriesLvl8_state" v="10"/>
+		<Var name="FactoriesLvl8sq0_state" v="0"/>
+		<Var name="FactoriesLvl24sq0_state" v="0"/>
+		<Var name="FactoriesLvl24_state" v="10"/>
+		<Var name="FactoriesLvl29sq0_state" v="0"/>
+		<Var name="FactoriesLvl29_state" v="10"/>
+		<Var name="FactoriesLvl32sq0_state" v="0"/>
+		<Var name="FactoriesLvl32_state" v="10"/>
+		<Var name="FactoriesLvl36sq0_state" v="0"/>
+		<Var name="FactoriesLvl36_state" v="10"/>
+		<Var name="FactoriesLvl34sq0_state" v="0"/>
+		<Var name="FactoriesLvl34_state" v="10"/>
+		<Var name="FactoriesLvl13sq0_state" v="0"/>
+		<Var name="FactoriesLvl13_state" v="10"/>
+		<Var name="FactoriesLvl12sq0_state" v="0"/>
+		<Var name="FactoriesLvl12_state" v="10"/>
+		<Var name="FactoriesLvl11sq0_state" v="0"/>
+		<Var name="FactoriesLvl11_state" v="10"/>
+		<Var name="FactoriesLvl10sq0_state" v="0"/>
+		<Var name="FactoriesLvl10_state" v="10"/>
+		<Var name="FactoriesLvl17sq0_state" v="0"/>
+		<Var name="FactoriesLvl17_state" v="10"/>
+		<Var name="FactoriesLvl14sq0_state" v="0"/>
+		<Var name="FactoriesLvl14_state" v="10"/>
+		<Var name="FactoriesLvl7_state" v="10"/>
+		<Var name="FactoriesLvl7sq0_state" v="0"/>
+		<Var name="FactoriesLvl43sq0_state" v="0"/>
+		<Var name="FactoriesLvl43_state" v="10"/>
+		<Var name="FactoriesLvl40progress" v="1"/>
+		<Var name="FactoriesLvl40sq0_state" v="0"/>
+		<Var name="FactoriesLvl40_state" v="10"/>
+		<Var name="FactoriesLvl4_state" v="13"/>
+		<Var name="FactoriesLvl4sq0_state" v="1"/>
+		<Var name="FactoriesLvl5_state" v="10"/>
+		<Var name="FactoriesLvl5sq0_state" v="0"/>
+		<Var name="FarmFieldTutorialsq0_state" v="0"/>
+		<Var name="FarmFieldTutorial_state" v="18"/>
+		<Var name="FVer" v="77" t="i"/>
+		<Var name="GplayCrOK" v="1" t="b"/>
+		<Var name="GreenPinAccentDelay" v="0.7402249574661255" t="f"/>
+		<Var name="GreenPinAccentAllow" v="1" t="b"/>
+		<Var name="GreenPinAccentMapShowCount" v="5" t="i"/>
+		<Var name="GreenPinAccentHelicArrowShow" v="0" t="b"/>
+		<Var name="GreenPinAccentHelicDelay" v="18.8326854705810547" t="f"/>
+		<Var name="GreenPinAccentTutorialsq0_state" v="0" t="i"/>
+		<Var name="GreenPinAccentTutorial_state" v="10" t="i"/>
+		<Var name="GrowFieldTutorialsq0_state" v="0"/>
+		<Var name="GrowFieldTutorial_state" v="18"/>
+		<Var name="Glass" v="0"/>
+		<Var name="GotOreToday" v="0" t="i"/>
+		<Var name="GenerateDiggingBeautys" v="0" t="b"/>
+		<Var name="GetMaterialssq0_state" v="0" t="i"/>
+		<Var name="GetMaterials_state" v="10" t="i"/>
+		<Var name="GHash" v="1186042272" t="i"/>
+		<Var name="DiggingReady" v="0" t="b"/>
+		<Var name="DealerWelcome_state" v="10" t="i"/>
+		<Var name="DealerWelcomesq0_state" v="0" t="i"/>
+		<Var name="DestroyClayTutorialsq0_state" v="0" t="i"/>
+		<Var name="DestroyClayTutorial_state" v="10" t="i"/>
+		<Var name="DestroyClay2Tutorialsq0_state" v="0" t="i"/>
+		<Var name="DestroyClay2Tutorial_state" v="10" t="i"/>
+		<Var name="Device" v="SM-G973N"/>
+		<Var name="DeviceLang" v="ko"/>
+		<Var name="DailyBonus" v="0" t="i"/>
+		<Var name="DailyLootbox_Animal" v="paddock_bear"/>
+		<Var name="DailyLootbox_AnimalIndex" v="1" t="i"/>
+		<Var name="DailyLootbox_AnimalCount" v="2" t="i"/>
+		<Var name="DailyLootbox_Day" v="18581" t="i"/>
+		<Var name="DailyLootbox_State" v="1" t="i"/>
+		<Var name="DailyLootbox_Price" v="gem3:1"/>
+		<Var name="DaysEnteredGame" v="1" t="i"/>
+		<Var name="DaysSeqEnteredGame" v="3"/>
+		<Var name="ExpandLevel" v="2" t="i"/>
+		<Var name="ExtractClayVideoTutorial_state" v="10" t="i"/>
+		<Var name="ExtractClayVideoTutorialsq0_state" v="0" t="i"/>
+		<Var name="EventCenterTutorialsq0_state" v="0" t="i"/>
+		<Var name="EventCenterTutorial_state" v="10" t="i"/>
+		<Var name="EventCashPriceCoefs" v="AvgCount:5900,CoinsMult:5,Min:0.5000000000000000"/>
+		<Var name="EventContinueId" v="359" t="i"/>
+		<Var name="EventBalloonDay" v="0" t="i"/>
+		<Var name="EventGlobalStat_PvpHarvest_359_Score" v="0" t="i"/>
+		<Var name="EventGlobalStat_PvpHarvest_359_PlayedGames" v="0" t="i"/>
+		<Var name="EventGifts" v="0" t="i"/>
+		<Var name="EventGiftFromOrderDay" v="0" t="i"/>
+		<Var name="EventStartId" v="359" t="i"/>
+		<Var name="ErnieMails" v="0" t="i"/>
+		<Var name="EndOfTimeBreadTutorialsq0_state" v="0" t="i"/>
+		<Var name="EndOfTimeBreadTutorial_state" v="18" t="i"/>
+		<Var name="EnteredGameAfterInstallDay" v="1" t="i"/>
+		<Var name="EnteredGameDayInRow" v="1" t="i"/>
+		<Var name="EarnedCoins" v="541" t="i"/>
+		<Var name="BuildCommunityTutorialsq0_state" v="0" t="i"/>
+		<Var name="BuildCommunityTutorial_state" v="10" t="i"/>
+		<Var name="BuildBakeryTutorialsq0_state" v="0" t="i"/>
+		<Var name="BuildBakeryTutorial_state" v="18" t="i"/>
+		<Var name="BuildBakery2Tutorialsq0_state" v="0" t="i"/>
+		<Var name="BuildBakery2Tutorial_state" v="18" t="i"/>
+		<Var name="BuildHouseTutorial_state" v="18" t="i"/>
+		<Var name="BuildHouseTutorialsq0_state" v="0" t="i"/>
+		<Var name="BuildHouses8sq0_state" v="0"/>
+		<Var name="BuildHouses8_state" v="10"/>
+		<Var name="BuildHouses9sq0_state" v="0"/>
+		<Var name="BuildHouses9_state" v="10"/>
+		<Var name="BuildHouses1sq0_state" v="0"/>
+		<Var name="BuildHouses1_state" v="10"/>
+		<Var name="BuildHouses12_state" v="10"/>
+		<Var name="BuildHouses12sq0_state" v="0"/>
+		<Var name="BuildHouses13_state" v="10"/>
+		<Var name="BuildHouses13sq0_state" v="0"/>
+		<Var name="BuildHouses10_state" v="10"/>
+		<Var name="BuildHouses10sq0_state" v="0"/>
+		<Var name="BuildHouses11_state" v="10"/>
+		<Var name="BuildHouses11sq0_state" v="0"/>
+		<Var name="BuildHouses16_state" v="10"/>
+		<Var name="BuildHouses16sq0_state" v="0"/>
+		<Var name="BuildHouses14_state" v="10"/>
+		<Var name="BuildHouses14sq0_state" v="0"/>
+		<Var name="BuildHouses15_state" v="10"/>
+		<Var name="BuildHouses15sq0_state" v="0"/>
+		<Var name="BuildHouses2sq0_state" v="0"/>
+		<Var name="BuildHouses2_state" v="10"/>
+		<Var name="BuildHouses3sq0_state" v="0"/>
+		<Var name="BuildHouses3_state" v="10"/>
+		<Var name="BuildHouses4sq0_state" v="0"/>
+		<Var name="BuildHouses4_state" v="10"/>
+		<Var name="BuildHouses5sq0_state" v="0"/>
+		<Var name="BuildHouses5_state" v="10"/>
+		<Var name="BuildHouses6sq0_state" v="0"/>
+		<Var name="BuildHouses6_state" v="10"/>
+		<Var name="BuildHouses7sq0_state" v="0"/>
+		<Var name="BuildHouses7_state" v="10"/>
+		<Var name="BuildNewFieldTutorial_state" v="18" t="i"/>
+		<Var name="BuildNewFieldTutorialsq0_state" v="0" t="i"/>
+		<Var name="BuildMillTutorialsq0_state" v="0" t="i"/>
+		<Var name="BuildMillTutorial_state" v="10" t="i"/>
+		<Var name="Build_donut_shop_state" v="10" t="i"/>
+		<Var name="Build_donut_shopsq1_state" v="0" t="i"/>
+		<Var name="Build_donut_shopsq0_state" v="0" t="i"/>
+		<Var name="Build_dolphinarium_state" v="10" t="i"/>
+		<Var name="Build_dolphinariumsq0_state" v="0" t="i"/>
+		<Var name="Build_dolphinariumsq1_state" v="0" t="i"/>
+		<Var name="Build_dog_training_state" v="10" t="i"/>
+		<Var name="Build_dog_trainingsq0_state" v="0" t="i"/>
+		<Var name="Build_dog_trainingsq1_state" v="0" t="i"/>
+		<Var name="Build_drivein_cinema_v1sq1_state" v="0"/>
+		<Var name="Build_drivein_cinema_v1sq0_state" v="0"/>
+		<Var name="Build_drivein_cinema_v1_state" v="10"/>
+		<Var name="Build_fashion_state" v="10" t="i"/>
+		<Var name="Build_fashionsq1_state" v="0" t="i"/>
+		<Var name="Build_fashionsq0_state" v="0" t="i"/>
+		<Var name="Build_firestationsq0_state" v="0"/>
+		<Var name="Build_firestationsq1_state" v="0"/>
+		<Var name="Build_firestation_state" v="10"/>
+		<Var name="Build_film_studiosq0_state" v="0" t="i"/>
+		<Var name="Build_film_studiosq1_state" v="0" t="i"/>
+		<Var name="Build_film_studio_state" v="10" t="i"/>
+		<Var name="Build_flower_shopsq0_state" v="0" t="i"/>
+		<Var name="Build_flower_shopsq1_state" v="0" t="i"/>
+		<Var name="Build_flower_shop_state" v="10" t="i"/>
+		<Var name="Build_garage_v1sq1_state" v="0"/>
+		<Var name="Build_garage_v1sq0_state" v="0"/>
+		<Var name="Build_garage_v1_state" v="10"/>
+		<Var name="Build_gasstation_v1sq1_state" v="0"/>
+		<Var name="Build_gasstation_v1sq0_state" v="0"/>
+		<Var name="Build_gasstation_v1_state" v="10"/>
+		<Var name="Build_golden_palacesq1_state" v="0" t="i"/>
+		<Var name="Build_golden_palacesq0_state" v="0" t="i"/>
+		<Var name="Build_golden_palace_state" v="10" t="i"/>
+		<Var name="Build_golf_state" v="10" t="i"/>
+		<Var name="Build_golfsq0_state" v="0" t="i"/>
+		<Var name="Build_golfsq1_state" v="0" t="i"/>
+		<Var name="Build_greenhouse_state" v="10" t="i"/>
+		<Var name="Build_greenhousesq1_state" v="0" t="i"/>
+		<Var name="Build_greenhousesq0_state" v="0" t="i"/>
+		<Var name="Build_gymsq0_state" v="0" t="i"/>
+		<Var name="Build_gymsq1_state" v="0" t="i"/>
+		<Var name="Build_gym_state" v="10" t="i"/>
+		<Var name="Build_airport_state" v="13" t="i"/>
+		<Var name="Build_airportsq0_state" v="1" t="i"/>
+		<Var name="Build_airfield_v1sq0_state" v="0"/>
+		<Var name="Build_airfield_v1sq1_state" v="0"/>
+		<Var name="Build_airfield_v1_state" v="10"/>
+		<Var name="Build_artefactmuseumsq0_state" v="0" t="i"/>
+		<Var name="Build_artefactmuseumsq1_state" v="0" t="i"/>
+		<Var name="Build_artefactmuseum_state" v="10" t="i"/>
+		<Var name="Build_barder_v1sq1_state" v="0"/>
+		<Var name="Build_barder_v1sq0_state" v="0"/>
+		<Var name="Build_barder_v1_state" v="10"/>
+		<Var name="Build_bank_v1_state" v="10" t="i"/>
+		<Var name="Build_bank_v1sq1_state" v="0" t="i"/>
+		<Var name="Build_bank_v1sq0_state" v="0" t="i"/>
+		<Var name="Build_bike_rentalsq0_state" v="0" t="i"/>
+		<Var name="Build_bike_rentalsq1_state" v="0" t="i"/>
+		<Var name="Build_bike_rental_state" v="10" t="i"/>
+		<Var name="Build_bowling_state" v="10"/>
+		<Var name="Build_bowlingsq1_state" v="0"/>
+		<Var name="Build_bowlingsq0_state" v="0"/>
+		<Var name="Build_car_workshop_state" v="10" t="i"/>
+		<Var name="Build_car_workshopsq0_state" v="0" t="i"/>
+		<Var name="Build_car_workshopsq1_state" v="0" t="i"/>
+		<Var name="Build_car_washsq0_state" v="0" t="i"/>
+		<Var name="Build_car_washsq1_state" v="0" t="i"/>
+		<Var name="Build_car_wash_state" v="10" t="i"/>
+		<Var name="Build_cafe1_01sq0_state" v="0"/>
+		<Var name="Build_cafe1_01sq1_state" v="0"/>
+		<Var name="Build_cafe1_01_state" v="10"/>
+		<Var name="Build_cityhall_v1sq0_state" v="0"/>
+		<Var name="Build_cityhall_v1sq1_state" v="0"/>
+		<Var name="Build_cityhall_v1_state" v="18" t="i"/>
+		<Var name="Build_cityhall_v10progress" v="0" t="i"/>
+		<Var name="Build_citymarket_state" v="10" t="i"/>
+		<Var name="Build_citymarketsq1_state" v="0" t="i"/>
+		<Var name="Build_citymarketsq0_state" v="0" t="i"/>
+		<Var name="Build_circus_v1sq1_state" v="0"/>
+		<Var name="Build_circus_v1sq0_state" v="0"/>
+		<Var name="Build_circus_v1_state" v="10"/>
+		<Var name="Build_cinema1_01_state" v="10"/>
+		<Var name="Build_cinema1_01sq1_state" v="0"/>
+		<Var name="Build_cinema1_01sq0_state" v="0"/>
+		<Var name="Build_court_of_law_state" v="10" t="i"/>
+		<Var name="Build_court_of_lawsq0_state" v="0" t="i"/>
+		<Var name="Build_court_of_lawsq1_state" v="0" t="i"/>
+		<Var name="Build_concert_venuesq1_state" v="0" t="i"/>
+		<Var name="Build_concert_venuesq0_state" v="0" t="i"/>
+		<Var name="Build_concert_venue_state" v="10" t="i"/>
+		<Var name="Build_compshopsq0_state" v="0" t="i"/>
+		<Var name="Build_compshopsq1_state" v="0" t="i"/>
+		<Var name="Build_compshop_state" v="10" t="i"/>
+		<Var name="Build_comic_storesq0_state" v="0" t="i"/>
+		<Var name="Build_comic_storesq1_state" v="0" t="i"/>
+		<Var name="Build_comic_store_state" v="10" t="i"/>
+		<Var name="Build_coastguard_state" v="10" t="i"/>
+		<Var name="Build_coastguardsq1_state" v="0" t="i"/>
+		<Var name="Build_coastguardsq0_state" v="0" t="i"/>
+		<Var name="Build_climbing_wallsq1_state" v="0" t="i"/>
+		<Var name="Build_climbing_wallsq0_state" v="0" t="i"/>
+		<Var name="Build_climbing_wall_state" v="10" t="i"/>
+		<Var name="Build_cyberarena_state" v="10" t="i"/>
+		<Var name="Build_cyberarenasq1_state" v="0" t="i"/>
+		<Var name="Build_cyberarenasq0_state" v="0" t="i"/>
+		<Var name="Build_laundry_v1_state" v="10"/>
+		<Var name="Build_laundry_v1sq1_state" v="0"/>
+		<Var name="Build_laundry_v1sq0_state" v="0"/>
+		<Var name="Build_laboratory_state" v="10" t="i"/>
+		<Var name="Build_laboratorysq1_state" v="0" t="i"/>
+		<Var name="Build_laboratorysq0_state" v="0" t="i"/>
+		<Var name="Build_lighthouse_state" v="10" t="i"/>
+		<Var name="Build_lighthousesq1_state" v="0" t="i"/>
+		<Var name="Build_lighthousesq0_state" v="0" t="i"/>
+		<Var name="Build_library_state" v="10"/>
+		<Var name="Build_librarysq1_state" v="0"/>
+		<Var name="Build_librarysq0_state" v="0"/>
+		<Var name="Build_motorshowsq1_state" v="0" t="i"/>
+		<Var name="Build_motorshowsq0_state" v="0" t="i"/>
+		<Var name="Build_motorshow_state" v="10" t="i"/>
+		<Var name="Build_music_shop_v1sq1_state" v="0"/>
+		<Var name="Build_music_shop_v1sq0_state" v="0"/>
+		<Var name="Build_music_shop_v1_state" v="10"/>
+		<Var name="Build_museum_v1sq1_state" v="0"/>
+		<Var name="Build_museum_v1sq0_state" v="0"/>
+		<Var name="Build_museum_v1_state" v="10"/>
+		<Var name="Build_observatorysq0_state" v="0" t="i"/>
+		<Var name="Build_observatorysq1_state" v="0" t="i"/>
+		<Var name="Build_observatory_state" v="10" t="i"/>
+		<Var name="Build_office_centersq1_state" v="0" t="i"/>
+		<Var name="Build_office_centersq0_state" v="0" t="i"/>
+		<Var name="Build_office_center_state" v="10" t="i"/>
+		<Var name="Build_office_v1sq1_state" v="0"/>
+		<Var name="Build_office_v1sq0_state" v="0"/>
+		<Var name="Build_office_v1_state" v="10"/>
+		<Var name="Build_organ_hall_state" v="10" t="i"/>
+		<Var name="Build_organ_hallsq1_state" v="0" t="i"/>
+		<Var name="Build_organ_hallsq0_state" v="0" t="i"/>
+		<Var name="Build_hippodrome_state" v="10" t="i"/>
+		<Var name="Build_hippodromesq1_state" v="0" t="i"/>
+		<Var name="Build_hippodromesq0_state" v="0" t="i"/>
+		<Var name="Build_hotel_v1sq0_state" v="0"/>
+		<Var name="Build_hotel_v1sq1_state" v="0"/>
+		<Var name="Build_hotel_v1_state" v="10"/>
+		<Var name="Build_house26_state" v="18" t="i"/>
+		<Var name="Build_house26sq1_state" v="0" t="i"/>
+		<Var name="Build_house26sq0_state" v="0" t="i"/>
+		<Var name="Build_hospitalsq0_state" v="0"/>
+		<Var name="Build_hospitalsq1_state" v="0"/>
+		<Var name="Build_hospital_state" v="10"/>
+		<Var name="Build_hydropower_state" v="10" t="i"/>
+		<Var name="Build_hydropowersq1_state" v="0" t="i"/>
+		<Var name="Build_hydropowersq0_state" v="0" t="i"/>
+		<Var name="Build_industry_academysq0_state" v="0" t="i"/>
+		<Var name="Build_industry_academysq1_state" v="0" t="i"/>
+		<Var name="Build_industry_academy_state" v="10" t="i"/>
+		<Var name="Build_karting_state" v="10" t="i"/>
+		<Var name="Build_kartingsq1_state" v="0" t="i"/>
+		<Var name="Build_kartingsq0_state" v="0" t="i"/>
+		<Var name="Build_kindergarten_state" v="10" t="i"/>
+		<Var name="Build_kindergartensq0_state" v="0" t="i"/>
+		<Var name="Build_kindergartensq1_state" v="0" t="i"/>
+		<Var name="Build_taxi_v1_state" v="10"/>
+		<Var name="Build_taxi_v1sq1_state" v="0"/>
+		<Var name="Build_taxi_v1sq0_state" v="0"/>
+		<Var name="Build_theatre_v1_state" v="10"/>
+		<Var name="Build_theatre_v1sq1_state" v="0"/>
+		<Var name="Build_theatre_v1sq0_state" v="0"/>
+		<Var name="Build_toyshop_v1_state" v="10"/>
+		<Var name="Build_toyshop_v1sq1_state" v="0"/>
+		<Var name="Build_toyshop_v1sq0_state" v="0"/>
+		<Var name="Build_tradehouse_state" v="10" t="i"/>
+		<Var name="Build_tradehousesq1_state" v="0" t="i"/>
+		<Var name="Build_tradehousesq0_state" v="0" t="i"/>
+		<Var name="Build_tv_v1sq1_state" v="0"/>
+		<Var name="Build_tv_v1sq0_state" v="0"/>
+		<Var name="Build_tv_v1_state" v="10"/>
+		<Var name="Build_tvtower_v1_state" v="10"/>
+		<Var name="Build_tvtower_v1sq1_state" v="0"/>
+		<Var name="Build_tvtower_v1sq0_state" v="0"/>
+		<Var name="Build_univers_v1_state" v="10"/>
+		<Var name="Build_univers_v1sq1_state" v="0"/>
+		<Var name="Build_univers_v1sq0_state" v="0"/>
+		<Var name="Build_veterinary_clinicsq1_state" v="0" t="i"/>
+		<Var name="Build_veterinary_clinicsq0_state" v="0" t="i"/>
+		<Var name="Build_veterinary_clinic_state" v="10" t="i"/>
+		<Var name="Build_water_park_state" v="10" t="i"/>
+		<Var name="Build_water_parksq1_state" v="0" t="i"/>
+		<Var name="Build_water_parksq0_state" v="0" t="i"/>
+		<Var name="Build_weatherstationsq0_state" v="0" t="i"/>
+		<Var name="Build_weatherstationsq1_state" v="0" t="i"/>
+		<Var name="Build_weatherstation_state" v="10" t="i"/>
+		<Var name="Build_widden_house_v1_state" v="10"/>
+		<Var name="Build_widden_house_v1sq1_state" v="0"/>
+		<Var name="Build_widden_house_v1sq0_state" v="0"/>
+		<Var name="Build_wheel_v1sq0_state" v="0"/>
+		<Var name="Build_wheel_v1sq1_state" v="0"/>
+		<Var name="Build_wheel_v1_state" v="10"/>
+		<Var name="Build_wharfsq1_state" v="0" t="i"/>
+		<Var name="Build_wharfsq0_state" v="0" t="i"/>
+		<Var name="Build_wharf_state" v="10" t="i"/>
+		<Var name="Build_petstoresq0_state" v="0" t="i"/>
+		<Var name="Build_petstoresq1_state" v="0" t="i"/>
+		<Var name="Build_petstore_state" v="10" t="i"/>
+		<Var name="Build_pizzeriasq0_state" v="0"/>
+		<Var name="Build_pizzeriasq1_state" v="0"/>
+		<Var name="Build_pizzeria_state" v="10"/>
+		<Var name="Build_photo_v1sq0_state" v="0"/>
+		<Var name="Build_photo_v1sq1_state" v="0"/>
+		<Var name="Build_photo_v1_state" v="10"/>
+		<Var name="Build_post_office_v1sq0_state" v="0"/>
+		<Var name="Build_post_office_v1sq1_state" v="0"/>
+		<Var name="Build_post_office_v1_state" v="10"/>
+		<Var name="Build_poolhallsq0_state" v="0" t="i"/>
+		<Var name="Build_poolhallsq1_state" v="0" t="i"/>
+		<Var name="Build_poolhall_state" v="10" t="i"/>
+		<Var name="Build_policesq0_state" v="0"/>
+		<Var name="Build_policesq1_state" v="0"/>
+		<Var name="Build_police_state" v="10"/>
+		<Var name="Build_planetariumsq0_state" v="0" t="i"/>
+		<Var name="Build_planetariumsq1_state" v="0" t="i"/>
+		<Var name="Build_planetarium_state" v="10" t="i"/>
+		<Var name="Build_racingsq0_state" v="0" t="i"/>
+		<Var name="Build_racingsq1_state" v="0" t="i"/>
+		<Var name="Build_racing_state" v="10" t="i"/>
+		<Var name="Build_retro_avto_state" v="10" t="i"/>
+		<Var name="Build_retro_avtosq0_state" v="0" t="i"/>
+		<Var name="Build_rollersq0_state" v="0"/>
+		<Var name="Build_rollersq1_state" v="0"/>
+		<Var name="Build_roller_state" v="10"/>
+		<Var name="Build_rocket_ridesq0_state" v="0" t="i"/>
+		<Var name="Build_rocket_ridesq1_state" v="0" t="i"/>
+		<Var name="Build_rocket_ride_state" v="10" t="i"/>
+		<Var name="Build_school_v1sq1_state" v="0"/>
+		<Var name="Build_school_v1sq0_state" v="0"/>
+		<Var name="Build_school_v1_state" v="10"/>
+		<Var name="Build_smelterysq0_state" v="0" t="i"/>
+		<Var name="Build_smelterysq1_state" v="0" t="i"/>
+		<Var name="Build_smeltery_state" v="10" t="i"/>
+		<Var name="Build_spa_center_state" v="10" t="i"/>
+		<Var name="Build_spa_centersq1_state" v="0" t="i"/>
+		<Var name="Build_spa_centersq0_state" v="0" t="i"/>
+		<Var name="Build_supermarketsq0_state" v="0" t="i"/>
+		<Var name="Build_supermarketsq1_state" v="0" t="i"/>
+		<Var name="Build_supermarket_state" v="10" t="i"/>
+		<Var name="Build_store_101sq1_state" v="0"/>
+		<Var name="Build_store_101sq0_state" v="0"/>
+		<Var name="Build_store_101_state" v="10"/>
+		<Var name="Build_stadium_v1_state" v="10"/>
+		<Var name="Build_stadium_v1sq1_state" v="0"/>
+		<Var name="Build_stadium_v1sq0_state" v="0"/>
+		<Var name="Build_Easter2017Decor_state" v="10" t="i"/>
+		<Var name="Build_Easter2017Decorsq0_state" v="0" t="i"/>
+		<Var name="Build_ChineseNYTreesq0_state" v="0" t="i"/>
+		<Var name="Build_ChineseNYTree_state" v="10" t="i"/>
+		<Var name="Build_MegaCakesq0_state" v="0" t="i"/>
+		<Var name="Build_MegaCake_state" v="10" t="i"/>
+		<Var name="Build_Halloween2017Decor_state" v="10" t="i"/>
+		<Var name="Build_Halloween2017Decorsq0_state" v="0" t="i"/>
+		<Var name="Build_JurassicPark_state" v="10" t="i"/>
+		<Var name="Build_JurassicParksq0_state" v="0" t="i"/>
+		<Var name="Build_Snowman_state" v="10" t="i"/>
+		<Var name="Build_Snowmansq0_state" v="0" t="i"/>
+		<Var name="Build_SpaceRocketsq0_state" v="0" t="i"/>
+		<Var name="Build_SpaceRocket_state" v="10" t="i"/>
+		<Var name="BusStationReady" v="0" t="b"/>
+		<Var name="Brick" v="0"/>
+		<Var name="BoughtCash" v="0" t="i"/>
+		<Var name="BoughtCoins" v="0" t="i"/>
+		<Var name="BeautyLvl9_state" v="10"/>
+		<Var name="BeautyLvl9sq0_state" v="0"/>
+		<Var name="BeautyLvl8_state" v="10"/>
+		<Var name="BeautyLvl8sq0_state" v="0"/>
+		<Var name="BeautyLvl5_state" v="10"/>
+		<Var name="BeautyLvl5sq0_state" v="0"/>
+		<Var name="BeautyLvl7_state" v="10"/>
+		<Var name="BeautyLvl7sq0_state" v="0"/>
+		<Var name="BeautyLvl6_state" v="10"/>
+		<Var name="BeautyLvl6sq0_state" v="0"/>
+		<Var name="BeautyLvl10sq0_state" v="0"/>
+		<Var name="BeautyLvl10_state" v="10"/>
+		<Var name="BeautyLvl30progress" v="1"/>
+		<Var name="BeautyLvl3_state" v="13"/>
+		<Var name="BeautyLvl3sq0_state" v="1"/>
+		<Var name="BannerButtonShowTime" v="0.0000000000000000" t="f"/>
+		<Var name="BLvl_bakery" v="2" t="i"/>
+		<Var name="BLvl_mill" v="3" t="i"/>
+		<Var name="BLvl_milkfactory" v="4" t="i"/>
+		<Var name="CreateDriveinCinemasq1_state" v="0"/>
+		<Var name="CreateDriveinCinemasq0_state" v="0"/>
+		<Var name="CreateDriveinCinema_state" v="10"/>
+		<Var name="CreateFastfoodFactory_state" v="10"/>
+		<Var name="CreateFastfoodFactorysq1_state" v="0"/>
+		<Var name="CreateFastfoodFactorysq0_state" v="0"/>
+		<Var name="CreateFirestationsq0_state" v="0"/>
+		<Var name="CreateFirestationsq1_state" v="0"/>
+		<Var name="CreateFirestation_state" v="10"/>
+		<Var name="CreateFurnitureFactorysq0_state" v="0"/>
+		<Var name="CreateFurnitureFactorysq1_state" v="0"/>
+		<Var name="CreateFurnitureFactory_state" v="10"/>
+		<Var name="CreateGaragesq0_state" v="0"/>
+		<Var name="CreateGaragesq1_state" v="0"/>
+		<Var name="CreateGarage_state" v="10"/>
+		<Var name="CreateGasstation_state" v="10"/>
+		<Var name="CreateGasstationsq1_state" v="0"/>
+		<Var name="CreateGasstationsq0_state" v="0"/>
+		<Var name="CreateAirfieldsq0_state" v="0"/>
+		<Var name="CreateAirfieldsq1_state" v="0"/>
+		<Var name="CreateAirfield_state" v="10"/>
+		<Var name="CreateBardersq0_state" v="0"/>
+		<Var name="CreateBardersq1_state" v="0"/>
+		<Var name="CreateBarder_state" v="10"/>
+		<Var name="CreateBowling_state" v="10"/>
+		<Var name="CreateBowlingsq1_state" v="0"/>
+		<Var name="CreateBowlingsq0_state" v="0"/>
+		<Var name="CreateBreadTutorialsq0_state" v="0" t="i"/>
+		<Var name="CreateBreadTutorial_state" v="10" t="i"/>
+		<Var name="CreateCandyFactory_state" v="10"/>
+		<Var name="CreateCandyFactorysq0_state" v="0"/>
+		<Var name="CreateCandyFactorysq1_state" v="0"/>
+		<Var name="CreateCafe_state" v="10"/>
+		<Var name="CreateCafesq0_state" v="0"/>
+		<Var name="CreateCafesq1_state" v="0"/>
+		<Var name="CreateCityhallsq0_state" v="0"/>
+		<Var name="CreateCityhallsq1_state" v="0"/>
+		<Var name="CreateCityhall_state" v="10"/>
+		<Var name="CreateCircussq0_state" v="0"/>
+		<Var name="CreateCircussq1_state" v="0"/>
+		<Var name="CreateCircus_state" v="10"/>
+		<Var name="CreateCinemasq0_state" v="0"/>
+		<Var name="CreateCinemasq1_state" v="0"/>
+		<Var name="CreateCinema_state" v="10"/>
+		<Var name="CreateChocolateFactorysq0_state" v="0"/>
+		<Var name="CreateChocolateFactorysq1_state" v="0"/>
+		<Var name="CreateChocolateFactory_state" v="10"/>
+		<Var name="CreateChipsFactory_state" v="10"/>
+		<Var name="CreateChipsFactorysq0_state" v="0"/>
+		<Var name="CreateChipsFactorysq1_state" v="0"/>
+		<Var name="CreateChickenFactorysq0_state" v="0"/>
+		<Var name="CreateChickenFactorysq1_state" v="0"/>
+		<Var name="CreateChickenFactory_state" v="10"/>
+		<Var name="CreateCottonFactorysq1_state" v="0"/>
+		<Var name="CreateCottonFactorysq0_state" v="0"/>
+		<Var name="CreateCottonFactory_state" v="10"/>
+		<Var name="CreateCoffeeFactorysq1_state" v="0"/>
+		<Var name="CreateCoffeeFactorysq0_state" v="0"/>
+		<Var name="CreateCoffeeFactory_state" v="10"/>
+		<Var name="CreateClothingFactory_state" v="10"/>
+		<Var name="CreateClothingFactorysq1_state" v="0"/>
+		<Var name="CreateClothingFactorysq0_state" v="0"/>
+		<Var name="CreateLaundry_state" v="10"/>
+		<Var name="CreateLaundrysq1_state" v="0"/>
+		<Var name="CreateLaundrysq0_state" v="0"/>
+		<Var name="CreateLibrary_state" v="10"/>
+		<Var name="CreateLibrarysq1_state" v="0"/>
+		<Var name="CreateLibrarysq0_state" v="0"/>
+		<Var name="CreateMexfoodFactorysq0_state" v="0"/>
+		<Var name="CreateMexfoodFactorysq1_state" v="0"/>
+		<Var name="CreateMexfoodFactory_state" v="10"/>
+		<Var name="CreateMilkFactorysq0_state" v="0"/>
+		<Var name="CreateMilkFactorysq1_state" v="0"/>
+		<Var name="CreateMilkFactory_state" v="10"/>
+		<Var name="CreateMilkTutorial_state" v="18" t="i"/>
+		<Var name="CreateMilkTutorialsq0_state" v="0" t="i"/>
+		<Var name="CreateMusicStore_state" v="10"/>
+		<Var name="CreateMusicStoresq1_state" v="0"/>
+		<Var name="CreateMusicStoresq0_state" v="0"/>
+		<Var name="CreateMuseumsq0_state" v="0"/>
+		<Var name="CreateMuseumsq1_state" v="0"/>
+		<Var name="CreateMuseum_state" v="10"/>
+		<Var name="CreateOfficesq0_state" v="0"/>
+		<Var name="CreateOfficesq1_state" v="0"/>
+		<Var name="CreateOffice_state" v="10"/>
+		<Var name="CreateHotelsq1_state" v="0"/>
+		<Var name="CreateHotelsq0_state" v="0"/>
+		<Var name="CreateHotel_state" v="10"/>
+		<Var name="CreateHospitalsq0_state" v="0"/>
+		<Var name="CreateHospitalsq1_state" v="0"/>
+		<Var name="CreateHospital_state" v="10"/>
+		<Var name="CreateIcecreamFactory_state" v="10"/>
+		<Var name="CreateIcecreamFactorysq1_state" v="0"/>
+		<Var name="CreateIcecreamFactorysq0_state" v="0"/>
+		<Var name="CreateTaxi_state" v="10"/>
+		<Var name="CreateTaxisq0_state" v="0"/>
+		<Var name="CreateTaxisq1_state" v="0"/>
+		<Var name="CreateTheatre_state" v="10"/>
+		<Var name="CreateTheatresq1_state" v="0"/>
+		<Var name="CreateTheatresq0_state" v="0"/>
+		<Var name="CreateToyShop_state" v="10"/>
+		<Var name="CreateToyShopsq1_state" v="0"/>
+		<Var name="CreateToyShopsq0_state" v="0"/>
+		<Var name="CreateTv1sq0_state" v="0"/>
+		<Var name="CreateTv1sq1_state" v="0"/>
+		<Var name="CreateTv1_state" v="10"/>
+		<Var name="CreateTvtower_state" v="10"/>
+		<Var name="CreateTvtowersq1_state" v="0"/>
+		<Var name="CreateTvtowersq0_state" v="0"/>
+		<Var name="CreateUnivers_state" v="10"/>
+		<Var name="CreateUniverssq1_state" v="0"/>
+		<Var name="CreateUniverssq0_state" v="0"/>
+		<Var name="CreateWeddingHouse_state" v="10"/>
+		<Var name="CreateWeddingHousesq0_state" v="0"/>
+		<Var name="CreateWeddingHousesq1_state" v="0"/>
+		<Var name="CreateWheelsq1_state" v="0"/>
+		<Var name="CreateWheelsq0_state" v="0"/>
+		<Var name="CreateWheelFactory_state" v="10"/>
+		<Var name="CreateWheelFactorysq0_state" v="0"/>
+		<Var name="CreateWheelFactorysq1_state" v="0"/>
+		<Var name="CreateWheel_state" v="10"/>
+		<Var name="CreatePaperFactory_state" v="10"/>
+		<Var name="CreatePaperFactorysq0_state" v="0"/>
+		<Var name="CreatePaperFactorysq1_state" v="0"/>
+		<Var name="CreatePizzeriasq0_state" v="0"/>
+		<Var name="CreatePizzeriasq1_state" v="0"/>
+		<Var name="CreatePizzeria_state" v="10"/>
+		<Var name="CreatePhotosq1_state" v="0"/>
+		<Var name="CreatePhotosq0_state" v="0"/>
+		<Var name="CreatePhoto_state" v="10"/>
+		<Var name="CreatePostOffice_state" v="10"/>
+		<Var name="CreatePostOfficesq1_state" v="0"/>
+		<Var name="CreatePostOfficesq0_state" v="0"/>
+		<Var name="CreatePolicesq0_state" v="0"/>
+		<Var name="CreatePolicesq1_state" v="0"/>
+		<Var name="CreatePolice_state" v="10"/>
+		<Var name="CreateRollersq0_state" v="0"/>
+		<Var name="CreateRollersq1_state" v="0"/>
+		<Var name="CreateRoller_state" v="10"/>
+		<Var name="CreateSchoolsq0_state" v="0"/>
+		<Var name="CreateSchoolsq1_state" v="0"/>
+		<Var name="CreateSchool_state" v="10"/>
+		<Var name="CreateShoeFactorysq0_state" v="0"/>
+		<Var name="CreateShoeFactorysq1_state" v="0"/>
+		<Var name="CreateShoeFactory_state" v="10"/>
+		<Var name="CreateSheepFactory_state" v="10"/>
+		<Var name="CreateSheepFactorysq0_state" v="0"/>
+		<Var name="CreateSheepFactorysq1_state" v="0"/>
+		<Var name="CreateSpongeFactorysq1_state" v="0"/>
+		<Var name="CreateSpongeFactorysq0_state" v="0"/>
+		<Var name="CreateSpongeFactory_state" v="10"/>
+		<Var name="CreateSugarFactory_state" v="10"/>
+		<Var name="CreateSugarFactorysq0_state" v="0"/>
+		<Var name="CreateSugarFactorysq1_state" v="0"/>
+		<Var name="CreateStoresq1_state" v="0"/>
+		<Var name="CreateStoresq0_state" v="0"/>
+		<Var name="CreateStore_state" v="10"/>
+		<Var name="CreateStadium_state" v="10"/>
+		<Var name="CreateStadiumsq1_state" v="0"/>
+		<Var name="CreateStadiumsq0_state" v="0"/>
+		<Var name="Crop6fieldsAgainTutorial_state" v="18" t="i"/>
+		<Var name="Crop6fieldsAgainTutorialsq0_state" v="0" t="i"/>
+		<Var name="ClanInviteTutorial_state" v="10" t="i"/>
+		<Var name="ClanInviteTutorialsq0_state" v="0" t="i"/>
+		<Var name="ClanDonateRewardCount" v="0" t="i"/>
+		<Var name="ClanReminderJoinInnerTutorial_state" v="10" t="i"/>
+		<Var name="ClanReminderJoinInnerTutorialsq0_state" v="0" t="i"/>
+		<Var name="ConfirmSpendCash" v="1" t="b"/>
+		<Var name="Counter" v="0"/>
+		<Var name="Country" v="KR"/>
+		<Var name="CityHallWindow_ScrollTomagnate" v="1" t="b"/>
+		<Var name="CheckOrdersForEvent" v="359" t="i"/>
+		<Var name="CashBought" v="0" t="b"/>
+		<Var name="CashPurchase" v="0" t="i"/>
+		<Var name="CTTime" v="1605402832" t="i"/>
+		<Var name="CCSecretB" v="1" t="b"/>
+		<Var name="AvatarAfterUpdateTutorialsq0_state" v="0" t="i"/>
+		<Var name="AvatarAfterUpdateTutorial_state" v="10" t="i"/>
+		<Var name="AvatarArrowTutorialsq0_state" v="0" t="i"/>
+		<Var name="AvatarArrowTutorial_state" v="10" t="i"/>
+		<Var name="AvatarOpenCondTutorialsq0_state" v="0" t="i"/>
+		<Var name="AvatarOpenCondTutorial_state" v="10" t="i"/>
+		<Var name="AvatarVersion" v="780" t="i"/>
+		<Var name="AvatarReminderTutorialsq0_state" v="0" t="i"/>
+		<Var name="AvatarReminderTutorial_state" v="10" t="i"/>
+		<Var name="AvaUnlocked" v="1" t="b"/>
+		<Var name="AppearFirstTrain_state" v="10" t="i"/>
+		<Var name="AppearFirstTrainsq0_state" v="0" t="i"/>
+		<Var name="AskForHelp_state" v="10" t="i"/>
+		<Var name="AskForHelpsq0_state" v="0" t="i"/>
+		<Var name="AirFirstLoadAllTrains_state" v="10" t="i"/>
+		<Var name="AirFirstLoadAllTrainssq0_state" v="0" t="i"/>
+		<Var name="AirFirstLoadTrainsq0_state" v="0" t="i"/>
+		<Var name="AirFirstLoadTrain_state" v="10" t="i"/>
+		<Var name="AirFirstLooksq0_state" v="0" t="i"/>
+		<Var name="AirFirstLook_state" v="10" t="i"/>
+		<Var name="AirScore1" v="0" t="i"/>
+		<Var name="AirVersion" v="18580" t="i"/>
+		<Var name="AddedClovers" v="0" t="i"/>
+		<Var name="AfterCloudShopArrowHouse2Tutorialsq0_state" v="0" t="i"/>
+		<Var name="AfterCloudShopArrowHouse2Tutorial_state" v="10" t="i"/>
+		<Var name="AfterCloudShopArrowHouseTutorial_state" v="10" t="i"/>
+		<Var name="AfterCloudShopArrowHouseTutorialsq0_state" v="0" t="i"/>
+		<Var name="AfterCloudShopArrowNext" v=""/>
+		<Var name="AfterCloudShopArrowNext2" v=""/>
+		<Var name="AfterCloudShopArrowCommunityTutorialsq0_state" v="0" t="i"/>
+		<Var name="AfterCloudShopArrowCommunityTutorial_state" v="10" t="i"/>
+		<Var name="AfterCloudShopArrowCommunity2Tutorial_state" v="10" t="i"/>
+		<Var name="AfterCloudShopArrowCommunity2Tutorialsq0_state" v="0" t="i"/>
+		<Var name="AfterCloudShopArrowFactory2Tutorialsq0_state" v="0" t="i"/>
+		<Var name="AfterCloudShopArrowFactory2Tutorial_state" v="10" t="i"/>
+		<Var name="AfterCloudShopArrowFactoryTutorial_state" v="10" t="i"/>
+		<Var name="AfterCloudShopArrowFactoryTutorialsq0_state" v="0" t="i"/>
+		<Var name="AfterCloudShopArrowTutorialsq0_state" v="0" t="i"/>
+		<Var name="AfterCloudShopArrowTutorial_state" v="10" t="i"/>
+		<Var name="AcceptHelp_state" v="10" t="i"/>
+		<Var name="AcceptHelpsq0_state" v="0" t="i"/>
+		<Var name="AcademyReady" v="0" t="b"/>
+		<Var name="AchievementsCheckForOldUsers" v="5" t="i"/>
+		<Var name="AchievementsCheckCommunityDeveloper" v="1" t="b"/>
+		<Var name="Achievement_IncreasedPopulation" v="75" t="i"/>
+		<Var name="Achievement_IncreasedPopulation_Current" v="75" t="i"/>
+		<Var name="Achievement_BuiltHouses" v="3" t="i"/>
+		<Var name="Achievement_BuiltHouses_Current" v="3" t="i"/>
+		<Var name="Achievement_BuiltFactories" v="3" t="i"/>
+		<Var name="Achievement_BuiltFactories_Current" v="3" t="i"/>
+		<Var name="Achievement_CommunityDeveloper" v="0" t="i"/>
+		<Var name="Achievement_CommunityDeveloper_Current" v="0" t="i"/>
+		<Var name="Achievement_FillOrders" v="3" t="i"/>
+		<Var name="Achievement_GetFields" v="9" t="i"/>
+		<Var name="Achievement_EarneCoins" v="51" t="i"/>
+		<Var name="Achievement_ExpandField" v="2" t="i"/>
+		<Var name="Achievement_SpentCoins" v="465" t="i"/>
+		<Var name="Achievement_PlowedFields" v="27" t="i"/>
+		<Var name="Achievement_ProducedProducts" v="2" t="i"/>
+		<Var name="Action_sessionsForSubsCounter" v="0" t="i"/>
+		<Var name="Action_GameCenterFreeCash" v="finish"/>
+		<Var name="Action_FacebookFreeCash" v="show"/>
+		<Var name="AGI" v="1" t="i"/>
+		<Var name="wheatCounter" v="1" t="i"/>
+		<Var name="wheelCounter" v="0"/>
+		<Var name="water_flowers_1Indicator" v="1" t="i"/>
+		<Var name="wbLoggedIn" v="0" t="b"/>
+		<Var name="tutorSrcS" v="0.8500000238418579" t="f"/>
+		<Var name="tutorSrcJ" v="30" t="i"/>
+		<Var name="tutorSrcI" v="18" t="i"/>
+		<Var name="tutorial_skip_CreateBread" v="1" t="b"/>
+		<Var name="tutorial_state" v="0" t="i"/>
+		<Var name="tutorial_current_msg" v="Does not exist!"/>
+		<Var name="tutorialAllowBigStoreBages" v="1" t="b"/>
+		<Var name="trainCost" v=""/>
+		<Var name="tomatCounter" v="0"/>
+		<Var name="townName" v="DapperBeetle4729"/>
+		<Var name="timeInGame" v="46207.7226562500000000" t="f"/>
+		<Var name="tissueCounter" v="0"/>
+		<Var name="tip13TipSO" v="1" t="b"/>
+		<Var name="tip11TipSO" v="1" t="b"/>
+		<Var name="tip15TipSO" v="1" t="b"/>
+		<Var name="tip58TipSO" v="1" t="b"/>
+		<Var name="tip57TipSO" v="1" t="b"/>
+		<Var name="taxi_driverIsEventText" v="0" t="b"/>
+		<Var name="taxi_driverNextText" v="5" t="i"/>
+		<Var name="updateNewspaperVersion" v="19"/>
+		<Var name="rubberCounter" v="0"/>
+		<Var name="roadsIconIndicator" v="1" t="i"/>
+		<Var name="renta" v="0"/>
+		<Var name="residents" v="75" t="i"/>
+		<Var name="rateUsTimeInGameAfterUpdate" v="0" t="i"/>
+		<Var name="rateUsVersionAfterUpdate" v="77" t="i"/>
+		<Var name="sugarcaneCounter" v="0"/>
+		<Var name="startFormatVersion" v="77"/>
+		<Var name="strawberryCounter" v="0"/>
+		<Var name="spbcx" v="509438470"/>
+		<Var name="spentCash" v="5" t="i"/>
+		<Var name="ssbcx" v="509438470"/>
+		<Var name="silkCounter" v="0"/>
+		<Var name="shelkCounter" v="0"/>
+		<Var name="shirtCounter" v="0"/>
+		<Var name="seedTrees" v="0"/>
+		<Var name="sexpx" v="509438624" t="i"/>
+		<Var name="sgc1x" v="509438470"/>
+		<Var name="sgc2x" v="509438470"/>
+		<Var name="sgc3x" v="509438470"/>
+		<Var name="sgc4x" v="509438470"/>
+		<Var name="sgbcx" v="509438470"/>
+		<Var name="saleOffActionTimeStart" v="1353327832"/>
+		<Var name="saveGlobalTime" v="1605402866" t="i"/>
+		<Var name="scsx" v="514657198"/>
+		<Var name="sbbcx" v="509438470"/>
+		<Var name="playgroundIndicator" v="1" t="i"/>
+		<Var name="plowFieldsAchiev" v="8"/>
+		<Var name="potatoCounter" v="0"/>
+		<Var name="pineCounter" v="0"/>
+		<Var name="pepinoCounter" v="0"/>
+		<Var name="paddock_WhiteOwl_state" v="10" t="i"/>
+		<Var name="paddock_WhiteOwlsq0_state" v="0" t="i"/>
+		<Var name="paddock_zebra_state" v="10" t="i"/>
+		<Var name="paddock_zebrasq0_state" v="0" t="i"/>
+		<Var name="paddock_walrussq0_state" v="0" t="i"/>
+		<Var name="paddock_walrus_state" v="10" t="i"/>
+		<Var name="paddock_turtlesq0_state" v="0" t="i"/>
+		<Var name="paddock_turtle_state" v="10" t="i"/>
+		<Var name="paddock_toucansq0_state" v="0" t="i"/>
+		<Var name="paddock_toucan_state" v="10" t="i"/>
+		<Var name="paddock_tiger_state" v="10" t="i"/>
+		<Var name="paddock_tigersq0_state" v="0" t="i"/>
+		<Var name="paddock_tapir_state" v="10" t="i"/>
+		<Var name="paddock_tapirsq0_state" v="0" t="i"/>
+		<Var name="paddock_rhino_state" v="10" t="i"/>
+		<Var name="paddock_rhinosq0_state" v="0" t="i"/>
+		<Var name="paddock_redPanda_state" v="10" t="i"/>
+		<Var name="paddock_redPandasq0_state" v="0" t="i"/>
+		<Var name="paddock_raccoonsq0_state" v="0" t="i"/>
+		<Var name="paddock_raccoon_state" v="10" t="i"/>
+		<Var name="paddock_snow_monkeysq0_state" v="0" t="i"/>
+		<Var name="paddock_snow_monkey_state" v="10" t="i"/>
+		<Var name="paddock_skunk_state" v="10" t="i"/>
+		<Var name="paddock_skunksq0_state" v="0" t="i"/>
+		<Var name="paddock_sealsq0_state" v="0" t="i"/>
+		<Var name="paddock_seal_state" v="10" t="i"/>
+		<Var name="paddock_platypus_state" v="10" t="i"/>
+		<Var name="paddock_platypussq0_state" v="0" t="i"/>
+		<Var name="paddock_polar_bear_state" v="10" t="i"/>
+		<Var name="paddock_polar_bearsq0_state" v="0" t="i"/>
+		<Var name="paddock_polarwolfsq0_state" v="0" t="i"/>
+		<Var name="paddock_polarwolf_state" v="10" t="i"/>
+		<Var name="paddock_porcupinesq0_state" v="0" t="i"/>
+		<Var name="paddock_porcupine_state" v="10" t="i"/>
+		<Var name="paddock_peacocksq0_state" v="0" t="i"/>
+		<Var name="paddock_peacock_state" v="10" t="i"/>
+		<Var name="paddock_penguinsq0_state" v="0" t="i"/>
+		<Var name="paddock_penguin_state" v="10" t="i"/>
+		<Var name="paddock_pelicansq0_state" v="0" t="i"/>
+		<Var name="paddock_pelican_state" v="10" t="i"/>
+		<Var name="paddock_panda_state" v="10" t="i"/>
+		<Var name="paddock_pandasq0_state" v="0" t="i"/>
+		<Var name="paddock_panthersq0_state" v="0" t="i"/>
+		<Var name="paddock_panther_state" v="10" t="i"/>
+		<Var name="paddock_parrotsq0_state" v="0" t="i"/>
+		<Var name="paddock_parrot_state" v="10" t="i"/>
+		<Var name="paddock_ostrichsq0_state" v="0" t="i"/>
+		<Var name="paddock_ostrich_state" v="10" t="i"/>
+		<Var name="paddock_lynxsq0_state" v="0" t="i"/>
+		<Var name="paddock_lynx_state" v="10" t="i"/>
+		<Var name="paddock_llama_state" v="10" t="i"/>
+		<Var name="paddock_llamasq0_state" v="0" t="i"/>
+		<Var name="paddock_lionsq0_state" v="0" t="i"/>
+		<Var name="paddock_lion_state" v="10" t="i"/>
+		<Var name="paddock_laski_state" v="10" t="i"/>
+		<Var name="paddock_laskisq0_state" v="0" t="i"/>
+		<Var name="paddock_muskOxsq0_state" v="0" t="i"/>
+		<Var name="paddock_muskOx_state" v="10" t="i"/>
+		<Var name="paddock_monkeysq0_state" v="0" t="i"/>
+		<Var name="paddock_monkey_state" v="10" t="i"/>
+		<Var name="paddock_koala_state" v="10" t="i"/>
+		<Var name="paddock_koalasq0_state" v="0" t="i"/>
+		<Var name="paddock_kangaroo_state" v="10" t="i"/>
+		<Var name="paddock_kangaroosq0_state" v="0" t="i"/>
+		<Var name="paddock_hippo_state" v="10" t="i"/>
+		<Var name="paddock_hipposq0_state" v="0" t="i"/>
+		<Var name="paddock_flamingo_state" v="10" t="i"/>
+		<Var name="paddock_flamingosq0_state" v="0" t="i"/>
+		<Var name="paddock_fennecsq0_state" v="0" t="i"/>
+		<Var name="paddock_fennec_state" v="10" t="i"/>
+		<Var name="paddock_gorillasq0_state" v="0" t="i"/>
+		<Var name="paddock_gorilla_state" v="10" t="i"/>
+		<Var name="paddock_girrafesq0_state" v="0" t="i"/>
+		<Var name="paddock_girrafe_state" v="10" t="i"/>
+		<Var name="paddock_gazellesq0_state" v="0" t="i"/>
+		<Var name="paddock_gazelle_state" v="10" t="i"/>
+		<Var name="paddock_deersq0_state" v="0" t="i"/>
+		<Var name="paddock_deer_state" v="10" t="i"/>
+		<Var name="paddock_elephant_state" v="10" t="i"/>
+		<Var name="paddock_elephantsq0_state" v="0" t="i"/>
+		<Var name="paddock_eagle_state" v="10" t="i"/>
+		<Var name="paddock_eaglesq0_state" v="0" t="i"/>
+		<Var name="paddock_boarsq0_state" v="0" t="i"/>
+		<Var name="paddock_boar_state" v="10" t="i"/>
+		<Var name="paddock_bearsq0_state" v="0" t="i"/>
+		<Var name="paddock_bear_state" v="10" t="i"/>
+		<Var name="paddock_beaversq0_state" v="0" t="i"/>
+		<Var name="paddock_beaver_state" v="10" t="i"/>
+		<Var name="paddock_crane_state" v="10" t="i"/>
+		<Var name="paddock_cranesq0_state" v="0" t="i"/>
+		<Var name="paddock_crocodilesq0_state" v="0" t="i"/>
+		<Var name="paddock_crocodile_state" v="10" t="i"/>
+		<Var name="paddock_camel_state" v="10" t="i"/>
+		<Var name="paddock_camelsq0_state" v="0" t="i"/>
+		<Var name="paddock_arcticfoxsq0_state" v="0" t="i"/>
+		<Var name="paddock_arcticfox_state" v="10" t="i"/>
+		<Var name="paddock_armadillosq0_state" v="0" t="i"/>
+		<Var name="paddock_armadillo_state" v="10" t="i"/>
+		<Var name="paddock_anteater_state" v="10" t="i"/>
+		<Var name="paddock_anteatersq0_state" v="0" t="i"/>
+		<Var name="paperCounter" v="0"/>
+		<Var name="notifClan" v="0" t="b"/>
+		<Var name="notifCrop" v="1" t="b"/>
+		<Var name="notifBuildings" v="1" t="b"/>
+		<Var name="notifAirport" v="0" t="b"/>
+		<Var name="notifFarm" v="1" t="b"/>
+		<Var name="notifIslands" v="0" t="b"/>
+		<Var name="notifOther" v="1" t="b"/>
+		<Var name="notifOrder" v="1" t="b"/>
+		<Var name="notifMarket" v="0" t="b"/>
+		<Var name="notifStartRegata" v="0" t="b"/>
+		<Var name="notifRent" v="true"/>
+		<Var name="notifTrains" v="0" t="b"/>
+		<Var name="notifZoo" v="0" t="b"/>
+		<Var name="needHouseIndicatorRecalc" v="0" t="b"/>
+		<Var name="needGenDecks" v="1" t="b"/>
+		<Var name="newNotificationAuthStatus" v="1" t="i"/>
+		<Var name="newQuestAdded" v="false"/>
+		<Var name="ownRoad" v="50"/>
+		<Var name="orderSeq" v="3" t="i"/>
+		<Var name="obustrojstvoGoroda" v="1100"/>
+		<Var name="loyalityTown" v="1"/>
+		<Var name="levelup" v="4" t="i"/>
+		<Var name="lastVisitSaleDay" v="18581" t="i"/>
+		<Var name="lastVisitDay" v="18581" t="i"/>
+		<Var name="lastVisitDayEBR" v="18580" t="i"/>
+		<Var name="money" v="442" t="i"/>
+		<Var name="moneyCash" v="34" t="i"/>
+		<Var name="milkCounter" v="4" t="i"/>
+		<Var name="mangoCounter" v="0"/>
+		<Var name="mats_orders_counter" v="1" t="i"/>
+		<Var name="maxResidents" v="75" t="i"/>
+		<Var name="jamCounter" v="0"/>
+		<Var name="ketchupCounter" v="0"/>
+		<Var name="house26_wasAvailableInTheStore" v="1" t="b"/>
+		<Var name="hex" v="4e45bc1d0787dd7e90d2c5ee44515ba7"/>
+		<Var name="hex2" v="4e45bc1d0787dd7e90d2c5ee44515ba7"/>
+		<Var name="icecreamCounter" v="0"/>
+		<Var name="flourCounter" v="0"/>
+		<Var name="flowerbed1Indicator" v="1" t="i"/>
+		<Var name="firstTimeOpenWithProduct" v="0" t="b"/>
+		<Var name="facebookId" v="true"/>
+		<Var name="facebookActionFirstTimeAppear" v="true"/>
+		<Var name="facebookActionLastDay" v="0"/>
+		<Var name="facebookActionLastTime" v="3600.099365"/>
+		<Var name="facebookActionUsed" v="true"/>
+		<Var name="facebookActionShowTime" v="2"/>
+		<Var name="facebookActionState" v="first"/>
+		<Var name="factoryTime" v="1605402866" t="i"/>
+		<Var name="farmEnterCount" v="3" t="i"/>
+		<Var name="fbLoggedIn" v="0" t="b"/>
+		<Var name="green10Indicator" v="1" t="i"/>
+		<Var name="green12Indicator" v="1" t="i"/>
+		<Var name="gameId" v="1kdjwI-PoeDef"/>
+		<Var name="gameStartDate" v="1605332067"/>
+		<Var name="gcLoggedIn" v="1" t="b"/>
+		<Var name="dragonCounter" v="0"/>
+		<Var name="draw_indocators" v="1" t="b"/>
+		<Var name="dressCounter" v="0"/>
+		<Var name="defaultOrdersCount" v="7" t="i"/>
+		<Var name="delayEBR" v="4" t="i"/>
+		<Var name="deviceId" v="da768231*"/>
+		<Var name="dalesIconIndicator" v="1" t="i"/>
+		<Var name="dayInGame" v="0" t="i"/>
+		<Var name="experience" v="166" t="i"/>
+		<Var name="earnedCash" v="9" t="i"/>
+		<Var name="buildFact" v="1"/>
+		<Var name="buildHouses" v="1"/>
+		<Var name="buildingsSequence_3" v="721" t="i"/>
+		<Var name="buildingsSequence_2" v="853" t="i"/>
+		<Var name="buildingsSequence_1" v="846" t="i"/>
+		<Var name="buildingsSequence_10" v="0" t="i"/>
+		<Var name="buildingsSequence_7" v="0" t="i"/>
+		<Var name="buildingsSequence_6" v="804" t="i"/>
+		<Var name="buildingsSequence_5" v="744" t="i"/>
+		<Var name="buildingsSequence_4" v="728" t="i"/>
+		<Var name="buildingsSequence_9" v="0" t="i"/>
+		<Var name="buildingsSequence_8" v="0" t="i"/>
+		<Var name="breadCounter" v="1" t="i"/>
+		<Var name="bookCounter" v="0"/>
+		<Var name="currentAction" v=""/>
+		<Var name="currentTipId" v="tip4"/>
+		<Var name="creamCounter" v="0"/>
+		<Var name="cleverLastPers_3" v="0" t="i"/>
+		<Var name="cleverLastPers_38" v="0" t="i"/>
+		<Var name="cleverLastPers_39" v="0" t="i"/>
+		<Var name="cleverLastPers_36" v="0" t="i"/>
+		<Var name="cleverLastPers_37" v="0" t="i"/>
+		<Var name="cleverLastPers_34" v="0" t="i"/>
+		<Var name="cleverLastPers_35" v="0" t="i"/>
+		<Var name="cleverLastPers_32" v="0" t="i"/>
+		<Var name="cleverLastPers_33" v="0" t="i"/>
+		<Var name="cleverLastPers_30" v="0" t="i"/>
+		<Var name="cleverLastPers_31" v="0" t="i"/>
+		<Var name="cleverLastPers_2" v="16" t="i"/>
+		<Var name="cleverLastPers_28" v="0" t="i"/>
+		<Var name="cleverLastPers_29" v="0" t="i"/>
+		<Var name="cleverLastPers_26" v="0" t="i"/>
+		<Var name="cleverLastPers_27" v="0" t="i"/>
+		<Var name="cleverLastPers_24" v="0" t="i"/>
+		<Var name="cleverLastPers_25" v="0" t="i"/>
+		<Var name="cleverLastPers_22" v="0" t="i"/>
+		<Var name="cleverLastPers_23" v="0" t="i"/>
+		<Var name="cleverLastPers_20" v="0" t="i"/>
+		<Var name="cleverLastPers_21" v="0" t="i"/>
+		<Var name="cleverLastPers_1" v="18" t="i"/>
+		<Var name="cleverLastPers_18" v="0" t="i"/>
+		<Var name="cleverLastPers_19" v="0" t="i"/>
+		<Var name="cleverLastPers_16" v="0" t="i"/>
+		<Var name="cleverLastPers_17" v="0" t="i"/>
+		<Var name="cleverLastPers_14" v="0" t="i"/>
+		<Var name="cleverLastPers_15" v="0" t="i"/>
+		<Var name="cleverLastPers_12" v="0" t="i"/>
+		<Var name="cleverLastPers_13" v="0" t="i"/>
+		<Var name="cleverLastPers_10" v="0" t="i"/>
+		<Var name="cleverLastPers_11" v="0" t="i"/>
+		<Var name="cleverLastPers_0" v="10" t="i"/>
+		<Var name="cleverLastPers_7" v="0" t="i"/>
+		<Var name="cleverLastPers_6" v="0" t="i"/>
+		<Var name="cleverLastPers_62" v="0" t="i"/>
+		<Var name="cleverLastPers_60" v="0" t="i"/>
+		<Var name="cleverLastPers_61" v="0" t="i"/>
+		<Var name="cleverLastPers_5" v="0" t="i"/>
+		<Var name="cleverLastPers_58" v="0" t="i"/>
+		<Var name="cleverLastPers_59" v="0" t="i"/>
+		<Var name="cleverLastPers_56" v="0" t="i"/>
+		<Var name="cleverLastPers_57" v="0" t="i"/>
+		<Var name="cleverLastPers_54" v="0" t="i"/>
+		<Var name="cleverLastPers_55" v="0" t="i"/>
+		<Var name="cleverLastPers_52" v="0" t="i"/>
+		<Var name="cleverLastPers_53" v="0" t="i"/>
+		<Var name="cleverLastPers_50" v="0" t="i"/>
+		<Var name="cleverLastPers_51" v="0" t="i"/>
+		<Var name="cleverLastPers_4" v="0" t="i"/>
+		<Var name="cleverLastPers_48" v="0" t="i"/>
+		<Var name="cleverLastPers_49" v="0" t="i"/>
+		<Var name="cleverLastPers_46" v="0" t="i"/>
+		<Var name="cleverLastPers_47" v="0" t="i"/>
+		<Var name="cleverLastPers_44" v="0" t="i"/>
+		<Var name="cleverLastPers_45" v="0" t="i"/>
+		<Var name="cleverLastPers_42" v="0" t="i"/>
+		<Var name="cleverLastPers_43" v="0" t="i"/>
+		<Var name="cleverLastPers_40" v="0" t="i"/>
+		<Var name="cleverLastPers_41" v="0" t="i"/>
+		<Var name="cleverLastPers_9" v="0" t="i"/>
+		<Var name="cleverLastPers_8" v="0" t="i"/>
+		<Var name="cloverCounter" v="0"/>
+		<Var name="coinsSpentOnSeed" v="9" t="i"/>
+		<Var name="cornCounter" v="8" t="i"/>
+		<Var name="cowfactoryAnimCount" v="5" t="i"/>
+		<Var name="cowfeedCounter" v="0" t="i"/>
+		<Var name="countDailyVisit" v="1" t="i"/>
+		<Var name="cottonCounter" v="0"/>
+		<Var name="cityId" v=""/>
+		<Var name="changeVarTimestamp" v="1547038767"/>
+		<Var name="chipsCounter" v="0"/>
+		<Var name="chocolateCounter" v="0"/>
+		<Var name="cacaoCounter" v="0"/>
+		<Var name="candyCounter" v="0"/>
+		<Var name="carrotCounter" v="4" t="i"/>
+		<Var name="appleLoggedIn" v="0" t="b"/>
+		<Var name="appsFlyerTutorialFinishedTracked" v="1" t="b"/>
+		<Var name="appsFlyerEmulatorDetectedTracked" v="1" t="b"/>
+		<Var name="aloeLeavesCounter" v="0"/>
+		<Var name="adeptFarm" v="98"/>
+		<Var name="addAnimalPurchased" v="1" t="b"/>
+		<Var name="advId" v="bac5f0a8-f18f-4dbe*"/>
+	</Global>
+	<MidLevelRewardData>
+		<reward/>
+	</MidLevelRewardData>
+	<SwrveAB/>
+	<ABTests>
+		<ab id="ab_expedition" our_status="0" save_time="0" agi="1" group="" rules='{"cond_str":"(PlayerLevel ge 6) and !InAB(&apos;ab_surfingers790&apos;) and (CountryCode eq &apos;CH&apos;)","groups":{"control":{"params":{"exped_ab_enable":1},"weight":100}},"stay_cond_str":"true"}' origin="remote_balance"/>
+		<ab id="ab_lesscash_gplay" joinTime="1605332068" our_status="1" save_time="1605335848" agi="1" group="ab_lesscash_new_users_TestNoStore" rules='{"cond_str":"(num(GlobalVar(\"gameStartDate\", 0)) gt 1603875600)","groups":{"ab_lesscash_gplay_Control":{"params":{"ab_lesscash_gplay_give":0,"ab_lesscash_gplay_store":0},"weight":50},"ab_lesscash_gplay_TestStore":{"params":{"ab_lesscash_gplay_give":1,"ab_lesscash_gplay_store":1},"weight":50},"ab_lesscash_new_users_TestNoStore":{"params":{"ab_lesscash_gplay_give":1,"ab_lesscash_gplay_store":0},"weight":50}},"stay_cond_str":"true"}' origin="remote_balance"/>
+		<ab id="ab_surfingers790" our_status="0" save_time="0" agi="1" group="" rules='{"cond_str":"PlayerLevel ge 8 and !(CountryCode eq &apos;CH&apos;) and !InAB(&apos;ab_expedition&apos;)","groups":{"ab_surfingers_control_790":{"params":{"ab_surfingers790":0},"weight":33},"ab_surfingers_test1_790":{"params":{"ab_surfingers790":1},"weight":33},"ab_surfingers_test2_790":{"params":{"ab_surfingers790":2},"weight":33}},"stay_cond_str":"true"}' origin="remote_balance"/>
+	</ABTests>
+	<SentGifts/>
+	<ReceivedGifts/>
+	<ReceivedBoxes/>
+	<DailyBonusRewardDay6/>
+	<AchievementForTime>
+		<HarvestForTime/>
+		<OrdersForTime/>
+		<EarneCoinsFromWareHouseCash/>
+	</AchievementForTime>
+	<AchievementVisitedFriends/>
+	<ComingLetters/>
+	<Upgrade version="4"/>
+	<SaleOff>
+		<SpecSale bought_count="0" doNotClose="0" max_bought_count="1" showInStore="0" reward=""/>
+		<PigBankSale bought_count="0" max_bought_count="1"/>
+	</SaleOff>
+	<SalePacks>
+		<DynamicPacks>
+			<SalePack id="1">
+				<Reward offerType="material" maxCool="3" probCool="60" count="4"/>
+			</SalePack>
+			<SalePack id="2">
+				<Reward offerType="material" maxCool="5" probCool="60" count="6"/>
+			</SalePack>
+			<SalePack id="3">
+				<Reward offerType="material" maxCool="11" probCool="60" count="15"/>
+			</SalePack>
+			<SalePack id="4">
+				<Reward offerType="material" maxCool="26" probCool="65" count="30"/>
+			</SalePack>
+			<SalePack id="5">
+				<Reward offerType="material" maxCool="40" probCool="70" count="45"/>
+			</SalePack>
+			<SalePack id="6">
+				<Reward offerType="material" maxCool="60" probCool="80" count="65"/>
+			</SalePack>
+		</DynamicPacks>
+		<StaticPacks>
+			<SalePack id="1" hasIndicator="1" hasCoinIndicator="1">
+				<Reward offerType="hammerMat" count="1"/>
+				<Reward offerType="nailMat" count="1"/>
+				<Reward offerType="paintRedMat" count="1"/>
+				<Reward offerType="CouponLoadTrainAirport" count="3"/>
+			</SalePack>
+			<SalePack id="2">
+				<Reward offerType="CouponLoadTrainAirport" count="5"/>
+			</SalePack>
+			<SalePack id="3">
+				<Reward offerType="Brick" count="1"/>
+				<Reward offerType="Glass" count="1"/>
+				<Reward offerType="Plita" count="1"/>
+				<Reward offerType="CouponLoadTrainAirport" count="5"/>
+			</SalePack>
+			<SalePack id="4">
+				<Reward offerType="CouponLoadTrainAirport" count="12"/>
+			</SalePack>
+			<SalePack id="5">
+				<Reward offerType="CouponLoadTrainAirport" count="20"/>
+			</SalePack>
+			<SalePack id="6">
+				<Reward offerType="CouponLoadTrainAirport" count="30"/>
+			</SalePack>
+		</StaticPacks>
+	</SalePacks>
+	<SpecialContent>
+		<SavedState name="sc_christmas" active="0"/>
+		<SavedState name="sc_halloween" active="0"/>
+		<SavedState name="sc_spring" active="0"/>
+		<SavedState name="sc_valentine" active="0"/>
+		<SavedState name="sc_rescue" active="0"/>
+		<SavedState name="sc_autumn" active="1"/>
+		<SavedState name="sc_dive" active="0"/>
+		<SavedState name="sc_jump" active="0"/>
+		<SavedState name="sc_restorator" active="0"/>
+		<SavedState name="sc_fishing" active="0"/>
+		<SavedState name="sc_plane" active="0"/>
+		<SavedState name="sc_plank" active="0"/>
+		<SavedState name="sc_winter" active="0"/>
+		<SavedState name="sc_halloween_mine" active="0"/>
+		<SavedState name="sc_knife" active="0"/>
+		<SavedState name="sc_expeditions" active="0"/>
+		<SavedState name="sc_easter" active="0"/>
+		<SavedState name="sc_match3" active="0"/>
+		<SavedState name="sc_seasonpass" active="0"/>
+		<SavedState name="sc_birthday" active="0"/>
+		<SavedState name="sc_surfingers" active="0"/>
+		<SavedState name="sc_helix" active="0"/>
+		<SavedState name="sc_runner" active="0"/>
+	</SpecialContent>
+	<Events lastId="359" lastType="PvpHarvest" lastLevel="8" lastEndTime="1605430799" lastPers="farmer" lastTextSuffix="pvpHarvest">
+		<Event type="PvpHarvest" id="359" version="1" startTime="1605258000.0000000000000000" duration="172799.0000000000000000" levelNeed="8" packageTag="event_pvp_harvest" withTop="0" compByEventScore="1" showCompScoreAfterFirstGoal="0" useWheel="0" skipTutorGames="-1" skipTutorScore="-1" skipTutorAvatars="" pers="farmer" pers2="ernie" removeProductPers="ernie" textSuffix="pvpHarvest" endTime="1605430799.0000000000000000" showedTime="-1.0000000000000000" centerVisited="0" buttonShowed="0" myScore="0" myUpdated="0.0000000000000000" essx="514698189" globalUpdated="1605402446.3486998081207275" fullEnded="0" showedAfterCloud="0" factoryDisabled="0" roomWithRedesign="" resourceGenerateByTime="0" stagesDisabled="0">
+			<Stage need="60" expectedGoalCompletionTime="0.0000000000000000" realGoalCompletionTime="0.0000000000000000" rewardType="cash" rewardCount="7" rewardGiven="0">
+				<Reward type="cash" count="7" scale="1.0000000000000000" x="0.0000000000000000" y="8.0000000000000000"/>
+				<Reward type="Brick" count="2" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</Stage>
+			<Team id="" available="1" updated="0.0000000000000000" rewardGiven="0"/>
+			<TeamPlace num="1" count="1">
+				<Reward type="cash" count="50" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="CouponLoadTrainAirport" count="8" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</TeamPlace>
+			<TeamPlace num="2" count="2">
+				<Reward type="cash" count="30" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="CouponLoadTrainAirport" count="5" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</TeamPlace>
+			<TeamPlace num="3" count="4">
+				<Reward type="Plita" count="5" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="CouponLoadTrainAirport" count="3" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</TeamPlace>
+			<TeamPlace num="4" count="5">
+				<Reward type="Glass" count="2" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="coins" count="270" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</TeamPlace>
+			<TeamPlace num="5" count="7">
+				<Reward type="coins" count="220" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</TeamPlace>
+			<TeamPlace num="6">
+				<Reward type="coins" count="45" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</TeamPlace>
+			<Vars>
+				<Var name="SelectTeamRewards" v="0" t="b"/>
+				<Var name="EventCompetitionScore" v="0" t="i"/>
+				<Var name="startedTime" v="1605332938" t="i"/>
+			</Vars>
+			<LocalVars count="0"/>
+			<TeamGoals>
+				<Goal score="16000" rewardGiven="0" calculated="0">
+					<Reward type="Brick" count="3" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				</Goal>
+				<Goal score="32000" rewardGiven="0" calculated="0">
+					<Reward type="cash" count="10" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+					<Reward type="paintRedMat" count="3" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+					<Reward type="CouponLoadTrainAirport" count="4" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				</Goal>
+			</TeamGoals>
+		</Event>
+	</Events>
+	<RegataCenter version="-1" clanId="" partedRegataIds="">
+		<GeneratedSeasonStoreItems/>
+	</RegataCenter>
+	<SeasonPassCenter lastId="0"/>
+	<MagicBeansCenter lastId="0"/>
+	<CascadeEventCenter lastId="0"/>
+	<Skins>
+		<type id="Helicopter" available=""/>
+		<type id="TrainStation" available=""/>
+		<type id="HelicopterPlace" available=""/>
+		<type id="Airplane" available=""/>
+		<type id="Train" available=""/>
+		<type id="Airport" available=""/>
+		<item id="Helicopter" current="Skin_Helicopter_Default"/>
+		<item id="Train1" current="Skin_Train_Default1"/>
+		<item id="HelicopterPlace" current="Skin_HelicopterPlace_Default"/>
+		<item id="TrainStation" current="Skin_TrainStation_Default"/>
+		<item id="Train2" current="Skin_Train_Default2"/>
+		<item id="Airplane" current="Skin_Airplane_Default"/>
+		<item id="Train0" current="Skin_Train_Default0"/>
+		<item id="Airport" current="Skin_Airport_Default"/>
+	</Skins>
+	<Laboratory fullBoostTime="0"/>
+	<ArtInfo/>
+	<BuildingsStash>
+		<Building id="flowerbed2" count="1"/>
+		<Building id="green10" count="7"/>
+		<Building id="green12" count="3"/>
+		<Building id="green14" count="1"/>
+		<Building id="green8" count="3"/>
+		<Building id="palma1" count="1"/>
+		<Building id="palma4" count="1"/>
+		<Building id="park1_1x1" count="2"/>
+		<Building id="park1_1x2" count="1"/>
+		<Building id="plank3_fin" count="1"/>
+		<Building id="playground" count="1"/>
+		<Building id="track" count="2"/>
+		<Building id="water_flowers_1" count="1"/>
+	</BuildingsStash>
+	<ExpeditionCenter lastId="0"/>
+	<RoomsRedesign>
+		<Room id="office" st="New" fT="0.0000000000000000" tRS="0">
+			<RObj id="ceiling" c="0" v=""/>
+			<RObj id="floor" c="0" v=""/>
+			<RObj id="wallpaper" c="0" v=""/>
+			<RObj id="walls" c="0" v=""/>
+			<RObj id="windows" c="0" v=""/>
+			<RObj id="start" c="0" v=""/>
+			<RObj id="curtains" c="0" v=""/>
+			<RObj id="clock" c="0" v=""/>
+			<RObj id="chair" c="0" v=""/>
+			<RObj id="carpet" c="0" v=""/>
+			<RObj id="table" c="0" v=""/>
+			<RObj id="bar" c="0" v=""/>
+			<RObj id="chairs" c="0" v=""/>
+			<RObj id="pc" c="0" v=""/>
+			<RObj id="phone" c="0" v=""/>
+			<RObj id="books_table" c="0" v=""/>
+			<RObj id="small_table" c="0" v=""/>
+			<RObj id="cloth" c="0" v=""/>
+			<RObj id="folders" c="0" v=""/>
+			<RObj id="easel" c="0" v=""/>
+			<RObj id="lamp" c="0" v=""/>
+			<RObj id="flower" c="0" v=""/>
+			<RObj id="books_cupboard" c="0" v=""/>
+			<RObj id="maket" c="0" v=""/>
+			<RObj id="tv" c="0" v=""/>
+			<RObj id="flag" c="0" v=""/>
+			<RObj id="cups" c="0" v=""/>
+			<RSt t="Small" c="0" ct="0.0000000000000000">
+				<Reward type="gem2" count="2" lab="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="Plita" count="4" lab="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="m1" count="5" dig="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="Brick" count="4" dig="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</RSt>
+			<RSt t="Medium" c="0" ct="0.0000000000000000">
+				<Reward type="deckN:20,C:0,U:4,R:0" count="1" zoo="1" zoo_content="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="GoldBullion" count="3" dig="1" zoo="1" zoo_content="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="GoldBullion" count="3" dig="1" zoo="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="hammerMat" count="3" dig="0" zoo="1" zoo_content="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="hammerMat" count="3" dig="0" zoo="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="CouponLoadTrainAirport" count="3" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="BoostSpeedUpHarvest" count="1" lab="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="CouponHireDealer" count="1" lab="0" market="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="cash" count="12" lab="0" market="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</RSt>
+			<RSt t="Big" c="0" ct="0.0000000000000000">
+				<Reward type="cash" count="30" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="freeExpansion" count="1" expand="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="paintRedMat" count="4" expand="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="ava179" count="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</RSt>
+		</Room>
+		<Room id="bungalow" st="New" fT="0.0000000000000000" tRS="0">
+			<RObj id="hammock" c="0" v=""/>
+			<RObj id="floor" c="0" v=""/>
+			<RObj id="frames" c="0" v=""/>
+			<RObj id="wall" c="0" v=""/>
+			<RObj id="rubbish" c="0" v=""/>
+			<RObj id="removeOldTable" c="0" v=""/>
+			<RObj id="shelves" c="0" v=""/>
+			<RObj id="maps" c="0" v=""/>
+			<RObj id="aquariumTable" c="0" v=""/>
+			<RObj id="sofa" c="0" v=""/>
+			<RObj id="table" c="0" v=""/>
+			<RObj id="carpet" c="0" v=""/>
+			<RObj id="rack" c="0" v=""/>
+			<RObj id="armchair" c="0" v=""/>
+			<RObj id="coffeeTable" c="0" v=""/>
+			<RObj id="nightstand" c="0" v=""/>
+			<RObj id="rackDecor" c="0" v=""/>
+			<RObj id="lamp" c="0" v=""/>
+			<RObj id="ottoman" c="0" v=""/>
+			<RObj id="aquarium" c="0" v=""/>
+			<RObj id="picture" c="0" v=""/>
+			<RObj id="notepad" c="0" v=""/>
+			<RObj id="shelvesDecor" c="0" v=""/>
+			<RObj id="fruits" c="0" v=""/>
+			<RObj id="exoticPlant" c="0" v=""/>
+			<RObj id="flowers" c="0" v=""/>
+			<RObj id="yacht" c="0" v=""/>
+			<RObj id="decorativeLamp" c="0" v=""/>
+			<RObj id="fish" c="0" v=""/>
+			<RSt t="Small" c="0" ct="0.0000000000000000">
+				<Reward type="m2" count="10" dig="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="Brick" count="4" dig="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="CouponLoadTrainAirport" count="2" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</RSt>
+			<RSt t="Medium" c="0" ct="0.0000000000000000">
+				<Reward type="deckN:20,C:0,U:4,R:0" count="1" zoo="1" zoo_content="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="SilverBullion" count="5" dig="1" zoo="1" zoo_content="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="SilverBullion" count="4" dig="1" zoo="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="nailMat" count="3" dig="0" zoo="1" zoo_content="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="nailMat" count="3" dig="0" zoo="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="BoostTimeFactory" count="1" lab="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="cash" count="12" lab="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</RSt>
+			<RSt t="Big" c="0" ct="0.0000000000000000">
+				<Reward type="cash" count="30" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="freeExpansion" count="1" expand="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="hammerMat" count="4" expand="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="ava186" count="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</RSt>
+		</Room>
+		<Room id="emmasCastle" st="New" fT="0.0000000000000000" tRS="0">
+			<RObj id="ceiling" c="0" v=""/>
+			<RObj id="carpet" c="0" v=""/>
+			<RObj id="floor" c="0" v=""/>
+			<RObj id="windows" c="0" v=""/>
+			<RObj id="kover" c="0" v=""/>
+			<RObj id="bench" c="0" v=""/>
+			<RObj id="lifeflower" c="0" v=""/>
+			<RObj id="bed" c="0" v=""/>
+			<RObj id="walls" c="0" v=""/>
+			<RObj id="start" c="0" v=""/>
+			<RObj id="starttt" c="0" v=""/>
+			<RObj id="pc" c="0" v=""/>
+			<RObj id="phone" c="0" v=""/>
+			<RObj id="small_table" c="0" v=""/>
+			<RObj id="wallpaper" c="0" v=""/>
+			<RObj id="oven" c="0" v=""/>
+			<RObj id="startt" c="0" v=""/>
+			<RObj id="cover" c="0" v=""/>
+			<RObj id="hanger" c="0" v=""/>
+			<RObj id="cloth" c="0" v=""/>
+			<RObj id="ghost" c="0" v=""/>
+			<RObj id="table" c="0" v=""/>
+			<RObj id="easel" c="0" v=""/>
+			<RObj id="maket" c="0" v=""/>
+			<RObj id="folders" c="0" v=""/>
+			<RObj id="tv" c="0" v=""/>
+			<RObj id="flag" c="0" v=""/>
+			<RObj id="flower" c="0" v=""/>
+			<RObj id="curtains" c="0" v=""/>
+			<RObj id="cooke" c="0" v=""/>
+			<RObj id="pumpkin" c="0" v=""/>
+			<RObj id="spider" c="0" v=""/>
+			<RObj id="letter" c="0" v=""/>
+			<RObj id="hat" c="0" v=""/>
+			<RObj id="chair" c="0" v=""/>
+			<RObj id="tabouret" c="0" v=""/>
+			<RObj id="couple" c="0" v=""/>
+			<RObj id="cups" c="0" v=""/>
+			<RObj id="clock" c="0" v=""/>
+			<RObj id="rack" c="0" v=""/>
+			<RObj id="bottle" c="0" v=""/>
+			<RObj id="shelf" c="0" v=""/>
+			<RObj id="mirror" c="0" v=""/>
+			<RObj id="stand" c="0" v=""/>
+			<RObj id="shelff" c="0" v=""/>
+			<RObj id="lamp" c="0" v=""/>
+			<RObj id="stul" c="0" v=""/>
+			<RObj id="crow" c="0" v=""/>
+			<RSt t="Small" c="0" ct="0.0000000000000000">
+				<Reward type="gem1" count="4" lab="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="Glass" count="4" lab="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="paintRedMat" count="2" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</RSt>
+			<RSt t="Medium" c="0" ct="0.0000000000000000">
+				<Reward type="deckN:40,C:0,U:7,R:3" count="1" zoo="1" zoo_content="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="GoldBullion" count="4" dig="1" zoo="1" zoo_content="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="GoldBullion" count="3" dig="1" zoo="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="hammerMat" count="3" dig="0" zoo="1" zoo_content="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="hammerMat" count="3" dig="0" zoo="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="BoostMoneyOrder" count="1" lab="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="CouponLoadTrainAirport" count="3" lab="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</RSt>
+			<RSt t="Big" c="0" ct="0.0000000000000000">
+				<Reward type="cash" count="30" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="freeExpansion" count="1" expand="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="nailMat" count="4" expand="0" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+				<Reward type="ava194" count="1" scale="0.6499999761581421" x="0.0000000000000000" y="0.0000000000000000"/>
+			</RSt>
+		</Room>
+	</RoomsRedesign>
+	<IdfaAction>
+		<DeviceInfo deviceId="da768231*" lastStatus="Unavailable" result="None"/>
+	</IdfaAction>
+	<Devices>
+		<d id="da768231*" first="1605332068" t="1605402866"/>
+	</Devices>
+	<Sessions>
+		<d d="18580" c="8"/>
+	</Sessions>
+	<MyClan id="" leaderId="" name="" desc="" reqLevel="19" type="0" lang="en" mCount="0" tag="" regataType="0" regataBType="0" flagSym="0" flagBack="0" flagPat="0" flagCol="0" league="0" flagCountry="1" flagViewType="0" canRestore="0"/>
+	<FriendIds/>
+	<FollowedFriendIds/>
+	<FollowerIds/>
+	<NewFollowerIds/>
+	<InvitedFriends/>
+	<LastHelperIds/>
+	<Likes v=""/>
+	<incompleteIAP/>
+	<incompletePurchases/>
+	<consumedPurchases/>
+	<Local>
+		<Var name="PreHelicopterAgainNeedSwitch" v="0" t="b"/>
+		<Var name="TutorialCloudDelaymessage_build_store_tutorial" v="30.0000000000000000" t="f"/>
+		<Var name="TutorialCloudDelaymessage_build_milkfactory_tutorial" v="30.0000000000000000" t="f"/>
+		<Var name="TutorialCloudDelaymessage_community_ready_tutorial" v="0.0000000000000000" t="f"/>
+		<Var name="TutorialCloudDelaymessage_full_field_tutorial" v="60.0000000000000000" t="f"/>
+		<Var name="TutorialCloudDelaymessage_free_field_tutorial" v="30.0000000000000000" t="f"/>
+		<Var name="TutorialCloudDelaymessage_hungry_cows_tutorial" v="0.0000000000000000" t="f"/>
+		<Var name="TutorialCloudDelaymessage_houses_tutorial" v="30.0000000000000000" t="f"/>
+		<Var name="TutorialCloudInterPause" v="0.0000000000000000" t="f"/>
+		<Var name="CrossPromoTrack_ShowCount_MPG" v="1" t="i"/>
+		<Var name="CrossPromoTrack_LastShowPayload_wildscapes" v='{"click":"0","country":"KR","daysSinceLastPayment":"-1.0","elapsedTime":"1605354722.1713695526123047","game":"WS","isInstalled":"0","level":"3","paymentsCount":"0","paymentsSum":"0","showId":"MPG1"}'/>
+		<Var name="CrossPromoTrack_LastShowPayload_gardenscapes" v='{"click":"0","country":"KR","daysSinceLastPayment":"-1.0","elapsedTime":"1605354722.1713695526123047","game":"GS","isInstalled":"0","level":"3","paymentsCount":"0","paymentsSum":"0","showId":"MPG1"}'/>
+		<Var name="CrossPromoTrack_LastShowPayload_fishdom" v='{"click":"0","country":"KR","daysSinceLastPayment":"-1.0","elapsedTime":"1605354722.1713695526123047","game":"FD","isInstalled":"0","level":"3","paymentsCount":"0","paymentsSum":"0","showId":"MPG1"}'/>
+		<Var name="CrossPromoTrack_LastShowPayload_homescapes" v='{"click":"0","country":"KR","daysSinceLastPayment":"-1.0","elapsedTime":"1605354722.1713695526123047","game":"HS","isInstalled":"0","level":"3","paymentsCount":"0","paymentsSum":"0","showId":"MPG1"}'/>
+		<Var name="CrossPromoTrack_LastShowPayload_manormatters" v='{"click":"0","country":"KR","daysSinceLastPayment":"-1.0","elapsedTime":"1605354722.1713695526123047","game":"MM","isInstalled":"0","level":"3","paymentsCount":"0","paymentsSum":"0","showId":"MPG1"}'/>
+		<Var name="CrossPromoTrack_LastShowType_wildscapes" v="MPG"/>
+		<Var name="CrossPromoTrack_LastShowType_gardenscapes" v="MPG"/>
+		<Var name="CrossPromoTrack_LastShowType_fishdom" v="MPG"/>
+		<Var name="CrossPromoTrack_LastShowType_homescapes" v="MPG"/>
+		<Var name="CrossPromoTrack_LastShowType_manormatters" v="MPG"/>
+		<Var name="ButtonsDesignFirstClickTracked" v="1" t="b"/>
+		<Var name="MPGShowId" v="YRTGX"/>
+		<Var name="wasEffectOrderBut" v="1" t="b"/>
+		<Var name="wasEffectFriendBut" v="1" t="b"/>
+		<Var name="tutorSrcSet" v="1" t="b"/>
+		<Var name="zooHasIndicator" v="8" t="i"/>
+		<Var name="community_developer" v="0" t="i"/>
+		<Var name="mainMenuHasIndicator" v="8" t="i"/>
+	</Local>
+	<LocalData>
+		<IAP/>
+		<IAPUsers/>
+		<ParseRej/>
+	</LocalData>
+	<PurchaseAttempts/>
+	<RunOnBundleVersions>
+		<Version version="7.9.0"/>
+	</RunOnBundleVersions>
+	<News lastTipsGenTime="-1.0000000000000000">
+		<item id="dailybonus" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="false" available="true" timeIndex="155006026900.0000000000000000"/>
+		<item id="790N0" showed="true" visited="true" visitedFull="true" rewardCollected="true" tip="false" available="true" timeIndex="1604566800.0000000000000000"/>
+		<item id="event_cakeshop" showed="true" visited="true" visitedFull="true" rewardCollected="true" tip="false" available="true" timeIndex="1550060269000.0000000000000000"/>
+		<item id="event_expedition" showed="true" visited="true" visitedFull="true" rewardCollected="true" tip="false" available="true" timeIndex="1550060269000.0000000000000000"/>
+		<item id="event_plank" showed="true" visited="true" visitedFull="true" rewardCollected="true" tip="false" available="true" timeIndex="1550060269000.0000000000000000"/>
+		<item id="event_surfingers" showed="true" visited="true" visitedFull="true" rewardCollected="true" tip="false" available="true" timeIndex="1550060269000.0000000000000000"/>
+		<item id="Land1" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="Land2" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="Field1" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="farm1" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="Friends1" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="Cash1" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="Building1" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="Building2" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="570_D180518" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="590_D030818" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="590_D230818" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="600_D050918" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="true" available="false" timeIndex="0.0000000000000000"/>
+		<item id="785_D291020" showed="true" visited="true" visitedFull="false" rewardCollected="false" tip="false" available="true" timeIndex="1603996200.0000000000000000"/>
+		<item id="790_D091120" showed="false" visited="false" visitedFull="false" rewardCollected="false" tip="false" available="true" timeIndex="1604946600.0000000000000000"/>
+		<item id="790_D121120" showed="true" visited="true" visitedFull="false" rewardCollected="false" tip="false" available="true" timeIndex="1605205800.0000000000000000"/>
+		<item id="regata" showed="true" visited="true" visitedFull="true" rewardCollected="true" tip="false" available="true" timeIndex="1550060269000.0000000000000000"/>
+	</News>
+	<TownGround ver="2">
+		<row j="0" v="********************************************************************++++++++++++"/>
+		<row j="1" v="****************************((((************************************++++++++++++" d="yyyyyyyyaaaaaaaaaaaaaaaaaaaayyyyaaaaaaayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="2" v="****************************(((****************++++*****************++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="3" v="*********************************************++++++++***************++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="4" v="********************************************++++++++++**************++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="5" v="********************************************+++,+++++++*************++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyayyyyggyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="6" v="********************************************+++,,+++++++************++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyayyyyygyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="7" v="********************************************+++,,,+++++++***********++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyayyyyygyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="8" v="*********************************(**(((*****+,,,,,,+++++++**********++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyayyyyygyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="9" v="**************************((((((*(*(********+,,,,,,,+++++++*********++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyybbbbbbyyyyyayyyaagyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="10" v="***************************(**************(++,,,,,,,,+++++++********++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyybyyyyyyyyyyyyyaaggyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="11" v="***************************(***************++***,,,,,,+++++++*******++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyybyyyyyyyyyyyyyyyggyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="12" v="**************************((********************,,,,,,,+++++++******++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyybbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="13" v="************************************************,,,,,,,,+++++++*****++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyybyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="14" v="************************************************,,,,,,,,,+++++++****++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyybyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="15" v="*****************************************((*****,,,,,,,,,,+++++++***++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyybyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="16" v="*****************************************(******,,,,,,,,,,,+++++++**++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyybyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="17" v="*****************************************(***(++,,,,,,,,,,,,+++++++*++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyybyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="18" v="*****************************************(****(+,,,,,,,,,,,,,+++++++++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyybbbyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="19" v="****************************(*******************,,,,,,,,,,,,,,++++++++++++++++++" d="yyyyyyyyyyyyyyyyyyyyyyyyyyybyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+		<row j="20" v="****************************(*************(*(***++,,,,,,,,,,,,,+++++++++++++++++"/>
+		<row j="21" v="******************************************(*****(+,,,,,,,,,,,,,,++++++++++++++++"/>
+		<row j="22" v="************************************(****(*****((,,,,,,,,,,,,,,,,+++++++++++++++"/>
+		<row j="23" v="***********************************((**(((******(++,,,,,,,,,,,,,,,++++++++++++++"/>
+		<row j="24" v="****************(*****************((****(******(+++,,,,,((,,,,,,,,,+++++++++++++"/>
+		<row j="25" v="************(********************((************++**,,,,((****,,,,,,,++++++++++++"/>
+		<row j="26" v="*********************************(((***********++**,,,,(*****,,,,,,,++++++++++++"/>
+		<row j="27" v="************************(********((***********(+**+,,,,,((*****,,,,,++++++++++++"/>
+		<row j="28" v="*************(*******(**(*************(*****(*(++*+,,,,,(((****(,,,,++++++++++++"/>
+		<row j="29" v="*************(********((***************(+++++(++((*,,,,,,,**(**,,,,,++++++++++++"/>
+		<row j="30" v="********************(***************(++++++++++*****((,,,,,,+,,,,,,,++++++++++++"/>
+		<row j="31" v="****((**************(***************++**(+**(+******((,,,,,,,,,,,,,,++++++++++++"/>
+		<row j="32" v="***(((***(***********((**********((*+***(+***((*******,,,,,,,,,,,,,,++++++++++++"/>
+		<row j="33" v="***((**********(******(**********(*++***(*********(*****((++,,,,,,,,++++++++++++"/>
+		<row j="34" v="***************(*****************(*+***(**********(******((+,,,,,,,,++++++++++++"/>
+		<row j="35" v="***************************(****(*++**************(******(((,,,,,,,,++++++++++++"/>
+		<row j="36" v="***************************++++++++**********************(**(((,,,,,++++++++++++"/>
+		<row j="37" v="**************(***(****+(+++(+++++(**********************(((*((++,,,++++++++++++"/>
+		<row j="38" v="*************((****++++++++(******(*********((************(**((++,,,++++++++++++"/>
+		<row j="39" v="*******************+++((+(***************(*(**+**********((**(((((,,++++++++++++"/>
+		<row j="40" v="****************(*++(**(*********************++(********(****(((**++++++++++++++"/>
+		<row j="41" v="****************++++*************************(***********((**((***++++++++++++++"/>
+		<row j="42" v="**************++++((**********************(*****(*********(*((****++++++++++++++"/>
+		<row j="43" v="**************+++(************************((*******(******(((*****++++++++++++++"/>
+		<row j="44" v="*************+,((*******************************(*(******((*******++++++++++++++"/>
+		<row j="45" v="***********+++********************************(***((****((**********(+++++++++++"/>
+		<row j="46" v="***********++*********************************(****(****************(+++++++++++"/>
+		<row j="47" v="*****************************(*************(*(*(*********((********((+++++++++++"/>
+		<row j="48" v="*****************************(**((**((*******((*******(*************((*(++++++++"/>
+		<row j="49" v="********************************(((**(**************(((*****************++++++++"/>
+		<row j="50" v="*****************************(*****((********(*******(*****************(++++++++"/>
+		<row j="51" v="****************************(***********************((******************++++++++"/>
+		<row j="52" v="*****************************************************(********************++++++"/>
+		<row j="53" v="******************************************(********************************+++++"/>
+		<row j="54" v="*********************************************(********************************++"/>
+		<row j="55" v="********************************************((*********************************+"/>
+		<row j="56" v="*******************************************************************************+"/>
+		<row j="57" v="********************************************************************************"/>
+		<row j="58" v="***************************************(****************************************"/>
+		<row j="59" v="***********************************(********************************************"/>
+		<row j="60" v="***********************************((*******************************************"/>
+		<row j="61" v="***********************************((*******************************************"/>
+		<row j="62" v="***************************(*(**************************************************"/>
+		<row j="63" v="******************************(*************************************************"/>
+		<row j="64" v="********************************************************************************"/>
+		<row j="65" v="********************************************************************************"/>
+		<row j="66" v="********************************************************************************"/>
+		<row j="67" v="********************************************************************************"/>
+		<row j="68" v="********************************************************************************"/>
+		<row j="69" v="********************************************************************************"/>
+		<row j="70" v="********************************************************************************"/>
+		<row j="71" v="********************************************************************************"/>
+		<row j="72" v="********************************************************************************"/>
+		<row j="73" v="********************************************************************************"/>
+		<row j="74" v="********************************************************************************"/>
+		<row j="75" v="********************************************************************************"/>
+		<row j="76" v="********************************************************************************"/>
+		<row j="77" v="********************************************************************************"/>
+		<row j="78" v="********************************************************************************"/>
+		<row j="79" v="********************************************************************************"/>
+	</TownGround>
+	<Buildings>
+		<Object data='{"bid":"1kTIDN-BfU","i":75,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1kTICL-yeU","i":72,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1kTIBE-leU","i":72,"j":71,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1kTIAV-YeU","i":69,"j":71,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1kFbIq-GCB","i":72,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1kFbI4-3CB","i":75,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133855-LyzIc","i":39,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133827-qbVkv","i":36,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133757-3YEJJ","i":33,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-152820-SP6bn","i":30,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-152854-PnTaF","i":27,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-aV5Mp","i":37,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-153729-bjTTs","i":34,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-132834-JtTSx","i":31,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-132826-0Sgxh","i":28,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-152410-NW8jE","i":25,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-152944-GmHyC","i":22,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-143939-n4xSM","i":46,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-145139-7nVuC","i":43,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-145148-HBqxo","i":40,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-153725-Wz8vL","i":35,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-132758-k7Eia","i":32,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-132713-Al404","i":29,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"26112012-113153-HZfvv","i":26,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"26112012-113147-gJVv1","i":23,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-132846-ZhVaM","i":34,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"21122012-153800-Lfb7o","i":31,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"26112012-113505-1Pko8","i":28,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154402-NUQ3w","i":25,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154436-bWU0s","i":22,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-140244-S2kFQ","i":49,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-153341-83rly","i":46,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-153246-d8tIZ","i":43,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-132941-psLon","i":40,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-150203-h7eYH","i":37,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"26112012-113357-Q79Dl","i":34,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"26112012-113404-sEUYd","i":31,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154522-ZcVWu","i":28,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154530-Ifehc","i":25,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"07032013-150939-70yNr","i":16,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-140347-7qYYK","i":50,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-153233-vqs4n","i":47,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"09072013-135811-u2uRK","i":44,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-132931-l78ky","i":41,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"18042013-120052-kiCpd","i":38,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"21122012-154543-esDQO","i":35,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-155158-VZ0ke","i":32,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-155152-WryaM","i":29,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"26112012-113410-GJ7LJ","i":26,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"26112012-113416-IBUF4","i":23,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-141348-b6wTO","i":50,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-153604-xJGQF","i":47,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-132925-cx33F","i":44,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-132918-ghARq","i":41,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-155015-yB7mk","i":38,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20112012-122522-yr8UT","i":35,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-155004-yeKYb","i":32,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154959-89QYg","i":29,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"11032013-124436-FX9vE","i":26,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"11032013-121454-9D9YE","i":23,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-141341-eHywO","i":47,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"31102013-103404-Mal49","i":44,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"07052013-151247-UJZj4","i":41,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20112012-122517-hzhpz","i":35,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154830-7zl5w","i":32,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154825-Qd0z5","i":29,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-141327-rNB2y","i":50,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"14022014-122046-RYIZq","i":47,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"31102013-103425-Wj0lG","i":44,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154805-jep8O","i":41,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154757-UUyP9","i":38,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20112012-122510-zArMQ","i":35,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"07052013-160311-iehLE","i":32,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154744-tX6QJ","i":29,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"11032013-121421-Du9qf","i":13,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"07052013-155012-EjBzq","i":23,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-141319-fxkIV","i":50,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"14022014-122046-FutAK","i":47,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"31102013-103456-kEL5g","i":44,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154720-eJ6rW","i":41,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154716-Vn69b","i":38,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154711-JkWDF","i":35,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20112012-122459-XFaLL","i":32,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20112012-122452-VfQX3","i":29,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-134658-Auvae","i":26,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-141027-bEXir","i":50,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17012014-135843-cAh7g","i":47,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17012014-135843-m7NtR","i":44,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154641-Fv8Oo","i":41,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154637-EdeXJ","i":38,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154632-GQcr5","i":35,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"10122012-132415-luX0f","i":32,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"10122012-132333-Grud0","i":29,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154616-mEfWh","i":26,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-141019-jdbPb","i":50,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"14022014-122046-7K8U6","i":47,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17012014-153149-CZpkR","i":44,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17012014-153149-0kQqS","i":41,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-153451-4vKES","i":38,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-153440-v5hjT","i":32,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20112012-122432-3WlWs","i":29,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-153431-xIcKb","i":26,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-153425-rIldJ","i":23,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"07052013-155056-Jr9IV","i":20,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-135005-JOoLd","i":47,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17012014-153149-5l7lm","i":44,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17012014-153149-QTqVE","i":41,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20112012-121325-0ejY5","i":38,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154357-VZBA8","i":35,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"19112012-154352-rr43x","i":32,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20112012-122421-pfMlY","i":29,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20112012-122414-yz7oK","i":26,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22122012-143241-FJKYG","i":23,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"18032013-154058-cRqKs","i":20,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"18032013-154122-G8jyc","i":17,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22042014-142612-LP7h0","i":47,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-154415-Prf9i","i":44,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"14022014-122046-zXI1N","i":41,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"14022014-122046-N19L4","i":38,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"10122012-125742-gT9bk","i":35,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"10122012-125736-g18QT","i":32,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"10122012-131820-gHsxu","i":29,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"10122012-125723-guk20","i":26,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"22122012-143247-eUQtn","i":23,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"20032014-154224-239ZH","i":42,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"14022014-122046-OicZ3","i":39,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"14022014-122046-TeTFL","i":36,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"14022014-122046-ZMb5j","i":33,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"10122012-131827-mxwf1","i":30,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-aV5Mq","i":53,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-aV5Mr","i":53,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-aV5Ms","i":35,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-aV5Mt","i":38,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-aV5Mu","i":24,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-164756-zlqfA","i":50,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-164756-zlqfB","i":53,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-164756-zlqfC","i":56,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-164756-zlqfD","i":53,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-164756-zlqfE","i":56,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-164756-zlqfF","i":53,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-164756-zlqfG","i":56,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-164756-zlqfH","i":53,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"04062013-164756-zlqfI","i":56,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133855-LyzId","i":33,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133855-LyzIe","i":36,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133855-LyzIf","i":39,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133855-LyzIg","i":45,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133855-LyzIh","i":34,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133855-LyzIi","i":31,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133855-LyzIj","i":28,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmm","i":50,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmn","i":50,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmo","i":48,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmp","i":53,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmq","i":53,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmr","i":33,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMms","i":36,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmt","i":39,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmu","i":42,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmv","i":45,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnd","i":36,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMne","i":39,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnf","i":42,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMng","i":45,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnh","i":42,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMni","i":45,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnj","i":48,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnk","i":48,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnl","i":51,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnm","i":53,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnw","i":49,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnx","i":37,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMny","i":40,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMnz","i":37,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMma","i":38,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmb","i":41,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmc","i":44,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmd","i":47,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMme","i":50,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmf","i":52,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmg","i":52,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmh","i":59,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmi","i":59,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmj","i":59,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMmk","i":59,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMml","i":56,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMym","i":59,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyn","i":56,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyo","i":59,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyp","i":56,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyr","i":28,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMys","i":31,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyt","i":34,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyu","i":37,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyw","i":40,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyx","i":53,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyy","i":55,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"17062014-133935-MMMyz","i":55,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2qTa-Gqu","i":13,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2iC0-6ru","i":19,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2iBe-tqu","i":20,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2iBO-Tqu","i":21,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2qKq-6ru","i":14,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2qL6-Wru","i":19,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2qLG-jru","i":16,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2qLh-wru","i":10,"j":20,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2qK9-Gqu","i":17,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2qWu-Gqu","i":22,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2qX3-gqu","i":25,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gqu","i":56,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gqw","i":25,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gqx","i":28,"j":2,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gqy","i":25,"j":2,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gqz","i":22,"j":2,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gra","i":22,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grb","i":19,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grc","i":18,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grd","i":16,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gre","i":57,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grf","i":54,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grg","i":54,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grh","i":51,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gri","i":56,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grj","i":62,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grk","i":62,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grl","i":62,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grm","i":62,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grn","i":62,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gro","i":59,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grp","i":59,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grq","i":62,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grr","i":59,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grs","i":57,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grt","i":60,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Gru","i":51,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grv","i":62,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1Z2xyW-Grw","i":58,"j":23,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e5x","i":15,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e5y","i":13,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e5z","i":11,"j":17,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6a","i":19,"j":2,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6b","i":19,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6c","i":16,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6d","i":63,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6e","i":65,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6f","i":62,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6g","i":65,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6h","i":65,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6i","i":40,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6j","i":42,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6k","i":65,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6l","i":65,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6m","i":65,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6n","i":65,"j":32,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6o","i":47,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6p","i":50,"j":14,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6q","i":62,"j":26,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6r","i":65,"j":29,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6s","i":68,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6t","i":71,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6u","i":69,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6v","i":66,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6w","i":68,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6x","i":60,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6y","i":54,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e6z","i":57,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7a","i":63,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7b","i":68,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7d","i":68,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7e","i":68,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7f","i":68,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7g","i":71,"j":38,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7h","i":48,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7i","i":71,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7j","i":71,"j":44,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7k","i":71,"j":41,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7l","i":66,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7m","i":69,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7n","i":60,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7o","i":63,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7p","i":66,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7q","i":51,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7r","i":54,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7s","i":57,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7t","i":60,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7u","i":63,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7v","i":66,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7w","i":69,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7x","i":72,"j":56,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e7y","i":72,"j":53,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8a","i":39,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8b","i":42,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8c","i":45,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8d","i":48,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8e","i":51,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8f","i":54,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8g","i":57,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8h","i":60,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8i","i":63,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8j","i":66,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8k","i":31,"j":2,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8l","i":45,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8m","i":48,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8n","i":48,"j":71,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8o","i":13,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8p","i":12,"j":11,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8r","i":43,"j":8,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8s","i":71,"j":35,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8t","i":13,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8u","i":16,"j":5,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8v","i":51,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8w","i":51,"j":71,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8x","i":54,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8y","i":69,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e8z","i":69,"j":65,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9a","i":57,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9b","i":54,"j":71,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9c","i":60,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9d","i":63,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9e","i":66,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9f","i":74,"j":47,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9g","i":74,"j":50,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9h","i":72,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9i","i":72,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9j","i":57,"j":71,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9k","i":60,"j":71,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9l","i":75,"j":59,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1agur9-e9m","i":75,"j":62,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1jxUWp-0jY","i":69,"j":68,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1jxUWp-DjY","i":66,"j":71,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"1jxUWp-QjY","i":63,"j":71,"storeId":"expandBuy","state":1}'/>
+		<Object data='{"bid":"05062013-102355-d3pyn","i":29,"j":54,"storeId":"buek6"}'/>
+		<Object data='{"bid":"05062013-102347-2lQwE","i":29,"j":53,"storeId":"buek3"}'/>
+		<Object data='{"bid":"05062013-102340-X4n5V","i":29,"j":52,"storeId":"buek3"}'/>
+		<Object data='{"bid":"05062013-102313-dp7iW","i":26,"j":51,"storeId":"buek4"}'/>
+		<Object data='{"bid":"05062013-102316-WtF5f","i":27,"j":51,"storeId":"buek4"}'/>
+		<Object data='{"bid":"05062013-102323-ipWkg","i":28,"j":51,"storeId":"buek4"}'/>
+		<Object data='{"bid":"05062013-102332-EzQYl","i":29,"j":51,"storeId":"buek1"}'/>
+		<Object data='{"bid":"22122012-112518-7zc1Q","i":17,"j":48,"storeId":"buek4"}'/>
+		<Object data='{"bid":"23012014-140741-LsBTT","i":18,"j":48,"storeId":"buek4"}'/>
+		<Object data='{"bid":"23012014-140702-lwxNK","i":19,"j":48,"storeId":"buek1"}'/>
+		<Object data='{"bid":"17062014-133935-MMMnt","i":36,"j":63,"storeId":"buek4"}'/>
+		<Object data='{"bid":"17062014-133935-MMMns","i":35,"j":63,"storeId":"buek6"}'/>
+		<Object data='{"bid":"17062014-133935-MMMnr","i":35,"j":62,"storeId":"buek3"}'/>
+		<Object data='{"bid":"17062014-133935-MMMnq","i":35,"j":61,"storeId":"buek3"}'/>
+		<Object data='{"bid":"17062014-133935-MMMnp","i":35,"j":60,"storeId":"buek1"}'/>
+		<Object data='{"bid":"17062014-133935-MMMno","i":34,"j":60,"storeId":"buek4"}'/>
+		<Object data='{"bid":"17062014-133935-MMMnn","i":33,"j":60,"storeId":"buek4"}'/>
+		<Object data='{"bid":"17062014-133935-MMMzf","i":11,"j":48,"storeId":"buek8"}'/>
+		<Object data='{"bid":"17062014-133935-MMMze","i":12,"j":48,"storeId":"buek4"}'/>
+		<Object data='{"bid":"17062014-133935-MMMzd","i":13,"j":48,"storeId":"buek4"}'/>
+		<Object data='{"bid":"17062014-133935-MMMzc","i":14,"j":48,"storeId":"buek4"}'/>
+		<Object data='{"bid":"17062014-133935-MMMzb","i":15,"j":48,"storeId":"buek4"}'/>
+		<Object data='{"bid":"17062014-133935-MMMza","i":16,"j":48,"storeId":"buek4"}'/>
+		<Object data='{"bid":"17062014-133935-MMMmz","i":32,"j":60,"storeId":"buek6"}'/>
+		<Object data='{"bid":"17062014-133935-MMMmy","i":32,"j":59,"storeId":"buek3"}'/>
+		<Object data='{"bid":"17062014-133935-MMMmx","i":32,"j":58,"storeId":"buek3"}'/>
+		<Object data='{"bid":"17062014-133935-MMMmw","i":32,"j":57,"storeId":"buek3"}'/>
+		<Object data='{"bid":"17062014-133855-LyzKf","i":32,"j":56,"storeId":"buek3"}'/>
+		<Object data='{"bid":"17062014-133855-LyzKe","i":32,"j":55,"storeId":"buek3"}'/>
+		<Object data='{"bid":"17062014-133855-LyzIn","i":32,"j":54,"storeId":"buek1"}'/>
+		<Object data='{"bid":"17062014-133855-LyzIm","i":31,"j":54,"storeId":"buek4"}'/>
+		<Object data='{"bid":"17062014-133855-LyzIl","i":30,"j":54,"storeId":"buek4"}'/>
+		<Object data='{"bid":"05062013-102359-OnByo","i":25,"j":51,"storeId":"buek8"}'/>
+		<Object data='{"bid":"05062013-102359-OnByn","i":19,"j":49,"storeId":"buek7"}'/>
+		<Object data='{"bid":"1g1qDa-Ff2","i":37,"j":63,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1g1qDa-Sf2","i":38,"j":63,"storeId":"buek1"}'/>
+		<Object data='{"bid":"1g1qDa-ff2","i":38,"j":64,"storeId":"buek3"}'/>
+		<Object data='{"bid":"1g1qDa-sf2","i":38,"j":65,"storeId":"buek3"}'/>
+		<Object data='{"bid":"1g1qDa-5g2","i":38,"j":66,"storeId":"buek6"}'/>
+		<Object data='{"bid":"1g1qDa-Ig2","i":39,"j":66,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1g1qDa-Vg2","i":40,"j":66,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1g1qDa-ig2","i":41,"j":66,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1g1qDa-vg2","i":42,"j":66,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1g1qDa-8h2","i":43,"j":66,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1g1qDa-Lh2","i":44,"j":66,"storeId":"buek1"}'/>
+		<Object data='{"bid":"1h5oxQ-2Bf","i":47,"j":69,"storeId":"buek1"}'/>
+		<Object data='{"bid":"1h5oxA-pAf","i":51,"j":72,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1h5ox7-cAf","i":50,"j":72,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1h5ox5-PAf","i":49,"j":72,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1h5ox3-CAf","i":48,"j":72,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1h5ox0-z9f","i":46,"j":69,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1h5owx-m9f","i":45,"j":69,"storeId":"buek4"}'/>
+		<Object data='{"bid":"1h5owj-Z9f","i":47,"j":72,"storeId":"buek6"}'/>
+		<Object data='{"bid":"1h5owg-M9f","i":44,"j":69,"storeId":"buek6"}'/>
+		<Object data='{"bid":"1h5owQ-99f","i":47,"j":71,"storeId":"buek3"}'/>
+		<Object data='{"bid":"1h5owO-w8f","i":47,"j":70,"storeId":"buek3"}'/>
+		<Object data='{"bid":"1h5ow4-j8f","i":44,"j":68,"storeId":"buek3"}'/>
+		<Object data='{"bid":"1h5ovr-W8f","i":44,"j":67,"storeId":"buek3"}'/>
+		<Object data='{"bid":"20112012-115329-qa9fB","i":8,"j":35,"storeId":"railway_station"}'/>
+		<Object data='{"bid":"04062013-164756-zlqfJ","i":25,"j":56,"storeId":"shack"}'/>
+		<Object data='{"bid":"1ZM0IQ-9su","i":25,"j":35,"mirror":1,"storeId":"green8"}'/>
+		<Object data='{"bid":"1ZM0Hw-jru","i":18,"j":24,"mirror":1,"storeId":"green8"}'/>
+		<Object data='{"bid":"17062014-133935-MMMnv","i":9,"j":35,"storeId":"green20"}'/>
+		<Object data='{"bid":"17062014-133935-MMMnu","i":9,"j":33,"storeId":"green5"}'/>
+		<Object data='{"bid":"30072013-131115-NtV3w","i":8,"j":29,"storeId":"green12"}'/>
+		<Object data='{"bid":"07032013-151348-JX2Vi","i":23,"j":34,"storeId":"green2"}'/>
+		<Object data='{"bid":"30072013-131141-Nhe6m","i":8,"j":30,"storeId":"green8"}'/>
+		<Object data='{"bid":"30072013-131133-qT0LN","i":8,"j":32,"storeId":"green8"}'/>
+		<Object data='{"bid":"30072013-131112-BADtA","i":8,"j":26,"storeId":"green12"}'/>
+		<Object data='{"bid":"30072013-131147-SWizj","i":8,"j":28,"storeId":"green8"}'/>
+		<Object data='{"bid":"30072013-131124-lRSx2","i":8,"j":27,"storeId":"green8"}'/>
+		<Object data='{"bid":"1Z2xyV-Gqu","i":1,"j":31,"storeId":"bus_station","state":3,"buildTime":172800.0}'/>
+		<Object data='{"bid":"21112013-152433-xQtiu","i":26,"j":35,"storeId":"digging","state":3,"buildTime":57600.0,"flIndex":0,"depth":0,"field":[[{"v":1},{"v":1},{"v":1},{"v":1},{"v":1},{"v":1},{"v":1}],[{"bi":"grass1_1"},{"bi":"grass1"},{"bi":"grass1_1"},{},{},{},{"bi":"grass1_1"}],[{"g":1},{"g":1,"r":"o1"},{"g":1,"r":"o1"},{},{"bi":"grass1"},{"bi":"grass1_1"},{"g":1}],[{"g":1,"r":"m1"},{"g":1,"r":"o1"},{"g":1},{"bi":"mushroom3"},{"g":1,"r":"o3"},{"g":1},{"g":1}],[{"g":1},{"g":1},{"g":1},{"g":1},{"bi":"mushroom3"},{"g":1,"r":"o3"},{"g":1,"r":"o1"}],[{"g":1},{"g":1,"r":"o2"},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1}],[{"g":1},{"g":1},{"g":1,"r":"m2"},{"g":1},{"g":1},{"g":1},{"g":1}],[{"g":1,"r":"o1"},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1,"r":"o2"}],[{"g":1},{"g":1,"r":"c"},{"g":1},{"g":1},{"bi":"mushroom3"},{"g":1},{"g":1}],[{"bi":"grass1"},{"g":1},{"g":1},{"g":1,"r":"o3"},{"g":1,"r":"m1"},{"g":1},{"g":1}],[{"g":1},{"g":1,"r":"c"},{"g":1,"r":"c"},{"g":1},{"g":1},{"g":1},{"g":1}],[{"g":1},{"g":1},{"g":1,"r":"c"},{"g":1},{"bi":"grass1"},{"g":1,"r":"o1"},{"g":1}],[{"g":1,"r":"o1"},{"g":1},{"g":1},{"bi":"grass1_1"},{"g":1},{"g":1},{"g":1}],[{"g":1},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1}],[{"g":1},{"g":1},{"g":1},{"g":1,"r":"c"},{"g":1},{"g":1},{"g":1,"r":"o3"}],[{},{"g":1,"r":"c"},{"g":1},{"bi":"mushroom3"},{"g":1,"r":"m3"},{"g":1},{"g":1}],[{},{"bi":"mushroom1"},{},{"g":1},{"g":1},{"g":1},{"g":1}],[{"bi":"grass1"},{"g":1},{"g":1},{"g":1,"r":"m3"},{"g":1,"r":"c"},{"g":1,"r":"c"},{"g":1,"r":"o4"}],[{"g":1},{"g":1,"r":"c"},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1,"r":"c"}],[{"g":1},{"g":1},{"bi":"grass1_1"},{"bi":"grass1"},{"bi":"grass1_1"},{"g":1},{"g":1}],[{"g":1},{"bi":"grass1_1"},{"g":1},{"g":1,"r":"c"},{"g":1},{"bi":"mushroom3"},{"g":1}],[{"bi":"grass1_1"},{"g":1,"r":"c"},{"g":1},{"g":1},{"g":1},{"g":1},{"bi":"grass1_1"}],[{"g":1},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1,"r":"o3"}],[{"g":1,"r":"o1"},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1,"r":"c"}],[{},{"g":1},{"g":1},{"g":1},{"g":1,"r":"c"},{"g":1},{"g":1,"r":"c"}],[{"g":1,"r":"c"},{"g":1,"r":"c"},{"g":1,"r":"m3"},{"g":1},{"g":1},{"g":1},{"g":1}],[{"g":1},{"g":1},{"g":1,"r":"c"},{"g":1},{"g":1,"r":"c"},{"g":1},{"g":1,"r":"o1"}],[{},{"g":1},{"g":1},{"bi":"grass1"},{"g":1},{"g":1},{"g":1}],[{"bi":"grass1"},{"g":1},{"g":1},{"g":1,"r":"c"},{"g":1},{"g":1},{"g":1}],[{"g":1},{"g":1},{"bi":"mushroom2"},{"bi":"grass1"},{},{"g":1,"r":"c"},{"g":1}],[{"g":1},{"bi":"grass1_1"},{"g":1},{"g":1},{"g":1},{"bi":"mushroom4"},{"g":1}],[{"bi":"grass1_1"},{"g":1},{"g":1},{"g":1},{"g":1,"r":"c"},{"g":1},{"bi":"grass1_1"}],[{"g":1},{"g":1},{"g":1,"r":"o3"},{"g":1},{"g":1,"r":"o3"},{"g":1},{"g":1,"r":"c"}],[{"g":1},{"g":1},{"g":1,"r":"o1"},{"g":1},{"g":1},{"g":1},{"g":1,"r":"o1"}],[{"bi":"mushroom4"},{"g":1,"r":"o1"},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1}],[{"g":1},{"g":1,"r":"c"},{"g":1},{"g":1},{"bi":"grass1"},{"g":1},{"g":1}],[{"bi":"grass1_1"},{"g":1,"r":"o1"},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1}],[{"g":1},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1},{"g":1}],[{"g":1},{"g":1},{"bi":"grass1"},{"bi":"mushroom3"},{"g":1,"r":"c"},{"g":1},{"bi":"mushroom4"}],[{"g":1},{"g":1,"r":"o3"},{"g":1},{"g":1},{"g":1,"r":"o1"},{"g":1},{"g":1}]]}'/>
+		<Object data='{"bid":"07032013-142704-rSX43","i":20,"j":50,"storeId":"harbor","state":3,"buildTime":172800.0}'/>
+		<Object data='{"bid":"04062013-164756-zlqfK","i":9,"j":23,"storeId":"airport","state":3,"buildTime":86400.0}'/>
+		<Object data='{"bid":"20112012-115436-31tkh","i":2,"j":37,"storeId":"event_center","state":2,"buildTime":0.0}'/>
+		<Object data='{"bid":"1agur9-o4w","i":5,"j":43,"storeId":"clan_castle","state":3,"buildTime":0.0}'/>
+		<Object data='{"bid":"1agur9-owe","i":7,"j":48,"storeId":"yacht_pier","state":2,"buildTime":0.0}'/>
+		<Object data='{"bid":"1agur9-e7c","i":10,"j":43,"storeId":"season_store","state":2,"buildTime":0.0}'/>
+		<Object data='{"bid":"1evSJz-11w","i":2,"j":41,"storeId":"event_calendar_building","state":2,"buildTime":0.0}'/>
+		<Object data='{"bid":"1jgqbB-tn9","i":3,"j":46,"storeId":"racing_building","state":2,"buildTime":0.0}'/>
+		<Object data='{"bid":"21022013-132243-6Yz99","i":10,"j":35,"storeId":"helicplace","state":0}'/>
+		<Object data='{"bid":"06052013-112306-qyaAN","i":8,"j":37,"storeId":"cityhall_v1","state":5,"ver":1}'/>
+		<Object data='{"bid":"19112012-153144-7Avhf","i":11,"j":41,"storeId":"CitySign","skinId":"skin_city_sign_def_sign"}'/>
+		<Object data='{"bid":"20112012-115341-H9npd","i":7,"j":37,"storeId":"railways","index":1}'/>
+		<Object data='{"bid":"20112012-115341-H9npe","i":6,"j":37,"storeId":"railways","index":2}'/>
+		<Object data='{"bid":"20112012-115341-H9npf","i":5,"j":37,"storeId":"railways","index":3}'/>
+		<Object data='{"bid":"28112012-104854-gY8JZ","i":19,"j":26,"mirror":1,"storeId":"WareHouseCash","state":2,"tip":false,"capacity":50}'/>
+		<Object data='{"bid":"1kduCX-NrR","i":12,"j":29,"storeId":"milkfactory","state":5,"time":1605402866,"slotsCount":3,"ordersCount":3,"orderTime0":0,"orderMaxTime0":900,"productId0":"cream","orderTime1":0,"orderMaxTime1":900,"productId1":"cream","orderTime2":0,"orderMaxTime2":900,"productId2":"cream"}'/>
+		<Object data='{"bid":"22052013-143825-TkVhL","i":13,"j":26,"mirror":1,"storeId":"cowfactory","state":5,"time":1605402866,"slotsCount":5,"ordersCount":1,"orderTime0":0,"orderMaxTime0":1200,"productId0":"milk","orderNumber0":1,"ready0":1}'/>
+		<Object data='{"bid":"1kdtrE-QKh","i":10,"j":29,"storeId":"bakery","state":5,"time":1605402866,"slotsCount":3,"ordersCount":3,"orderTime0":0,"orderMaxTime0":300,"productId0":"bread","orderTime1":0,"orderMaxTime1":300,"productId1":"bread","orderTime2":0,"orderMaxTime2":300,"productId2":"bread"}'/>
+		<Object data='{"bid":"1kdu3W-dKh","i":10,"j":26,"storeId":"mill","state":4,"time":1605402866,"slotsCount":3,"ordersCount":0}'/>
+		<Object data='{"bid":"1kduBg-kqR","i":18,"j":30,"mirror":1,"storeId":"fielditself","state":2,"product":"wheat","endTime":1605395777}'/>
+		<Object data='{"bid":"12022013-164618-erSQX","i":19,"j":30,"mirror":1,"storeId":"fielditself","state":2,"product":"corn","endTime":1605395988}'/>
+		<Object data='{"bid":"12022013-164637-5aBBG","i":20,"j":30,"storeId":"fielditself","state":2,"product":"corn","endTime":1605395988}'/>
+		<Object data='{"bid":"19112012-153022-Wi3kY","i":21,"j":30,"storeId":"fielditself","state":2,"product":"corn","endTime":1605395988}'/>
+		<Object data='{"bid":"12022013-164620-7UN6g","i":21,"j":29,"mirror":1,"storeId":"fielditself","state":2,"product":"wheat","endTime":1605395805}'/>
+		<Object data='{"bid":"19112012-153018-kuZyX","i":20,"j":29,"storeId":"fielditself","state":2,"product":"wheat","endTime":1605395805}'/>
+		<Object data='{"bid":"19112012-153019-Arrbc","i":19,"j":29,"storeId":"fielditself","state":2,"product":"wheat","endTime":1605395805}'/>
+		<Object data='{"bid":"1kduFy-C1c","i":18,"j":29,"mirror":1,"storeId":"fielditself","state":2,"product":"wheat","endTime":1605395777}'/>
+		<Object data='{"bid":"1kduFz-P1c","i":18,"j":28,"storeId":"fielditself","state":2,"product":"wheat","endTime":1605395776}'/>
+		<Object data='{"bid":"1kduCJ-ArR","i":14,"j":47,"storeId":"house26","state":5}'/>
+		<Object data='{"bid":"1kduBw-xqR","i":16,"j":47,"storeId":"house26","state":5}'/>
+		<Object data='{"bid":"1kduBQ-XqR","i":15,"j":47,"storeId":"house26","state":5}'/>
+		<Object data='{"bid":"18122012-121112-5QerS","i":11,"j":46,"mirror":1,"storeId":"house10","state":5,"default":1}'/>
+		<Object data='{"bid":"28112012-105316-JmKB0","i":12,"j":47,"storeId":"house10","state":5,"default":1}'/>
+		<Object data='{"bid":"19112012-152726-pVic2","i":13,"j":47,"mirror":1,"storeId":"house56","state":5,"default":1}'/>
+		<Object data='{"bid":"18042013-115315-QiwqW","i":11,"j":47,"storeId":"house48","state":5,"default":1}'/>
+	</Buildings>
+	<Trains/>
+	<MapOrders LocalMapOrderCounter="2" nextVideoWatchTimer="1605383406">
+		<order v='{"specialContentName":"","building":"1kdtrE-QKh","persId":"musium_man","rewardCoins":17,"rewardCash":0,"rewardExp":27,"oType":0,"posInitialized":1,"markerPosX":42.0,"markerPosY":103.0,"firstText":"FirstOrders4","num":2,"product0":"wheat","amount0":4,"product1":"corn","amount1":2}'/>
+		<order v='{"specialContentName":"","building":"19112012-152726-pVic2","persId":"teacher","rewardCoins":36,"rewardCash":0,"rewardExp":24,"oType":0,"posInitialized":1,"markerPosX":161.0,"markerPosY":97.0,"firstText":"FirstOrders3","num":2,"product0":"milk","amount0":2,"product1":"wheat","amount1":5}'/>
+		<order v='{"specialContentName":"","building":"1kduCJ-ArR","persId":"comics_man","rewardCoins":27,"rewardCash":0,"rewardExp":32,"oType":0,"posInitialized":1,"markerPosX":173.0,"markerPosY":41.0,"firstText":"FirstOrders6","num":2,"product0":"carrot","amount0":2,"product1":"bread","amount1":1}'/>
+	</MapOrders>
+	<Mail/>
+	<Balloons/>
+	<ReturnReward startTime="-1" lastCollectTime="-1" currentStage="0" collectedRewards="0" showTipArrow="0"/>
+	<IslandsInfo>
+		<IslandsDailyChestInfo chestIsExists="0" timerEnd="0.0000000000000000" islandName="" x="0" y="0"/>
+	</IslandsInfo>
+	<AirInfo/>
+	<AirOrders/>
+	<RetroCarCollection>
+		<carInfo i='{"isBought":false}'/>
+		<carInfo i='{"isBought":false}'/>
+		<carInfo i='{"isBought":false}'/>
+		<carInfo i='{"isBought":false}'/>
+		<carInfo i='{"isBought":false}'/>
+		<carInfo i='{"isBought":false}'/>
+		<tooltipTime i='{"time":-1}'/>
+	</RetroCarCollection>
+	<WildParkStash/>
+	<MegaCakeInfo currentStage="0" currentSubStage="1" tooltipTime="0" state="5" isNeedFakeFillProgress="0" finishUpgradeTime="0" subStageExpGiven="0"/>
+	<JurassicPark>
+		<dinoInfo i='{"isBought":false}'/>
+		<dinoInfo i='{"isBought":false}'/>
+		<dinoInfo i='{"isBought":false}'/>
+		<dinoInfo i='{"isBought":false}'/>
+		<dinoInfo i='{"isBought":false}'/>
+		<dinoInfo i='{"isBought":false}'/>
+		<tooltipTime i='{"time":-1}'/>
+	</JurassicPark>
+	<SpaceRocketInfo currentStage="0" currentSubStage="1" tooltipTime="0" state="5" isNeedFakeFillProgress="0" finishUpgradeTime="0" subStageExpGiven="0"/>
+	<SnowmanInfo currentStage="0" currentSubStage="1" tooltipTime="0" state="5" isNeedFakeFillProgress="0" finishUpgradeTime="0" subStageExpGiven="0"/>
+	<ChineseNYTreeInfo currentStage="0" currentSubStage="1" tooltipTime="0" state="5" isNeedFakeFillProgress="0" finishUpgradeTime="0" subStageExpGiven="0" substages="[]"/>
+	<Easter2017DecorInfo currentStage="0" currentSubStage="1" tooltipTime="0" state="5" isNeedFakeFillProgress="0" finishUpgradeTime="0" subStageExpGiven="0" substages="[]"/>
+	<Halloween2017DecorInfo currentStage="0" currentSubStage="1" tooltipTime="0" state="5" isNeedFakeFillProgress="0" finishUpgradeTime="0" subStageExpGiven="0" substages="[]"/>
+	<HalloweenFactoryData/>
+	<FishFactoryData>
+		<data t="-1" s="2" p=""/>
+		<data t="-1" s="2" p=""/>
+		<data t="-1" s="2" p=""/>
+	</FishFactoryData>
+	<FuelFactoryData/>
+	<SnowFactoryData/>
+	<EasterFactoryData/>
+	<Match3FactoryData/>
+	<RestoratorFactoryData/>
+	<DiveFactoryData/>
+	<PlankFactoryData/>
+	<JumpFactoryData/>
+	<HelixFactoryData/>
+	<RescueFactoryData/>
+	<Zoo>
+		<TownGround ver="2">
+			<row j="0" v="********************************************************************************"/>
+			<row j="1" v="***********************()*****************(((***********************************"/>
+			<row j="2" v="**********************((********************************************************"/>
+			<row j="3" v="*********************((*********************************************************"/>
+			<row j="4" v="*****************))(((**********************************************************"/>
+			<row j="5" v="*****************)*********************(****************************************"/>
+			<row j="6" v="****************((*******************(*((********((*****************************"/>
+			<row j="7" v="****************)(************************(******(******************************"/>
+			<row j="8" v="*******************************(*****************(******************************"/>
+			<row j="9" v="******************************((************************************************"/>
+			<row j="10" v="********************************************************************************"/>
+			<row j="11" v="********************************************************************************"/>
+			<row j="12" v="********************************************************************************"/>
+			<row j="13" v="********************************************************************************"/>
+			<row j="14" v="*******************************((***********************************************"/>
+			<row j="15" v="*******************************(************************************************"/>
+			<row j="16" v="********************************************************************************"/>
+			<row j="17" v="********************************************************************************"/>
+			<row j="18" v="*****************************************************((*************************"/>
+			<row j="19" v="*****************************************************((*************************"/>
+			<row j="20" v="**************************(**************************(**************************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynnnnnnnyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="21" v="*************************((**********************(***(**************************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynnyyyyynyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="22" v="**********************(((***********************((***(*******((*****************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynyyyyyynyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="23" v="**********************************************((((((((**(*****(*****************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="24" v="**********************************************(((((((((***(*(((*****************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynyyyyyyyyyyyyyyaaaaaaaaayyyyyyyyyyyy"/>
+			<row j="25" v="************************************************((((((((**((((******************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynnnnyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="26" v="***********************************************((*****((((((********************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="27" v="****************(*******************************((((****************************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="28" v="***********************************(*********(**(*((****************************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="29" v="********************(***************************(**((***************************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynnnyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="30" v="*******************((**************************((***(**********+****************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynnyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="31" v="****************(*********************************(((*********+*****************" d="yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyynnnnnyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"/>
+			<row j="32" v="*****************(*******************************************++*****************"/>
+			<row j="33" v="******************((****************************************+++*****************"/>
+			<row j="34" v="*******************(***************************************++++*****************"/>
+			<row j="35" v="**********************************************************++++******************"/>
+			<row j="36" v="***********************************************(************+*******************"/>
+			<row j="37" v="***********************(**********************((********************************"/>
+			<row j="38" v="**********************************************((*************+******************"/>
+			<row j="39" v="*********************************************((*******((************************"/>
+			<row j="40" v="********************************************************************************"/>
+			<row j="41" v="******************************************(*(****(******(***********************"/>
+			<row j="42" v="***************************************************((***************************"/>
+			<row j="43" v="****************************************************(***************************"/>
+			<row j="44" v="*******************************((*************(*(*******************************"/>
+			<row j="45" v="*******************************(************************************************"/>
+			<row j="46" v="********************************************************************************"/>
+			<row j="47" v="**************************)(((****(*(***((**************************************"/>
+			<row j="48" v="*************************))((*******((******************************************"/>
+			<row j="49" v="**************************(********((*******************************************"/>
+			<row j="50" v="********************************************************************************"/>
+			<row j="51" v="********************************************************************************"/>
+			<row j="52" v="********************************************************************************"/>
+			<row j="53" v="********************************************************************************"/>
+			<row j="54" v="********************************************************************************"/>
+			<row j="55" v="********************************************************************************"/>
+			<row j="56" v="********************************************************************************"/>
+			<row j="57" v="********************************************************************************"/>
+			<row j="58" v="********************************************************************************"/>
+			<row j="59" v="********************************************************************************"/>
+			<row j="60" v="********************************************************************************"/>
+			<row j="61" v="********************************************************************************"/>
+			<row j="62" v="********************************************************************************"/>
+			<row j="63" v="********************************************************************************"/>
+			<row j="64" v="********************************************************************************"/>
+			<row j="65" v="********************************************************************************"/>
+			<row j="66" v="********************************************************************************"/>
+			<row j="67" v="********************************************************************************"/>
+			<row j="68" v="********************************************************************************"/>
+			<row j="69" v="********************************************************************************"/>
+			<row j="70" v="********************************************************************************"/>
+			<row j="71" v="********************************************************************************"/>
+			<row j="72" v="********************************************************************************"/>
+			<row j="73" v="********************************************************************************"/>
+			<row j="74" v="********************************************************************************"/>
+			<row j="75" v="********************************************************************************"/>
+			<row j="76" v="********************************************************************************"/>
+			<row j="77" v="********************************************************************************"/>
+			<row j="78" v="********************************************************************************"/>
+			<row j="79" v="********************************************************************************"/>
+		</TownGround>
+		<Buildings>
+			<Object data='{"bid":"21112013-152433-x786u","i":26,"j":53,"storeId":"help_poster","state":2,"buildTime":0.0}'/>
+			<Object data='{"bid":"21112013-152433-x896u","i":23,"j":58,"storeId":"parking","state":2,"buildTime":57600.0}'/>
+			<Object data='{"bid":"21112013-152433-x996u","i":28,"j":51,"storeId":"lootboxstore"}'/>
+			<Object data='{"bid":"1YaUwW-JGN","i":20,"j":11,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGM","i":17,"j":11,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGL","i":44,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGK","i":41,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGJ","i":38,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGI","i":35,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGH","i":2,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGG","i":5,"j":20,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGF","i":5,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGE","i":41,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGD","i":44,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGC","i":23,"j":14,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGB","i":26,"j":17,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JGA","i":8,"j":17,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFZ","i":11,"j":14,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFY","i":17,"j":14,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFX","i":20,"j":14,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFW","i":8,"j":20,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFV","i":11,"j":17,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFU","i":14,"j":14,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFT","i":14,"j":17,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFS","i":8,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFR","i":11,"j":20,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFQ","i":5,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFP","i":2,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFO","i":2,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFN","i":5,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFM","i":5,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFL","i":8,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFK","i":8,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFJ","i":11,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFI","i":14,"j":20,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFH","i":17,"j":17,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFG","i":2,"j":41,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFF","i":8,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFE","i":2,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFD","i":2,"j":47,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFC","i":2,"j":44,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFB","i":5,"j":47,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JFA","i":5,"j":44,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEZ","i":2,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEY","i":5,"j":41,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEX","i":5,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEW","i":5,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEV","i":8,"j":47,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEU","i":8,"j":44,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JET","i":11,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JES","i":14,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JER","i":17,"j":20,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEQ","i":20,"j":17,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEP","i":23,"j":17,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEO","i":11,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEN","i":14,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEM","i":17,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEL","i":20,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEK","i":23,"j":20,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEJ","i":11,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEI","i":14,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEH","i":17,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEG","i":8,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEF","i":20,"j":20,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vkd","i":11,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vkc","i":14,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vkb","i":17,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vka","i":20,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vjz","i":23,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vjy","i":26,"j":20,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vjx","i":29,"j":20,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vjw","i":32,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vju","i":8,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vjt","i":8,"j":41,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Vjs","i":20,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1ZNGKd-Gqu","i":17,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-qmY","i":38,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-HBk","i":26,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-6u1","i":14,"j":50,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-OIv","i":29,"j":23,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-pWV","i":41,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-ccU","i":35,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Apb","i":32,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-INg","i":35,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Giw","i":32,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-j38","i":29,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-ygp","i":26,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-JEE","i":23,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-ovu","i":38,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-6PK","i":35,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-g5j","i":32,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-5yT","i":29,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-UFF","i":26,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Fp3","i":23,"j":29,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-WbA","i":11,"j":44,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-fRx","i":29,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-XQj","i":26,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-O7m","i":23,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-EKm","i":20,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-WbF","i":17,"j":32,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-hCw","i":41,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-hTn","i":44,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-g42","i":38,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-mcU","i":35,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-xvV","i":32,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-EMR","i":29,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-5kU","i":26,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-3gR","i":23,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-kst","i":20,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-4ps","i":17,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-OLj","i":14,"j":35,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwS-M3e","i":11,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-e7q","i":14,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-ttO","i":32,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-8PU","i":41,"j":41,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-8tq","i":38,"j":41,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-89V","i":35,"j":41,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-4M4","i":14,"j":44,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-yHN","i":14,"j":41,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwS-UDb","i":11,"j":41,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-pjN","i":44,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Nh5","i":41,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-1VW","i":38,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-Yn7","i":35,"j":38,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-3gi","i":11,"j":47,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1YaUwW-HnG","i":14,"j":47,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1ZPSgh-gqu","i":38,"j":44,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1fufmd-4g5","i":22,"j":43,"buildTime":5.0,"storeId":"paddock_bear","state":4,"ver":2}'/>
+			<Object data='{"bid":"1fufmn-Hg5","i":26,"j":43,"buildTime":25200.0,"storeId":"paddock_flamingo","state":4,"ver":2}'/>
+			<Object data='{"bid":"1gJyec-1lk","i":30,"j":44,"storeId":"green2"}'/>
+			<Object data='{"bid":"1gJyeP-okk","i":20,"j":44,"mirror":1,"storeId":"green20"}'/>
+			<Object data='{"bid":"1gJyeK-bkk","i":18,"j":51,"storeId":"green20"}'/>
+			<Object data='{"bid":"1gJycU-Okk","i":19,"j":49,"storeId":"track"}'/>
+			<Object data='{"bid":"1gJycP-Bkk","i":30,"j":45,"storeId":"track"}'/>
+			<Object data='{"bid":"1gJycF-yjk","i":31,"j":45,"storeId":"green10","seed":795348}'/>
+			<Object data='{"bid":"1gJycC-ljk","i":30,"j":43,"storeId":"green10","seed":660356}'/>
+			<Object data='{"bid":"1gJyc9-Yjk","i":19,"j":47,"storeId":"green10","seed":895602}'/>
+			<Object data='{"bid":"1gJyc8-Ljk","i":19,"j":46,"storeId":"green10","seed":636786}'/>
+			<Object data='{"bid":"1gJyc5-8jk","i":19,"j":50,"storeId":"green10","seed":184384}'/>
+			<Object data='{"bid":"1gJybk-vik","i":29,"j":43,"storeId":"green14"}'/>
+			<Object data='{"bid":"1gJybb-iik","i":19,"j":45,"storeId":"green14"}'/>
+			<Object data='{"bid":"1gJybV-Vik","i":19,"j":51,"storeId":"green14"}'/>
+			<Object data='{"bid":"1ZPSgh-111","i":44,"j":26,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1ZPSgh-112","i":23,"j":11,"storeId":"expandBuy","state":1}'/>
+			<Object data='{"bid":"1ZPSgh-113","i":29,"j":17,"storeId":"expandBuy","state":1}'/>
+		</Buildings>
+		<ZooInfo Paddocks='{"list":[{"type":"paddock_bear","count":1,"members":[{"status":3}]}]}'/>
+	</Zoo>
+	<Ernie>
+		<Trains/>
+		<AirInfo/>
+		<AirOrders/>
+		<Help v=""/>
+	</Ernie>
+	<ZooInfo Paddocks='{"list":[{"balanceRatingVer":1,"type":"paddock_bear","count":1,"rewardCollected":false,"members":[{"name":"올리","status":3,"piecesCount":30},{"name":"앨리","status":0,"piecesCount":0},{"name":"럭키","status":0,"piecesCount":0},{"name":"로스코","status":0,"piecesCount":0}],"nextPrice":{"forAnimal":1,"gem1":1}},{"balanceRatingVer":1,"type":"paddock_flamingo","count":0,"rewardCollected":false,"members":[{"name":"구피","status":0,"piecesCount":0},{"name":"선샤인","status":0,"piecesCount":0},{"name":"스마일리","status":0,"piecesCount":0},{"name":"루","status":0,"piecesCount":0}],"nextPrice":{"forAnimal":0,"gem1":1}},{"balanceRatingVer":1,"type":"paddock_zebra","count":0,"rewardCollected":false,"members":[{"name":"렉스","status":0,"piecesCount":0},{"name":"선샤인","status":0,"piecesCount":0},{"name":"올리","status":0,"piecesCount":0},{"name":"엘리","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_penguin","count":0,"rewardCollected":false,"members":[{"name":"박스터","status":0,"piecesCount":0},{"name":"키사","status":0,"piecesCount":0},{"name":"허비","status":0,"piecesCount":0},{"name":"할리","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_monkey","count":0,"rewardCollected":false,"members":[{"name":"니블","status":0,"piecesCount":0},{"name":"스마일리","status":0,"piecesCount":0},{"name":"스누피","status":0,"piecesCount":0},{"name":"트릭시","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_lion","count":0,"rewardCollected":false,"members":[{"name":"앨빈","status":0,"piecesCount":0},{"name":"록시","status":0,"piecesCount":0},{"name":"선샤인","status":0,"piecesCount":0},{"name":"렉스","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_hippo","count":0,"rewardCollected":false,"members":[{"name":"바나나","status":0,"piecesCount":0},{"name":"할리","status":0,"piecesCount":0},{"name":"그림블","status":0,"piecesCount":0},{"name":"앰버","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_girrafe","count":0,"rewardCollected":false,"members":[{"name":"맥스","status":0,"piecesCount":0},{"name":"미샤","status":0,"piecesCount":0},{"name":"록시","status":0,"piecesCount":0},{"name":"스누피","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_polar_bear","count":0,"rewardCollected":false,"members":[{"name":"헥터","status":0,"piecesCount":0},{"name":"미샤","status":0,"piecesCount":0},{"name":"미키","status":0,"piecesCount":0},{"name":"럭키","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_koala","count":0,"rewardCollected":false,"members":[{"name":"바나나","status":0,"piecesCount":0},{"name":"지니","status":0,"piecesCount":0},{"name":"맥스","status":0,"piecesCount":0},{"name":"선샤인","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_elephant","count":0,"rewardCollected":false,"members":[{"name":"스쿠비","status":0,"piecesCount":0},{"name":"스마일리","status":0,"piecesCount":0},{"name":"구피","status":0,"piecesCount":0},{"name":"데이지","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_crocodile","count":0,"rewardCollected":false,"members":[{"name":"로스코","status":0,"piecesCount":0},{"name":"할리","status":0,"piecesCount":0},{"name":"앨라모","status":0,"piecesCount":0},{"name":"헤이즐","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_kangaroo","count":0,"rewardCollected":false,"members":[{"name":"앨빈","status":0,"piecesCount":0},{"name":"선샤인","status":0,"piecesCount":0},{"name":"스누피","status":0,"piecesCount":0},{"name":"데비","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_seal","count":0,"rewardCollected":false,"members":[{"name":"루","status":0,"piecesCount":0},{"name":"데이지","status":0,"piecesCount":0},{"name":"선샤인","status":0,"piecesCount":0},{"name":"루","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_gorilla","count":0,"rewardCollected":false,"members":[{"name":"허비","status":0,"piecesCount":0},{"name":"트릭시","status":0,"piecesCount":0},{"name":"바나나","status":0,"piecesCount":0},{"name":"엘리","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_panda","count":0,"rewardCollected":false,"members":[{"name":"앨피","status":0,"piecesCount":0},{"name":"데이지","status":0,"piecesCount":0},{"name":"앨라모","status":0,"piecesCount":0},{"name":"밤비","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_beaver","count":0,"rewardCollected":false,"members":[{"name":"스누피","status":0,"piecesCount":0},{"name":"할리","status":0,"piecesCount":0},{"name":"루","status":0,"piecesCount":0},{"name":"키사","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_rhino","count":0,"rewardCollected":false,"members":[{"name":"앨빈","status":0,"piecesCount":0},{"name":"할리","status":0,"piecesCount":0},{"name":"렉스","status":0,"piecesCount":0},{"name":"미샤","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_muskOx","count":0,"rewardCollected":false,"members":[{"name":"올리","status":0,"piecesCount":0},{"name":"헤이즐","status":0,"piecesCount":0},{"name":"밤비","status":0,"piecesCount":0},{"name":"렉스","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_tiger","count":0,"rewardCollected":false,"members":[{"name":"바나나","status":0,"piecesCount":0},{"name":"엘리","status":0,"piecesCount":0},{"name":"허비","status":0,"piecesCount":0},{"name":"엘리","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_peacock","count":0,"rewardCollected":false,"members":[{"name":"로스코","status":0,"piecesCount":0},{"name":"미샤","status":0,"piecesCount":0},{"name":"미키","status":0,"piecesCount":0},{"name":"밤비","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_turtle","count":0,"rewardCollected":false,"members":[{"name":"그림블","status":0,"piecesCount":0},{"name":"앰버","status":0,"piecesCount":0},{"name":"니블","status":0,"piecesCount":0},{"name":"트윙클","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_camel","count":0,"rewardCollected":false,"members":[{"name":"스마일리","status":0,"piecesCount":0},{"name":"니블","status":0,"piecesCount":0},{"name":"니블","status":0,"piecesCount":0},{"name":"밤비","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_deer","count":0,"rewardCollected":false,"members":[{"name":"앨라모","status":0,"piecesCount":0},{"name":"선샤인","status":0,"piecesCount":0},{"name":"리비","status":0,"piecesCount":0},{"name":"헥터","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_toucan","count":0,"rewardCollected":false,"members":[{"name":"허비","status":0,"piecesCount":0},{"name":"키사","status":0,"piecesCount":0},{"name":"앨빈","status":0,"piecesCount":0},{"name":"지니","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_skunk","count":0,"rewardCollected":false,"members":[{"name":"앨라모","status":0,"piecesCount":0},{"name":"플러피","status":0,"piecesCount":0},{"name":"데비","status":0,"piecesCount":0},{"name":"두들","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_ostrich","count":0,"rewardCollected":false,"members":[{"name":"두들","status":0,"piecesCount":0},{"name":"리비","status":0,"piecesCount":0},{"name":"앨리","status":0,"piecesCount":0},{"name":"로스코","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_panther","count":0,"rewardCollected":false,"members":[{"name":"구피","status":0,"piecesCount":0},{"name":"데비","status":0,"piecesCount":0},{"name":"데이지","status":0,"piecesCount":0},{"name":"올리","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_arcticfox","count":0,"rewardCollected":false,"members":[{"name":"니블","status":0,"piecesCount":0},{"name":"스마일리","status":0,"piecesCount":0},{"name":"키사","status":0,"piecesCount":0},{"name":"구피","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_platypus","count":0,"rewardCollected":false,"members":[{"name":"올리","status":0,"piecesCount":0},{"name":"바비","status":0,"piecesCount":0},{"name":"헥터","status":0,"piecesCount":0},{"name":"키사","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_boar","count":0,"rewardCollected":false,"members":[{"name":"앨라모","status":0,"piecesCount":0},{"name":"헤이즐","status":0,"piecesCount":0},{"name":"앰버","status":0,"piecesCount":0},{"name":"맥스","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_gazelle","count":0,"rewardCollected":false,"members":[{"name":"포코","status":0,"piecesCount":0},{"name":"트릭시","status":0,"piecesCount":0},{"name":"선샤인","status":0,"piecesCount":0},{"name":"루","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_pelican","count":0,"rewardCollected":false,"members":[{"name":"니블","status":0,"piecesCount":0},{"name":"키사","status":0,"piecesCount":0},{"name":"헤이즐","status":0,"piecesCount":0},{"name":"앨빈","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_lynx","count":0,"rewardCollected":false,"members":[{"name":"맥스","status":0,"piecesCount":0},{"name":"플러피","status":0,"piecesCount":0},{"name":"올리","status":0,"piecesCount":0},{"name":"트윙클","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_parrot","count":0,"rewardCollected":false,"members":[{"name":"맥스","status":0,"piecesCount":0},{"name":"럭키","status":0,"piecesCount":0},{"name":"헤이즐","status":0,"piecesCount":0},{"name":"니블","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_raccoon","count":0,"rewardCollected":false,"members":[{"name":"박스터","status":0,"piecesCount":0},{"name":"리비","status":0,"piecesCount":0},{"name":"바비","status":0,"piecesCount":0},{"name":"앨라모","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_tapir","count":0,"rewardCollected":false,"members":[{"name":"허비","status":0,"piecesCount":0},{"name":"앨리","status":0,"piecesCount":0},{"name":"헤이즐","status":0,"piecesCount":0},{"name":"루","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_walrus","count":0,"rewardCollected":false,"members":[{"name":"루","status":0,"piecesCount":0},{"name":"앰버","status":0,"piecesCount":0},{"name":"밤비","status":0,"piecesCount":0},{"name":"허비","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_laski","count":0,"rewardCollected":false,"members":[{"name":"헥터","status":0,"piecesCount":0},{"name":"스마일리","status":0,"piecesCount":0},{"name":"박스터","status":0,"piecesCount":0},{"name":"미샤","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_crane","count":0,"rewardCollected":false,"members":[{"name":"맥스","status":0,"piecesCount":0},{"name":"할리","status":0,"piecesCount":0},{"name":"스쿠비","status":0,"piecesCount":0},{"name":"플러피","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_snow_monkey","count":0,"rewardCollected":false,"members":[{"name":"미키","status":0,"piecesCount":0},{"name":"앨리","status":0,"piecesCount":0},{"name":"앨리","status":0,"piecesCount":0},{"name":"맥스","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_porcupine","count":0,"rewardCollected":false,"members":[{"name":"올리","status":0,"piecesCount":0},{"name":"지니","status":0,"piecesCount":0},{"name":"헤이즐","status":0,"piecesCount":0},{"name":"스쿠비","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_eagle","count":0,"rewardCollected":false,"members":[{"name":"바나나","status":0,"piecesCount":0},{"name":"록시","status":0,"piecesCount":0},{"name":"데이지","status":0,"piecesCount":0},{"name":"루","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_fennec","count":0,"rewardCollected":false,"members":[{"name":"그림블","status":0,"piecesCount":0},{"name":"밤비","status":0,"piecesCount":0},{"name":"할리","status":0,"piecesCount":0},{"name":"앨빈","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_WhiteOwl","count":0,"rewardCollected":false,"members":[{"name":"니블","status":0,"piecesCount":0},{"name":"록시","status":0,"piecesCount":0},{"name":"구피","status":0,"piecesCount":0},{"name":"럭키","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_armadillo","count":0,"rewardCollected":false,"members":[{"name":"허비","status":0,"piecesCount":0},{"name":"바비","status":0,"piecesCount":0},{"name":"스마일리","status":0,"piecesCount":0},{"name":"허비","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_redPanda","count":0,"rewardCollected":false,"members":[{"name":"맥스","status":0,"piecesCount":0},{"name":"앨리","status":0,"piecesCount":0},{"name":"리비","status":0,"piecesCount":0},{"name":"포코","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_polarwolf","count":0,"rewardCollected":false,"members":[{"name":"루","status":0,"piecesCount":0},{"name":"플러피","status":0,"piecesCount":0},{"name":"트윙클","status":0,"piecesCount":0},{"name":"그림블","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_anteater","count":0,"rewardCollected":false,"members":[{"name":"박스터","status":0,"piecesCount":0},{"name":"앰버","status":0,"piecesCount":0},{"name":"플러피","status":0,"piecesCount":0},{"name":"앨빈","status":0,"piecesCount":0}]},{"balanceRatingVer":1,"type":"paddock_llama","count":0,"rewardCollected":false,"members":[{"name":"미키","status":0,"piecesCount":0},{"name":"리비","status":0,"piecesCount":0},{"name":"데비","status":0,"piecesCount":0},{"name":"루","status":0,"piecesCount":0}]}]}'>
+		<ZooCommunities d='{"lrhpd":0,"communities":[]}'/>
+		<ZooQuests lastGenTime="-1.0000000000000000" maxQuestsCount="3" alreadyQuestCount="0"/>
+	</ZooInfo>
+</root>
+
