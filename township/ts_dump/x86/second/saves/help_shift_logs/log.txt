@@ -1,0 +1,2 @@
+12/07 02:43:34|AddMaterial(plankResource, 5, dailybonus)
+12/07 02:43:34|AddCash(1, DailyBonus)

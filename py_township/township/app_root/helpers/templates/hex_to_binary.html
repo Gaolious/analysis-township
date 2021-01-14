@@ -1,0 +1,93 @@
+{% extends 'ts_base.html' %}
+{% load staticfile_version from display_tags %}
+
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+
+{% endblock %}
+
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Helper</h1>
+            {#        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>#}
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+
+            <div class="col-6">
+                <div class="card shadow mb-1">
+                    <form name="form" method="POST">
+                        {% csrf_token %}
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Hex Dump To Binary</h6>
+                        </div>
+                        <div class="card-body">
+                            {{ form }}
+                        </div>
+                        <div class="card-footer">
+                            <input class="form-control" type="submit" value="변환">
+                        </div>
+                    </form>
+                </div>
+
+                {% if form.get_bytes %}
+                <div class="card shadow mb-1">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Output</h6>
+                    </div>
+                    <div class="card-body">
+                        <p>length </p>
+                        <pre>{{ form.get_bytes|length }} bytes</pre>
+                        <p>hex string</p>
+                        <pre>{{ form.get_hex_string }}</pre>
+                        <p>const char *</p>
+                        <pre>{{ form.get_const_char }}</pre>
+                        <p>binary</p>
+                        <pre><a download="binary.in" href="data:application/octet-stream;charset=utf-8;base64,{{ form.get_base64 }}">다운로드</a></pre>
+                        <p>Hex Dump</p>
+                        <textarea class="form-control">{{ form.hex_dump }}</textarea>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+
+            <div class="col-6">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">How to use</h6>
+                    </div>
+                    <div class="card-body">
+                        <p> 아래와 같은 hex dump 를 binary 파일로 변환합니다.</p>
+                        <pre>
+A732CB80  79 F7 5C 10 7F F3 4D E0  5F EF BE 56 77 C2 33 6D  y...........w..m
+A732CB90  80 20 11 AF 2E 16 4C B7  CF 28 37 23 EE 3E BD 7A  . ....L...7#...z
+A732CBA0  99 1E ED FD 41 CE 64 8C  4B 30 87 5F C2 8D 0E 96  ........K0._....
+A732CBB0  9E 37 27 A6 12 5F 0F 60  E7 4A A5 EE 4D 9A 77 4E  .7'.._.`......wN
+A732CBC0  D3 50 54 6B 52 D2 28 2E  B4 79 78 C1 A5 29 84 7A  ..TkR....yx..).z
+A732CBD0  E3 F4 15 25 FD 65 51 92  23 D1 4D AB 1C 65 71 AE  ...%.eQ.#....eq.
+A732CBE0  1B 37 22 D3 06 9F 6C D8  44 5D 3A 11 55 E7 34 60  .7"...l..]:.U...
+A732CBF0  7A FC 84 43 E2 42 2D D7  47 B4 7C 68 CD 2C B6 2F
+                        </pre>
+                        <p >
+                            주소의 구분은 <span class="alert-danger">빈칸</span><br/>
+
+                            2byte * 16. 총 32byte를 읽기 때문에 <br/>
+
+                            마지막 라인은 <span class="alert-danger">16개 column</span>이 있거나 혹은 <span class="alert-danger">printable character가 없어야</span> 합니다.</br>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}

@@ -1,0 +1,107 @@
+{% extends 'ts_base.html' %}
+{% load staticfile_version from display_tags %}
+
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+
+{% endblock %}
+
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Flow</h1>
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+
+            <div class="col-6">
+                <div class="card shadow mb-1">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Fetch Datas</h6>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/manifest.xml</li>
+                            <li>https://cdn.playrix.com/online-settings/Township/production/android/country/KR.json</li>
+                            <li>https://cdn.playrix.com/online-settings/Township/production/android/7.9.0/settings.json</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/misc_options.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/remote_balance.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/videoad_options.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/ChatEmoji.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/Expeditions.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventCalendar.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/DiggingMaterialsOrders.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/accelerateCashValue.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/ExpeditionQuests.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/locale.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/Regata.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/PvpHarvestConfig.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/MPG.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/ThemeAutumn.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/ZooResources_1_animal_cards.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/BlackListSymZhs.txt</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/CascadeEvent.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/CascadeEventResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventCalendarResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventPvpFactoryResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventPvpHarvestResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventPvpMineResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventPvpOrdersResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventSurfingersResourcesDay.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/MagicBeans.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/MagicBeansResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_cascade.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_events.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_seasonpass.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_threechests.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_tips.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/Playable01.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/Playable02.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/RegataRacingResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/RoomBungalowResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/RoomEmmasCastleResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/RoomOfficeResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/SeasonPass.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/SecondSounds.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/SecondSounds2.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/SecondSounds3.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/ThemeHalloween.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/RoomCommonResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/Playable03.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/Playable04.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventPlankResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventPvpCommonResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/EventRestoratorResourcesCakeshop.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/ExpeditionResources.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_expedition.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/SpecSale790.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/ThemeWinter.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_apologize_hacked_coop.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/Playable05.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_2910.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_0911.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/RegataRacing.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_1211.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_regata.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_2311.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_2411.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_2611.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_0512.zip</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/Avatars.xml</li>
+                            <li>https://township-cdn.playrix.com/township_gplay/7.9.0/NewsPackage_1212.zip</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}

@@ -1,0 +1,79 @@
+{% extends 'ts_base.html' %}
+{% load staticfile_version from display_tags %}
+
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+
+{% endblock %}
+
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Helper</h1>
+            {#        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>#}
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+
+            <div class="col-6">
+                <div class="card shadow mb-1">
+                    <form name="form" method="POST">
+                        {% csrf_token %}
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Gzip Compress/Uncompress</h6>
+                        </div>
+                        <div class="card-body">
+                            {{ form }}
+                        </div>
+                        <div class="card-footer">
+                            <input class="form-control" type="submit" value="변환">
+                        </div>
+                    </form>
+                </div>
+
+                {% if form.get_bytes %}
+                <div class="card shadow mb-1">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Output</h6>
+                    </div>
+                    <div class="card-body">
+                        <p>length </p>
+                        <pre>{{ form.get_bytes|length }} bytes</pre>
+                        <p>hex string</p>
+                        <pre>{{ form.get_hex_string }}</pre>
+                        <p>const char *</p>
+                        <pre>{{ form.get_const_char }}</pre>
+                        <p>binary</p>
+                        <pre><a download="binary.in" href="data:application/octet-stream;charset=utf-8;base64,{{ form.get_base64 }}">다운로드</a></pre>
+                        <p>Hex Dump</p>
+                        <textarea class="form-control">{{ form.hex_dump }}</textarea>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+
+            <div class="col-6">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">How to use</h6>
+                    </div>
+                    <div class="card-body">
+                        <p> 아래와 같은 Base64/66 Encode된 문자열을 binary 파일로 변환합니다.</p>
+                        <pre>
+lZj9G9IfFvanJtBQ8+HasxDi/Tq0JtssNF9I7hm9eB7w//5I//+P8BVgTNKygmBQA=
+              </pre>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}

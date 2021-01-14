@@ -1,0 +1,64 @@
+{% extends 'ts_base.html' %}
+{% load staticfile_version from display_tags %}
+
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+
+{% endblock %}
+
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Analysis Create</h1>
+            {#        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>#}
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-6">
+                <div class="card shadow mb-1">
+                    <form method="POST">
+                        {% csrf_token %}
+
+                        <div class="card-header">
+                            <h6 class="m-0 font-weight-bold text-left text-primary">Create</h6>
+                        </div>
+                        <div class="card-body">
+                            {{ form }}
+                        </div>
+                        <div class="card-footer text-right">
+                            <button class="btn btn-primary" type="submit">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card shadow mb-1">
+                    <div class="card-header">
+                        <h6 class="m-0 font-weight-bold text-left text-primary">Help</h6>
+                    </div>
+                    <div class="card-body">
+                        <pre>Hex String :
+[0-9a-fA-F]* 으로 이뤄진 Hex String을 입력하세요.
+Binary형태로 저장됩니다.
+
+Ts-Id :
+ Request Header에 있는 Ts-Id를 입력하세요.
+ 002............................................
+                        </pre>
+                    </div>
+                    <div class="card-footer text-right">
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}

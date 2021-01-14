@@ -1,0 +1,51 @@
+{% extends 'ts_base.html' %}
+{% load staticfile_version from display_tags %}
+
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+
+{% endblock %}
+
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Analysis Detail</h1>
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card shadow mb-1">
+                    <div class="card-header">
+                        <h6 class="m-0 font-weight-bold text-left text-primary">JSON</h6>
+                    </div>
+                    <div class="card-body">
+                        <pre lang="json">{{ object.get_json_data|pprint }}</pre>
+                    </div>
+                    <div class="card-footer text-right">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="card shadow mb-1">
+                    <div class="card-header">
+                        <h6 class="m-0 font-weight-bold text-left text-primary">XML</h6>
+                    </div>
+                    <div class="card-body">
+                        <pre lang="xml">{{ object.get_xml_data }}</pre>
+                    </div>
+                    <div class="card-footer text-right">
+                        <button class="btn btn-primary" type="submit">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}

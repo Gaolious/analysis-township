@@ -1,0 +1,162 @@
+{% extends 'ts_base.html' %}
+{% load staticfile_version from display_tags %}
+{% load time2datetime from string_filters %}
+
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+
+{% endblock %}
+{% block extrastyles %}
+    <style>
+        img.barn-icon {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        div.barn-item {
+            height: 40px;
+        }
+        div.barn-title {
+            width: 100px;
+            height: 40px;
+        }
+        div.item-title{
+            text-align: right;
+            width:100px;
+            padding-right: 2px;
+            border-top: solid 1px #efefef;
+            border-bottom: solid 1px #efefef;
+        }
+        div.item-body:before {
+            content: ':'
+        }
+        div.item-body{
+            padding-left: 3px;
+            width: 300px;
+            {#min-width: 200px;#}
+            {#max-width: 300px;#}
+        }
+        div.item-container {
+            margin: 1px;
+        }
+    </style>
+{% endblock %}
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">GameInfo</h1>
+        </div>
+        <!-- Content Row -->
+        <div class="row">
+
+            <div class="col-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">JSON data</h6>
+                    </div>
+                    <div class="card-body d-flex flex-wrap">
+                        <div class="d-flex flex-row item-container"><div class="item-title">fver</div><div class="item-body">{{ object.fver }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">ver</div><div class="item-body">{{ object.ver|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">updateAt</div><div class="item-body">{{ object.updat|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">fetchAt</div><div class="item-body">{{ object.update_at|date:'Y-m-d H:i:s' }}</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Global data</h6>
+                    </div>
+                    <div class="card-body d-flex flex-wrap">
+                    {% for obj in object.global_info.all %}
+                        <div class="d-flex flex-row item-container"><div class="item-title">GlobalTime</div><div class="item-body">{{ obj.saveGlobalTime|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">VCheckTime</div><div class="item-body">{{ obj.VCheckTime|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">SCTime</div><div class="item-body">{{ obj.SCTime|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">SBCTime</div><div class="item-body">{{ obj.SBCTime|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">GameStartDT</div><div class="item-body">{{ obj.gameStartDate|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">factoryTime</div><div class="item-body">{{ obj.factoryTime|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">changeVar</div><div class="item-body">{{ obj.changeVarTimestamp|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">orderSeq</div><div class="item-body">{{ obj.orderSeq }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">money</div><div class="item-body">{{ obj.money }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">moneyCash</div><div class="item-body">{{ obj.moneyCash }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">maxResidents</div><div class="item-body">{{ obj.maxResidents }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">hex</div><div class="item-body">{{ obj.var_hex }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">hex2</div><div class="item-body">{{ obj.var_hex2 }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">gameId</div><div class="item-body">{{ obj.gameId }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">dayInGame</div><div class="item-body">{{ obj.dayInGame }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">townName</div><div class="item-body">{{ obj.townName }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">EarnedCoins</div><div class="item-body">{{ obj.EarnedCoins }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">ExpandLevel</div><div class="item-body">{{ obj.ExpandLevel }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">CTTime</div><div class="item-body">{{ obj.CTTime|time2datetime|date:'Y-m-d H:i:s' }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">AirScore2</div><div class="item-body">{{ obj.AirScore2 }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">AirScore1</div><div class="item-body">{{ obj.AirScore1 }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">AirVersion</div><div class="item-body">{{ obj.AirVersion }}</div></div>
+                        <div class="d-flex flex-row item-container"><div class="item-title">WHUdup</div><div class="item-body">{{ obj.WHUdup }}</div></div>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Barn Info</h6>
+                    </div>
+                    <div class="card-body d-flex flex-row flex-wrap">
+                        {% for item in object.barn_items.all %}
+                            {% if not item.product.is_event %}
+                            <div class="barn-item  mr-3 bd-highlight">
+                                <img class='barn-icon' src="{{ item.product.url }}"/> x {{ item.amount }} <br/>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Factory Info</h6>
+                    </div>
+                    <div class="card-body d-flex flex-row flex-wrap">
+
+                        {% for building in object.factories.all %}
+                        <div class="card-body d-flex flex-column flex-wrap">
+                            <div class="building_title"><h2>{{ building.building }} (Lv.{{ building.level }})</h2></div>
+                            <div class="d-flex flex-row flex-wrap">
+                                <div class="barn-title mr-1 bd-highlight"><span class="align-middle">On Shelf</span></div>
+                                {% for item in building.products_on_shelf %}
+                                <div class="barn-item  mr-1 bd-highlight">
+                                    <img class='barn-icon' src="{{ item.product.url }}"/>
+                                </div>
+                                {% empty %}
+                                <div class="barn-item mr-1 bd-highlight">empty</div>
+                                {% endfor %}
+                            </div>
+                            <div class="d-flex flex-row flex-wrap">
+                                <div class="barn-title mr-1 bd-highlight"><span class="align-middle">On Slot</span></div>
+                                {% for item in building.products_on_slot %}
+                                    <div class="barn-item  mr-1 bd-highlight">
+                                        <img class='barn-icon' src="{{ item.product.url }}"/>
+                                    </div>
+                                {% empty %}
+                                    <div class="barn-item mr-1 bd-highlight">empty</div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}

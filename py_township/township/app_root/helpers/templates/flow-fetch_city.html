@@ -1,0 +1,105 @@
+{% extends 'ts_base.html' %}
+{% load staticfile_version from display_tags %}
+
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+
+{% endblock %}
+
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Flow</h1>
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+
+            <div class="col-md-12 col-lg-6 ">
+                <div class="card shadow mb-1">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Request</h6>
+                    </div>
+                    <div class="card-body">
+                        <h3>URL</h3>
+                        <pre>https://township.playrix.com/api/1/FetchCity?cityId=</pre>
+                        <h3>METHOD</h3>
+                        <pre>POST</pre>
+                        <h3>headers</h3>
+                        <ol>
+                            <li>ts-bp: i</li>
+                            <li>ts-bver: 7.9.0</li>
+                            <li>ts-fver: 77</li>
+                            <li>ts-gpid: new</li>
+                            <li>
+                                ts-id: 002[seed hexstring][crc hexstring]
+                                <ul>
+                                    <li>ex><pre>0027a0c95f3ee494feed66641ad5e36fae616477e240697b1d7790e794a</pre></li>
+                                    <li>002 : prefix (fixed) ; length=3</li>
+                                    <li>12byte random seed hex string ; length = 12*2 = 24</li>
+                                    <li>16byte CRC hex string ; length = 16*2 = 32</li>
+                                </ul>
+                            </li>
+                            <li>Content-Type: application/octet-stream</li>
+                            <li>Content-Length: [length of body]</li>
+                        </ol>
+                        <h3>body - json dump string</h3>
+                        <pre>
+{
+    "cityId": '[string]',
+    "cityVer": [integer],
+    "fetchCityId": '[string]',
+    "important": [boolean]
+}</pre>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-12 col-lg-6 ">
+                <div class="card shadow mb-1">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Response</h6>
+                    </div>
+                    <div class="card-body">
+                        <h3>headers</h3>
+                        <ol>
+                            <li>
+                                ts-id: 002[seed hexstring][crc hexstring]
+                                <ul>
+                                    <li>ex><pre>0027a0c95f3ee494feed66641ad5e36fae616477e240697b1d7790e794a</pre></li>
+                                    <li>002 : prefix (fixed) ; length=3</li>
+                                    <li>12byte random seed hex string ; length = 3*4*2 = 24</li>
+                                    <li>16byte CRC hex string ; length = 4*4*2 = 32</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        <h3>Body Decryption</h3>
+                        <ol>
+                            <li>AES decrypt (iv=random seed; 'ts-id')</li>
+                            <li>uncompress (wbits=31)</li>
+                            <li>json string (json['result']['data'] => encoded game data)</li>
+                        </ol>
+
+                        <h3>decode game data</h3>
+                        <ol>
+                            <li>base64 decode</li>
+                            <li>decode(hash) - refer [decode 0x54]</li>
+                            <li>uncompress (wbits=31)</li>
+                            <li>xml string</li>
+                        </ol>
+                    </div>
+                    <div class="card-footer">
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}

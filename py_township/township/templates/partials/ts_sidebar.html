@@ -1,0 +1,57 @@
+<!-- Sidebar -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+  <!-- Sidebar - Brand -->
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#">
+    <div class="sidebar-brand-icon rotate-n-15">
+      <i class="fas fa-laugh-wink"></i>
+    </div>
+    <div class="sidebar-brand-text mx-3">Township</div>
+  </a>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider my-0">
+
+  <!-- Nav Item - Dashboard -->
+  <li class="nav-item">
+    <a class="nav-link" href="{% url 'app_root:landing:first' %}">
+      <i class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span></a>
+  </li>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider">
+{% for cate in admin_menu %}
+    <div class="sidebar-heading"> {{ cate.display_name }} </div>
+
+    {% for grp in cate.childs %}
+        {% if grp.has_child %}
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapse_{{ grp.key }}" aria-expanded="true" aria-controls="collapse_{{ grp.key }}">
+                    <i class="fas fa-fw {{ grp.icon_name }}"></i>
+                    <span>{{ grp.display_name }}</span>
+                </a>
+                <div id="collapse_{{ grp.key }}" class="collapse" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Items:</h6>
+                        {% for item in grp.childs %}
+                            <a id="{{ item.key }}" class="collapse-item" href="{{ item.link }}">{{ item.display_name }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </li>
+        {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ grp.link }}" id="{{ grp.key }}">
+              <i class="fas fa-fw {{ grp.icon_name }}"></i>
+              <span>{{ grp.display_name }}</span></a>
+          </li>
+        {% endif %}
+
+    {% endfor %}
+
+{% endfor %}
+</ul>
+<script>
+
+</script>
+<!-- End of Sidebar -->

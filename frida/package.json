@@ -1,0 +1,22 @@
+{
+  "name": "frida-agent-for-township",
+  "version": "1.0.0",
+  "description": "Township Frida agent",
+  "private": true,
+  "main": "src/main.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "frida-compile src/main.ts -o js/township.js -c",
+    "watch": "frida-compile src/main.ts -o js/township.js -w"
+  },
+  "devDependencies": {
+    "@types/frida-gum": "^16.2.0",
+    "@types/node": "^14.14.2",
+    "frida-compile": "^10.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^9.0.0"
+  }
+}

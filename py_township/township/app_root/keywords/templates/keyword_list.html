@@ -1,0 +1,54 @@
+{% extends 'ts_base.html' %}
+{% load staticfile_version from display_tags %}
+
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+
+{% endblock %}
+
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800 w-25">Search Keyword</h1>
+            <div class=" w-25">
+                {% include 'partials/cursor_pagination.html' %}
+            </div>
+            <div class="d-inline-flex w-25">
+                <form method="GET" class="d-inline-flex w-100">
+                    <input class="form-control  w-75 mr-3" type="text" name="search_keyword" value="{{ search_keyword }}"/>
+                    <button type="submit" class="form-control w-25 text-center">검색</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card shadow mb-1">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <th class="text-center" width="10%">address</th>
+                            <th class="text-center" width="40%">hex string</th>
+                            <th class="text-center" width="50%">keyword</th>
+                        </thead>
+                        {% for obj in object_list %}
+                            <tr>
+                            <td class="text-center">0x{{ obj.address|stringformat:"x" }}</td>
+                            <td class="text-break">{{ obj.encoded_hex_string }}</td>
+                            <td class="text-break">{{ obj.decoded_string }}</td>
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}
