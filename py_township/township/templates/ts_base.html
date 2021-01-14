@@ -1,0 +1,103 @@
+{% load i18n %}
+{% load staticfile_version from display_tags %}
+
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE|default:"ko" }}">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>{% block title %}{% endblock title %}</title>
+    <meta name="description" content="{% block description %}{% endblock description %}">
+    <meta name="keywords" content="{% block keywords %}{% endblock keywords %}">
+    {% block meta_tag_viewport %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    {% endblock %}
+    <meta name="robots" content="NOARCHIVE">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="kbrowser-backaction" content="true">
+    {% block meta_tags %}
+    {% endblock %}
+
+    {% block favicon %}
+        <link rel="shortcut icon" href="{% staticfile_version "favicon.ico" %}">
+    {% endblock favicon %}
+
+    {% block extraheader %}
+    {% endblock extraheader %}
+
+    {% block mainstyles %}
+        {% block styles %}
+            <link href="{% staticfile_version "admin/vendor/fontawesome-free/css/all.min.css" %}" rel="stylesheet" type="text/css">
+            <link href="{% staticfile_version "admin/css/sb-admin-2.min.css" %}" rel="stylesheet" type="text/css">
+        {% endblock styles %}
+    {% endblock mainstyles %}
+
+    {% block extrastyles %}
+    {% endblock extrastyles %}
+</head>
+
+<body id="{% block body_id %}page-top{% endblock body_id %}" class="{% if user.is_authenticated %}logged-in{% endif %} {% block body_class %}default{% endblock body_class %}">
+<!--[if lt IE 8]>
+    <div class="text-center form-group"><h3 class="browsehappy">[공지] 해당 브라우저는 원활한 이용이 불가능합니다.</h3></div>
+<![endif]-->
+
+    {% block layout %}
+        <div id="wrapper">
+            {% block sidebar %}
+                {% include 'partials/ts_sidebar.html' %}
+            {% endblock %}
+
+            <div id="content-wrapper" class="d-flex flex-column">
+                <div id="content">
+                    {% block toolbar %}
+                        {% include 'partials/ts_toolbar.html' %}
+                    {% endblock toolbar %}
+                    {% block page_content %}
+                    {% endblock %}
+                </div>
+                <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto">
+                            <span>Copyright gaolious.com</span>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+
+        {% block modal_div %}
+        {% endblock modal_div %}
+
+    {% endblock layout %}
+
+    {% block footer %}
+    {% endblock footer %}
+
+
+    {% block mainscripts %}
+        <script src="{% staticfile_version "admin/vendor/jquery/jquery.min.js" %}"></script>
+        <script src="{% staticfile_version "admin/vendor/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
+        <script src="{% staticfile_version "admin/vendor/jquery-easing/jquery.easing.min.js" %}"></script>
+        <script>
+            $(document).ready(function() {
+                var url = window.location;
+                var element = $('ul.navbar-nav a').filter(function() {
+                    return this.href == url || url.href.indexOf(this.href) == 0;
+                })
+                if ( element )
+                {
+                    element.addClass('active')
+                        .parent().parent().addClass('show').addClass('active')
+                        .parent().addClass('active')
+                        .children('a').removeClass('collapsed')
+                }
+
+            });
+        </script>
+    {% endblock mainscripts %}
+
+    {% block extrascripts %}
+    {% endblock extrascripts %}
+</body>
+</html>
+

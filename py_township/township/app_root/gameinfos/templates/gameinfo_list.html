@@ -1,0 +1,78 @@
+{% extends 'ts_base.html' %}
+{% load humanize  %}
+{% load staticfile_version from display_tags %}
+{% load time2datetime from string_filters %}
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+
+{% endblock %}
+
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">GameInfo</h1>
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+
+            <div class="col-12">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h6 class="m-0 font-weight-bold text-primary">Game Data List</h6>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-hover">
+                            <thead>
+                                <th>pk</th>
+                                <th>cityId</th>
+                                <th>level</th>
+                                <th>exp</th>
+                                <th>cash</th>
+                                <th>coin</th>
+                                <th>fver</th>
+                                <th>ver</th>
+                                <th>dkey</th>
+                                <th>updateAt</th>
+                                <th>fetchAt</th>
+                            </thead>
+                            <tbody>
+                            {% for obj in object_list %}
+                            <tr>
+                                <td>{{ obj.pk }}</td>
+                                <td>
+                                    <a href="{% url "app_root:gameinfos:detail" gameinfo_pk=obj.id %}">{{ obj.cityId }}</a>
+                                </td>
+                                <td>{{ obj.lvl }}</td>
+                                <td>{{ obj.xp|intcomma }}</td>
+                                <td>{{ obj.cash|intcomma }}</td>
+                                <td>{{ obj.coins|intcomma }}</td>
+                                <td>{{ obj.fver }}</td>
+                                <td>
+                                    {{ obj.ver }}<br/>
+                                    {{ obj.ver|time2datetime|date:'Y-m-d H:i:s' }}
+                                </td>
+                                <td>{{ obj.dkey }}</td>
+                                <td>
+                                    {{ obj.updat}}<br/>
+                                    {{ obj.updat|time2datetime|date:'Y-m-d H:i:s' }}
+                                </td>
+                                <td>{{ obj.update_at|date:'Y-m-d H:i:s' }}</td>
+                            </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}

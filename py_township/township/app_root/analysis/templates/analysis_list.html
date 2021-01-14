@@ -1,0 +1,90 @@
+{% extends 'ts_base.html' %}
+{% load staticfile_version from display_tags %}
+{% load humanize %}
+
+{% block extrascripts %}
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="{% staticfile_version "admin/js/sb-admin-2.min.js" %}"></script>
+    <script>
+        function toggle_checkbox(pk)
+        {
+            let obj = $('#chk_' + pk);
+            let count = $('input[type=checkbox]:checked').length + (obj.prop('checked') ? 0 : 1);
+
+            if ( obj.length > 0 && count <= 2 )
+                obj.prop('checked', !obj.prop('checked'));
+        }
+
+        function show_diff()
+        {
+            let pk_list = [];
+
+            $.each(
+                $('input[type=checkbox]:checked'),
+                function() {
+                    pk_list.push(
+                        $(this).attr('pk')
+                    )
+                }
+            )
+
+            window.location.href = '{% url 'app_root:analysis:diff' %}?p1=' + pk_list[0] + '&p2=' + pk_list[1];
+        }
+    </script>
+{% endblock %}
+
+{% block page_content %}
+    <!-- Begin Page Content -->
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Analysis List</h1>
+            {#        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>#}
+        </div>
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card shadow mb-1">
+                    <div class="card-header">
+                        <div class="d-flex flex-row justify-content-between align-items-center">
+                            <h6 class="m-0 font-weight-bold text-left text-primary">Game Data List</h6>
+                            <a href="{% url 'app_root:analysis:create' %}" class="btn btn-primary">New</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-hover">
+                            <thead>
+                                <th></th>
+                                <th style="width:120px;">PK</th>
+                                <th>Memo</th>
+                                <th style="width:120px;">Size</th>
+                                <th style="width:250px;">created</th>
+                            </thead>
+                            <tbody>
+                                {% for obj in object_list %}
+                                <tr onclick="toggle_checkbox({{ obj.pk }})">
+                                    <td style="width:50px"><input type="checkbox" id="chk_{{ obj.pk }}" pk="{{ obj.pk }}"/></td>
+                                    <td>{{ obj.pk }}</td>
+                                    <td>
+                                        <a href="{% url 'app_root:analysis:detail' analysis_pk=obj.pk %}">{{ obj.memo }}</a>
+                                    </td>
+                                    <td>{{ obj.size|intcomma }} B</td>
+                                    <td>{{ obj.create_at|date:'Y-m-d H:i:s' }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer text-left">
+                        <button class="btn-warning btn" onclick="show_diff()">Xml Compare</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container-fluid -->
+{% endblock page_content %}

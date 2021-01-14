@@ -29,7 +29,10 @@ Develop Tools
 ## Logic
 
 ### Game data Logic
- - [Encoding/Decoding (xml) ](parsing_encoded_xml/)
+ - [Encoding/Decoding (Test 용도) ](parsing_encoded_xml/)
+ - [frida-src (분석용)](frida/)
+ - [cpp-src (분석용)](township/)
+ - [python-src (web viewer)](py_township/)
 
 ----
 

@@ -33,3 +33,19 @@
 
 bin
 obj
+
+.idea
+cmake-build-debug
+
+__pycache__/
+*.py[cod]
+
+db.sqlite3
+.pytest_cache
+.coverage
+htmlcov
+py_township/log/
+
+py_township/ts_log/
+
+py_township/external/
